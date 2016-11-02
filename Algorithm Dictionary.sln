@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm Dictionary", "Algorithm Dictionary\Algorithm Dictionary.csproj", "{71298B2A-86D2-47B4-B824-15E408CF5966}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "자료구조 and 알고리즘", "자료구조 and 알고리즘\자료구조 and 알고리즘.vcxproj", "{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "스택", "스택\스택.vcxproj", "{347D86C8-F16B-4773-B201-37B810EE8827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,16 +29,16 @@ Global
 		{71298B2A-86D2-47B4-B824-15E408CF5966}.Release|x64.Build.0 = Release|Any CPU
 		{71298B2A-86D2-47B4-B824-15E408CF5966}.Release|x86.ActiveCfg = Release|Any CPU
 		{71298B2A-86D2-47B4-B824-15E408CF5966}.Release|x86.Build.0 = Release|Any CPU
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Debug|x64.ActiveCfg = Debug|x64
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Debug|x64.Build.0 = Debug|x64
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Debug|x86.ActiveCfg = Debug|Win32
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Debug|x86.Build.0 = Debug|Win32
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Release|Any CPU.ActiveCfg = Release|Win32
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Release|x64.ActiveCfg = Release|x64
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Release|x64.Build.0 = Release|x64
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Release|x86.ActiveCfg = Release|Win32
-		{7BDFFDE6-9014-4DF0-B577-633CF2B37DEF}.Release|x86.Build.0 = Release|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Debug|x64.ActiveCfg = Debug|x64
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Debug|x64.Build.0 = Debug|x64
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Debug|x86.ActiveCfg = Debug|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Debug|x86.Build.0 = Debug|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Release|Any CPU.ActiveCfg = Release|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Release|x64.ActiveCfg = Release|x64
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Release|x64.Build.0 = Release|x64
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Release|x86.ActiveCfg = Release|Win32
+		{347D86C8-F16B-4773-B201-37B810EE8827}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
