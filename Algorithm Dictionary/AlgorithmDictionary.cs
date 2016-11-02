@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Algorithm_Dictionary
 {
-    public partial class Form1 : Form
+    public partial class AlgorithmDictionary : Form
     {
-        public Form1()
+        public AlgorithmDictionary()
         {
             InitializeComponent();
         }
+
+      
     }
 }
