@@ -112,6 +112,9 @@
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stack.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
