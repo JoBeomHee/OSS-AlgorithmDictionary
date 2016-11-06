@@ -12,7 +12,7 @@ namespace Algorithm_Dictionary
 {
     public partial class Main : Form
     {
-        AlgorithmDictionary ad;
+        AlgorithmMenu am;
         public Main()
         {
             InitializeComponent();
@@ -20,14 +20,14 @@ namespace Algorithm_Dictionary
 
         private void btn_start_Click(object sender, EventArgs e)
         {
-            ad = new AlgorithmDictionary();
-            ad.FormClosed += Ad_FormClosed;
-            ad.Show();
+            am = new AlgorithmMenu();
+            am.FormClosed += Ad_FormClosed;
+            am.Show();
         }
 
         private void Ad_FormClosed(object sender, FormClosedEventArgs e)
         {
-            ad = null;
+            am = null;
         }
     }
 }

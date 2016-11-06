@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlgorithmDictionary.cs">
+    <Compile Include="자료구조 Form\Stack\Stack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlgorithmDictionary.Designer.cs">
-      <DependentUpon>AlgorithmDictionary.cs</DependentUpon>
+    <Compile Include="자료구조 Form\Stack\Stack.Designer.cs">
+      <DependentUpon>Stack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgorithmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgorithmMenu.Designer.cs">
+      <DependentUpon>AlgorithmMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -60,8 +66,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AlgorithmDictionary.resx">
-      <DependentUpon>AlgorithmDictionary.cs</DependentUpon>
+    <Compile Include="자료구조 Form\Stack\StackPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPop.Designer.cs">
+      <DependentUpon>StackPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPush.Designer.cs">
+      <DependentUpon>StackPush.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
+      <DependentUpon>Stack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgorithmMenu.resx">
+      <DependentUpon>AlgorithmMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -75,6 +96,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="자료구조 Form\Stack\StackPop.resx">
+      <DependentUpon>StackPop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\Stack\StackPush.resx">
+      <DependentUpon>StackPush.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
