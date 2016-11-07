@@ -23,6 +23,7 @@ namespace Algorithm_Dictionary
             stack = new Stack();
             stack.FormClosed += Stack_FormClosed;
             stack.Show();
+            this.Close();
         }
 
         private void Stack_FormClosed(object sender, FormClosedEventArgs e)

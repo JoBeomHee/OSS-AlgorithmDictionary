@@ -13,6 +13,7 @@ namespace Algorithm_Dictionary
 {
     public partial class Stack : Form
     {
+        AlgorithmMenu am;
         StackPush sp;
         StackPop sd;
         public Stack()
@@ -51,6 +52,19 @@ namespace Algorithm_Dictionary
         private void Sd_FormClosed(object sender, FormClosedEventArgs e)
         {
             sd = null;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            am = null;
         }
     }
 }
