@@ -1,5 +1,6 @@
 #include "LinkedList.h"
 #include <malloc.h>
+
 Link New_Node(Element data) //노드를 생성하는 함수
 {
 	//먼저 Node 형식 크기의 메모리를 할당합니다.

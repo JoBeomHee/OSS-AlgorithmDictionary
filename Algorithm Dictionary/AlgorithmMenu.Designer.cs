@@ -66,6 +66,7 @@
             this.btn_LinkedList.TabIndex = 1;
             this.btn_LinkedList.Text = "링크드리스트";
             this.btn_LinkedList.UseVisualStyleBackColor = true;
+            this.btn_LinkedList.Click += new System.EventHandler(this.btn_LinkedList_Click);
             // 
             // btn_queue
             // 

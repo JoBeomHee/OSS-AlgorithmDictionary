@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace Algorithm_Dictionary
     public partial class AlgorithmMenu : Form
     {
         Stack stack;
+        LinkedList ll;
         public AlgorithmMenu()
         {
             InitializeComponent();
@@ -29,6 +31,19 @@ namespace Algorithm_Dictionary
         private void Stack_FormClosed(object sender, FormClosedEventArgs e)
         {
             stack = null;
+        }
+
+        private void btn_LinkedList_Click(object sender, EventArgs e)
+        {
+            ll = new LinkedList();
+            ll.FormClosed += Ll_FormClosed;
+            ll.Show();
+            this.Close();
+        }
+
+        private void Ll_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ll = null;
         }
     }
 }
