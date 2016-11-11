@@ -46,14 +46,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="자료구조 Form\Stack\Stack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="자료구조 Form\Stack\Stack.Designer.cs">
+      <DependentUpon>Stack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgorithmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgorithmMenu.Designer.cs">
+      <DependentUpon>AlgorithmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="자료구조 Form\Stack\StackPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPop.Designer.cs">
+      <DependentUpon>StackPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPush.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\Stack\StackPush.Designer.cs">
+      <DependentUpon>StackPush.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList.Designer.cs">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Malloclist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Malloclist.Designer.cs">
+      <DependentUpon>LinkedList_Malloclist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_New_Node.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_New_Node.Designer.cs">
+      <DependentUpon>LinkedList_New_Node.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
+      <DependentUpon>Stack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgorithmMenu.resx">
+      <DependentUpon>AlgorithmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +114,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="자료구조 Form\Stack\StackPop.resx">
+      <DependentUpon>StackPop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\Stack\StackPush.resx">
+      <DependentUpon>StackPush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList.resx">
+      <DependentUpon>LinkedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_Malloclist.resx">
+      <DependentUpon>LinkedList_Malloclist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_New_Node.resx">
+      <DependentUpon>LinkedList_New_Node.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -16,8 +16,7 @@ namespace Algorithm_Dictionary
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            return;
+            Application.Run(new Main());
         }
     }
 }
