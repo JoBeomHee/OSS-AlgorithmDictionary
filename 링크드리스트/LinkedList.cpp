@@ -55,7 +55,7 @@ void LinkedList_PushBack(LinkedList *linkedlist, Element data) //연결리스트 순차
 	LinkedList_Insert(linkedlist, linkedlist->tail, data);
 }
 
-void HangNode(Link now, Link pos)
+void HangNode(Link now, Link pos)//노드연결 함수
 {
 	//저 새로운 now의 prev를 pos의 prev로 설정합니다. 그리고 now의 next를 pos로 설정합니다.
 	now->prev = pos->prev;

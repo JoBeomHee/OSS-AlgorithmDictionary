@@ -84,6 +84,30 @@
     <Compile Include="자료구조 Form\링크드리스트\LinkedList.Designer.cs">
       <DependentUpon>LinkedList.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Delete.Designer.cs">
+      <DependentUpon>LinkedList_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Erase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Erase.Designer.cs">
+      <DependentUpon>LinkedList_Erase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_HangNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_HangNode.Designer.cs">
+      <DependentUpon>LinkedList_HangNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_Insert.Designer.cs">
+      <DependentUpon>LinkedList_Insert.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\링크드리스트\LinkedList_Malloclist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +119,12 @@
     </Compile>
     <Compile Include="자료구조 Form\링크드리스트\LinkedList_New_Node.Designer.cs">
       <DependentUpon>LinkedList_New_Node.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_PushBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\링크드리스트\LinkedList_PushBack.Designer.cs">
+      <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
       <DependentUpon>Stack.cs</DependentUpon>
@@ -123,11 +153,26 @@
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList.resx">
       <DependentUpon>LinkedList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_Delete.resx">
+      <DependentUpon>LinkedList_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_Erase.resx">
+      <DependentUpon>LinkedList_Erase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_HangNode.resx">
+      <DependentUpon>LinkedList_HangNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_Insert.resx">
+      <DependentUpon>LinkedList_Insert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_Malloclist.resx">
       <DependentUpon>LinkedList_Malloclist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_New_Node.resx">
       <DependentUpon>LinkedList_New_Node.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_PushBack.resx">
+      <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
