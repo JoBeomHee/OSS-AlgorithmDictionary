@@ -51,6 +51,7 @@
             this.Controls.Add(this.tb_sort);
             this.Name = "Sort";
             this.Text = "Sort";
+            this.Load += new System.EventHandler(this.Sort_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

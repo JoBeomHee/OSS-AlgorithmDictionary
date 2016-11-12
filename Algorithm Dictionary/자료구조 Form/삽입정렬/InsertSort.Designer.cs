@@ -65,6 +65,7 @@
             this.btn_sort.TabIndex = 13;
             this.btn_sort.Text = "정렬코드보기";
             this.btn_sort.UseVisualStyleBackColor = true;
+            this.btn_sort.Click += new System.EventHandler(this.btn_sort_Click);
             // 
             // tb_sort
             // 
