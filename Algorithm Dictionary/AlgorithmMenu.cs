@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Algorithm_Dictionary
 {
     public partial class AlgorithmMenu : Form
@@ -17,30 +18,48 @@ namespace Algorithm_Dictionary
         Stack stack;
         LinkedList ll;
         InsertSort Is;
+
         public AlgorithmMenu()
         {
             InitializeComponent();
         }
 
-        private void btn_stack_Click(object sender, EventArgs e)
+        private void btn_Search_Click(object sender, EventArgs e)
         {
-            stack = new Stack();
-            stack.FormClosed += Stack_FormClosed;
-            stack.Show();
-            this.Close();
+
+            if (tb_Search.Text.ToString() == "스택")
+            {
+                stack = new Stack();
+                stack.FormClosed += Stack_FormClosed;
+                stack.Show();
+                this.Close();
+            }
+            if (tb_Search.Text.ToString() == "링크드리스트")
+            {
+                ll = new LinkedList();
+                ll.FormClosed += Ll_FormClosed;
+                ll.Show();
+                this.Close();
+            }
+            if (tb_Search.Text.ToString() == "삽입정렬")
+            {
+                Is = new InsertSort();
+                Is.FormClosed += Is_FormClosed;
+                Is.Show();
+                this.Close();
+            }
+
+            if (tb_Search.Text.ToString() == null)
+            {
+                MessageBox.Show("아무것도 입력하지 않으셨습니다.");
+            }
+
+
         }
 
-        private void Stack_FormClosed(object sender, FormClosedEventArgs e)
+        private void Is_FormClosed(object sender, FormClosedEventArgs e)
         {
-            stack = null;
-        }
-
-        private void btn_LinkedList_Click(object sender, EventArgs e)
-        {
-            ll = new LinkedList();
-            ll.FormClosed += Ll_FormClosed;
-            ll.Show();
-            this.Close();
+            Is = null;
         }
 
         private void Ll_FormClosed(object sender, FormClosedEventArgs e)
@@ -48,17 +67,18 @@ namespace Algorithm_Dictionary
             ll = null;
         }
 
-        private void btn_InsertSort_Click(object sender, EventArgs e)
+        private void Stack_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Is = new InsertSort();
-            Is.FormClosed += Is_FormClosed;
-            Is.Show();
-            this.Close();
+            stack = null;
         }
 
-        private void Is_FormClosed(object sender, FormClosedEventArgs e)
+        private void Key_Enter(object sender, KeyPressEventArgs e) //엔터키 눌렀을 때 검색
         {
-            Is = null;
+            if (e.KeyChar == '\r')
+            {
+                btn_Search_Click(sender, e);
+
+            }
         }
     }
 }
