@@ -1,4 +1,5 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
+using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace Algorithm_Dictionary
     {
         Stack stack;
         LinkedList ll;
+        InsertSort Is;
         public AlgorithmMenu()
         {
             InitializeComponent();
@@ -44,6 +46,19 @@ namespace Algorithm_Dictionary
         private void Ll_FormClosed(object sender, FormClosedEventArgs e)
         {
             ll = null;
+        }
+
+        private void btn_InsertSort_Click(object sender, EventArgs e)
+        {
+            Is = new InsertSort();
+            Is.FormClosed += Is_FormClosed;
+            Is.Show();
+            this.Close();
+        }
+
+        private void Is_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Is = null;
         }
     }
 }
