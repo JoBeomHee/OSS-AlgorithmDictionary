@@ -34,7 +34,7 @@ namespace Algorithm_Dictionary
                 stack.Show();
                 this.Close();
             }
-            if (tb_Search.Text.ToString() == "링크드리스트")
+            if (tb_Search.Text.ToString() == "연결리스트")
             {
                 ll = new LinkedList();
                 ll.FormClosed += Ll_FormClosed;
@@ -49,7 +49,7 @@ namespace Algorithm_Dictionary
                 this.Close();
             }
 
-            if (tb_Search.Text.ToString() == null)
+            if (tb_Search.Text.ToString() == "")
             {
                 MessageBox.Show("아무것도 입력하지 않으셨습니다.");
             }
@@ -85,5 +85,6 @@ namespace Algorithm_Dictionary
         {
             Close();
         }
+
     }
 }
