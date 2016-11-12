@@ -152,7 +152,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_description);
             this.Name = "Stack";
-            this.Text = "AlgorithmDictionary";
+            this.Text = "스택";
             this.Load += new System.EventHandler(this.Stack_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

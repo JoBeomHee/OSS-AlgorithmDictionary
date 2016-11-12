@@ -1,6 +1,6 @@
-﻿namespace Algorithm_Dictionary.자료구조_Form.링크드리스트
+﻿namespace Algorithm_Dictionary.자료구조_Form.삽입정렬
 {
-    partial class LinkedList_HangNode
+    partial class Sort
     {
         /// <summary>
         /// Required designer variable.
@@ -28,30 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tb_HangNode = new System.Windows.Forms.TextBox();
+            this.tb_sort = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // tb_HangNode
+            // tb_sort
             // 
-            this.tb_HangNode.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_HangNode.Location = new System.Drawing.Point(9, 14);
-            this.tb_HangNode.Multiline = true;
-            this.tb_HangNode.Name = "tb_HangNode";
-            this.tb_HangNode.ReadOnly = true;
-            this.tb_HangNode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_HangNode.Size = new System.Drawing.Size(335, 317);
-            this.tb_HangNode.TabIndex = 0;
+            this.tb_sort.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_sort.Location = new System.Drawing.Point(9, 13);
+            this.tb_sort.Multiline = true;
+            this.tb_sort.Name = "tb_sort";
+            this.tb_sort.ReadOnly = true;
+            this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tb_sort.Size = new System.Drawing.Size(352, 430);
+            this.tb_sort.TabIndex = 0;
             // 
-            // LinkedList_HangNode
+            // Sort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(356, 355);
-            this.Controls.Add(this.tb_HangNode);
-            this.Name = "LinkedList_HangNode";
-            this.Text = "LinkedList_HangNode";
-            this.Load += new System.EventHandler(this.LinkedList_HangNode_Load);
+            this.ClientSize = new System.Drawing.Size(370, 455);
+            this.Controls.Add(this.tb_sort);
+            this.Name = "Sort";
+            this.Text = "Sort";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox tb_HangNode;
+        private System.Windows.Forms.TextBox tb_sort;
     }
 }

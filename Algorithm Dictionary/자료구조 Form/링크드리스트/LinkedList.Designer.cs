@@ -315,6 +315,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(445, 547);
             this.Controls.Add(this.btn_Erase);
             this.Controls.Add(this.tb_Erase);
@@ -341,7 +342,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_description);
             this.Name = "LinkedList";
-            this.Text = "LinkedList";
+            this.Text = "링크드리스트";
             this.Load += new System.EventHandler(this.LinkedList_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

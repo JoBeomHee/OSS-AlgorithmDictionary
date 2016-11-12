@@ -36,7 +36,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn_InsertSort = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -122,14 +122,15 @@
             this.button8.Text = "트리";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btn_InsertSort
             // 
-            this.button9.Location = new System.Drawing.Point(323, 181);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(121, 53);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "삽입정렬";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_InsertSort.Location = new System.Drawing.Point(323, 181);
+            this.btn_InsertSort.Name = "btn_InsertSort";
+            this.btn_InsertSort.Size = new System.Drawing.Size(121, 53);
+            this.btn_InsertSort.TabIndex = 8;
+            this.btn_InsertSort.Text = "삽입정렬";
+            this.btn_InsertSort.UseVisualStyleBackColor = true;
+            this.btn_InsertSort.Click += new System.EventHandler(this.btn_InsertSort_Click);
             // 
             // button10
             // 
@@ -216,6 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(475, 496);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -226,7 +228,7 @@
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.btn_InsertSort);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -236,7 +238,7 @@
             this.Controls.Add(this.btn_LinkedList);
             this.Controls.Add(this.btn_stack);
             this.Name = "AlgorithmMenu";
-            this.Text = "AlgorithmMenu";
+            this.Text = "알고리즘 종류";
             this.ResumeLayout(false);
 
         }
@@ -251,7 +253,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn_InsertSort;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;

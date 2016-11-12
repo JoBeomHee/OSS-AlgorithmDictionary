@@ -31,52 +31,98 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_start = new System.Windows.Forms.Button();
+            this.pb_tree = new System.Windows.Forms.PictureBox();
+            this.pb_linkedlist = new System.Windows.Forms.PictureBox();
+            this.pb_MainIcon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_tree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_linkedlist)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_MainIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("굴림", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("굴림", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(8, 34);
+            this.label1.Location = new System.Drawing.Point(22, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 64);
+            this.label1.Size = new System.Drawing.Size(261, 53);
             this.label1.TabIndex = 0;
             this.label1.Text = "Algorithm";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("굴림", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Font = new System.Drawing.Font("굴림", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(132, 105);
+            this.label2.Location = new System.Drawing.Point(91, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(332, 64);
+            this.label2.Size = new System.Drawing.Size(276, 53);
             this.label2.TabIndex = 1;
             this.label2.Text = "Dictionary";
             // 
             // btn_start
             // 
+            this.btn_start.BackColor = System.Drawing.SystemColors.Window;
+            this.btn_start.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_start.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_start.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_start.ForeColor = System.Drawing.Color.Teal;
-            this.btn_start.Location = new System.Drawing.Point(132, 297);
+            this.btn_start.Location = new System.Drawing.Point(100, 337);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(209, 71);
             this.btn_start.TabIndex = 2;
             this.btn_start.Text = "시작하기";
-            this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.UseVisualStyleBackColor = false;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
+            // 
+            // pb_tree
+            // 
+            this.pb_tree.Image = global::Algorithm_Dictionary.Properties.Resources.트리_아이콘;
+            this.pb_tree.Location = new System.Drawing.Point(136, 240);
+            this.pb_tree.Name = "pb_tree";
+            this.pb_tree.Size = new System.Drawing.Size(127, 85);
+            this.pb_tree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_tree.TabIndex = 5;
+            this.pb_tree.TabStop = false;
+            // 
+            // pb_linkedlist
+            // 
+            this.pb_linkedlist.Image = global::Algorithm_Dictionary.Properties.Resources.링크드리스트_아이콘;
+            this.pb_linkedlist.Location = new System.Drawing.Point(31, 166);
+            this.pb_linkedlist.Name = "pb_linkedlist";
+            this.pb_linkedlist.Size = new System.Drawing.Size(336, 68);
+            this.pb_linkedlist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_linkedlist.TabIndex = 4;
+            this.pb_linkedlist.TabStop = false;
+            // 
+            // pb_MainIcon
+            // 
+            this.pb_MainIcon.Image = global::Algorithm_Dictionary.Properties.Resources.AlgorithmDictionary_아이콘;
+            this.pb_MainIcon.Location = new System.Drawing.Point(273, 20);
+            this.pb_MainIcon.Name = "pb_MainIcon";
+            this.pb_MainIcon.Size = new System.Drawing.Size(62, 65);
+            this.pb_MainIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_MainIcon.TabIndex = 3;
+            this.pb_MainIcon.TabStop = false;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(469, 379);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(409, 420);
+            this.Controls.Add(this.pb_tree);
+            this.Controls.Add(this.pb_linkedlist);
+            this.Controls.Add(this.pb_MainIcon);
             this.Controls.Add(this.btn_start);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Main";
             this.Text = "Algorithm Dictionary";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_tree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_linkedlist)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_MainIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,6 +133,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_start;
+        private System.Windows.Forms.PictureBox pb_MainIcon;
+        private System.Windows.Forms.PictureBox pb_linkedlist;
+        private System.Windows.Forms.PictureBox pb_tree;
     }
 }
 
