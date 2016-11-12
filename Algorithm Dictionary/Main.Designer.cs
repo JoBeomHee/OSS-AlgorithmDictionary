@@ -102,9 +102,9 @@
             // pb_MainIcon
             // 
             this.pb_MainIcon.Image = global::Algorithm_Dictionary.Properties.Resources.AlgorithmDictionary_아이콘;
-            this.pb_MainIcon.Location = new System.Drawing.Point(289, 21);
+            this.pb_MainIcon.Location = new System.Drawing.Point(289, 31);
             this.pb_MainIcon.Name = "pb_MainIcon";
-            this.pb_MainIcon.Size = new System.Drawing.Size(94, 100);
+            this.pb_MainIcon.Size = new System.Drawing.Size(108, 107);
             this.pb_MainIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_MainIcon.TabIndex = 3;
             this.pb_MainIcon.TabStop = false;
