@@ -36,7 +36,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tb_description
@@ -74,6 +74,10 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(18, 300);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 36);
@@ -95,6 +99,9 @@
             // 
             // button2
             // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(18, 469);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 36);
@@ -125,15 +132,18 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Stack 삭제";
             // 
-            // button3
+            // btn_back
             // 
-            this.button3.Location = new System.Drawing.Point(326, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 33);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "되돌아가기";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.FlatAppearance.BorderSize = 0;
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_back.Location = new System.Drawing.Point(362, -2);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(81, 54);
+            this.btn_back.TabIndex = 19;
+            this.btn_back.Text = "←";
+            this.btn_back.UseVisualStyleBackColor = true;
             // 
             // Stack
             // 
@@ -142,7 +152,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(453, 511);
-            this.Controls.Add(this.button3);
+            this.ControlBox = false;
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
@@ -168,6 +179,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_back;
     }
 }

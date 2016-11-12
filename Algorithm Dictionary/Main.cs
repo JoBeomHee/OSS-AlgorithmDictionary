@@ -29,5 +29,10 @@ namespace Algorithm_Dictionary
         {
             am = null;
         }
+
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

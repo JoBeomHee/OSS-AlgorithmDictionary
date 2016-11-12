@@ -56,11 +56,15 @@
             // 
             // btn_back
             // 
-            this.btn_back.Location = new System.Drawing.Point(304, 11);
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.FlatAppearance.BorderSize = 0;
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_back.Location = new System.Drawing.Point(347, 0);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(114, 33);
+            this.btn_back.Size = new System.Drawing.Size(81, 54);
             this.btn_back.TabIndex = 18;
-            this.btn_back.Text = "되돌아가기";
+            this.btn_back.Text = "←";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
@@ -88,6 +92,10 @@
             // 
             // btn_malloclist
             // 
+            this.btn_malloclist.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_malloclist.FlatAppearance.BorderSize = 0;
+            this.btn_malloclist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_malloclist.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_malloclist.Location = new System.Drawing.Point(6, 468);
             this.btn_malloclist.Name = "btn_malloclist";
             this.btn_malloclist.Size = new System.Drawing.Size(93, 36);
@@ -109,9 +117,13 @@
             // 
             // btn_New_Node
             // 
+            this.btn_New_Node.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_New_Node.FlatAppearance.BorderSize = 0;
+            this.btn_New_Node.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_New_Node.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_New_Node.Location = new System.Drawing.Point(7, 299);
             this.btn_New_Node.Name = "btn_New_Node";
-            this.btn_New_Node.Size = new System.Drawing.Size(92, 36);
+            this.btn_New_Node.Size = new System.Drawing.Size(104, 36);
             this.btn_New_Node.TabIndex = 13;
             this.btn_New_Node.Text = "Node생성함수 ";
             this.btn_New_Node.UseVisualStyleBackColor = true;
@@ -174,6 +186,10 @@
             // 
             // btn_Delete
             // 
+            this.btn_Delete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Delete.FlatAppearance.BorderSize = 0;
+            this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_Delete.Location = new System.Drawing.Point(6, 643);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(93, 36);
@@ -206,6 +222,10 @@
             // 
             // btn_PushBack
             // 
+            this.btn_PushBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_PushBack.FlatAppearance.BorderSize = 0;
+            this.btn_PushBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_PushBack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_PushBack.Location = new System.Drawing.Point(6, 805);
             this.btn_PushBack.Name = "btn_PushBack";
             this.btn_PushBack.Size = new System.Drawing.Size(93, 36);
@@ -238,6 +258,10 @@
             // 
             // btn_HangNode
             // 
+            this.btn_HangNode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_HangNode.FlatAppearance.BorderSize = 0;
+            this.btn_HangNode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_HangNode.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_HangNode.Location = new System.Drawing.Point(6, 976);
             this.btn_HangNode.Name = "btn_HangNode";
             this.btn_HangNode.Size = new System.Drawing.Size(93, 36);
@@ -270,6 +294,10 @@
             // 
             // btn_insert
             // 
+            this.btn_insert.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_insert.FlatAppearance.BorderSize = 0;
+            this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_insert.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_insert.Location = new System.Drawing.Point(6, 1140);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(93, 36);
@@ -302,6 +330,10 @@
             // 
             // btn_Erase
             // 
+            this.btn_Erase.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Erase.FlatAppearance.BorderSize = 0;
+            this.btn_Erase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Erase.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_Erase.Location = new System.Drawing.Point(8, 1310);
             this.btn_Erase.Name = "btn_Erase";
             this.btn_Erase.Size = new System.Drawing.Size(93, 36);
@@ -317,6 +349,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(445, 547);
+            this.ControlBox = false;
             this.Controls.Add(this.btn_Erase);
             this.Controls.Add(this.tb_Erase);
             this.Controls.Add(this.lb_Erase);

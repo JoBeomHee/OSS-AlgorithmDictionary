@@ -34,6 +34,7 @@
             this.pb_tree = new System.Windows.Forms.PictureBox();
             this.pb_linkedlist = new System.Windows.Forms.PictureBox();
             this.pb_MainIcon = new System.Windows.Forms.PictureBox();
+            this.btn_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb_tree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_linkedlist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_MainIcon)).BeginInit();
@@ -66,6 +67,8 @@
             this.btn_start.BackColor = System.Drawing.SystemColors.Window;
             this.btn_start.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_start.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_start.FlatAppearance.BorderSize = 0;
+            this.btn_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_start.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_start.ForeColor = System.Drawing.Color.Teal;
             this.btn_start.Location = new System.Drawing.Point(100, 337);
@@ -106,12 +109,29 @@
             this.pb_MainIcon.TabIndex = 3;
             this.pb_MainIcon.TabStop = false;
             // 
+            // btn_exit
+            // 
+            this.btn_exit.BackColor = System.Drawing.SystemColors.Window;
+            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_exit.FlatAppearance.BorderSize = 0;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exit.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_exit.Location = new System.Drawing.Point(366, 394);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(41, 26);
+            this.btn_exit.TabIndex = 6;
+            this.btn_exit.Text = "X";
+            this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(409, 420);
+            this.ControlBox = false;
+            this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.pb_tree);
             this.Controls.Add(this.pb_linkedlist);
             this.Controls.Add(this.pb_MainIcon);
@@ -136,6 +156,7 @@
         private System.Windows.Forms.PictureBox pb_MainIcon;
         private System.Windows.Forms.PictureBox pb_linkedlist;
         private System.Windows.Forms.PictureBox pb_tree;
+        private System.Windows.Forms.Button btn_exit;
     }
 }
 
