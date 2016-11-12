@@ -19,13 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Binary.c" />
-    <ClCompile Include="BinarySearchTree.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="BinarySearch.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinarySearch.h" />
+    <ClInclude Include="BinarySearchTree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C6247CC6-5D80-4394-950E-1BE67C805755}</ProjectGuid>
