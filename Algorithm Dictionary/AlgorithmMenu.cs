@@ -85,5 +85,6 @@ namespace Algorithm_Dictionary
         {
             Close();
         }
+
     }
 }

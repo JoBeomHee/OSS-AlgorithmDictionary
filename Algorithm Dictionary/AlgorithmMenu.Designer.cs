@@ -39,7 +39,7 @@
             // tb_Search
             // 
             this.tb_Search.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_Search.Location = new System.Drawing.Point(106, 36);
+            this.tb_Search.Location = new System.Drawing.Point(93, 36);
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 18;
@@ -48,7 +48,7 @@
             // 
             this.btn_Search.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Search.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Search.Location = new System.Drawing.Point(419, 36);
+            this.btn_Search.Location = new System.Drawing.Point(418, 36);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(87, 29);
             this.btn_Search.TabIndex = 19;
@@ -81,17 +81,18 @@
             "기수정렬",
             "버킷정렬",
             "머지정렬"});
-            this.lb_menu.Location = new System.Drawing.Point(11, 105);
+            this.lb_menu.Location = new System.Drawing.Point(12, 93);
             this.lb_menu.Name = "lb_menu";
             this.lb_menu.Size = new System.Drawing.Size(495, 270);
             this.lb_menu.TabIndex = 20;
             // 
             // pb_Main
             // 
+            this.pb_Main.BackColor = System.Drawing.Color.White;
             this.pb_Main.Image = global::Algorithm_Dictionary.Properties.Resources.AlgorithmDictionary_아이콘;
             this.pb_Main.Location = new System.Drawing.Point(12, 12);
             this.pb_Main.Name = "pb_Main";
-            this.pb_Main.Size = new System.Drawing.Size(91, 87);
+            this.pb_Main.Size = new System.Drawing.Size(75, 75);
             this.pb_Main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Main.TabIndex = 21;
             this.pb_Main.TabStop = false;
@@ -118,7 +119,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(519, 395);
+            this.ClientSize = new System.Drawing.Size(517, 379);
             this.ControlBox = false;
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.pb_Main);
