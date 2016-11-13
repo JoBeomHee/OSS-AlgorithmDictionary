@@ -278,6 +278,16 @@
   <ItemGroup>
     <None Include="Resources\트리 아이콘.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\삽입정렬.PNG" />
+    <Content Include="Resources\선택정렬.PNG" />
+    <Content Include="Resources\스택.PNG" />
+    <Content Include="Resources\연결리스트%28삭제%29.PNG" />
+    <Content Include="Resources\연결리스트%28삽입%29.PNG" />
+    <Content Include="Resources\이진탐색트리.PNG" />
+    <None Include="Resources\이진탐색트리2.PNG" />
+    <Content Include="Resources\큐.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

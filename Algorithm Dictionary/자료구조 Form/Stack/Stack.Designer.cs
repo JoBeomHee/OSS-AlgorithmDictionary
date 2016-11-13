@@ -37,6 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_back = new System.Windows.Forms.Button();
+            this.pb_Stack = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Stack)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_description
@@ -47,7 +49,7 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(423, 111);
+            this.tb_description.Size = new System.Drawing.Size(773, 111);
             this.tb_description.TabIndex = 1;
             // 
             // label1
@@ -64,12 +66,12 @@
             // tb_push
             // 
             this.tb_push.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_push.Location = new System.Drawing.Point(18, 218);
+            this.tb_push.Location = new System.Drawing.Point(18, 445);
             this.tb_push.Multiline = true;
             this.tb_push.Name = "tb_push";
             this.tb_push.ReadOnly = true;
             this.tb_push.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_push.Size = new System.Drawing.Size(423, 76);
+            this.tb_push.Size = new System.Drawing.Size(773, 76);
             this.tb_push.TabIndex = 3;
             // 
             // btn_stack
@@ -78,7 +80,7 @@
             this.btn_stack.FlatAppearance.BorderSize = 0;
             this.btn_stack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_stack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_stack.Location = new System.Drawing.Point(18, 300);
+            this.btn_stack.Location = new System.Drawing.Point(698, 527);
             this.btn_stack.Name = "btn_stack";
             this.btn_stack.Size = new System.Drawing.Size(93, 36);
             this.btn_stack.TabIndex = 4;
@@ -89,12 +91,12 @@
             // tb_pop
             // 
             this.tb_pop.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_pop.Location = new System.Drawing.Point(18, 387);
+            this.tb_pop.Location = new System.Drawing.Point(18, 584);
             this.tb_pop.Multiline = true;
             this.tb_pop.Name = "tb_pop";
             this.tb_pop.ReadOnly = true;
             this.tb_pop.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_pop.Size = new System.Drawing.Size(423, 76);
+            this.tb_pop.Size = new System.Drawing.Size(773, 76);
             this.tb_pop.TabIndex = 5;
             // 
             // btn_pop
@@ -102,7 +104,7 @@
             this.btn_pop.FlatAppearance.BorderSize = 0;
             this.btn_pop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_pop.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_pop.Location = new System.Drawing.Point(18, 469);
+            this.btn_pop.Location = new System.Drawing.Point(704, 666);
             this.btn_pop.Name = "btn_pop";
             this.btn_pop.Size = new System.Drawing.Size(93, 36);
             this.btn_pop.TabIndex = 6;
@@ -115,7 +117,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(19, 191);
+            this.label2.Location = new System.Drawing.Point(19, 418);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 21);
             this.label2.TabIndex = 7;
@@ -126,7 +128,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(19, 363);
+            this.label3.Location = new System.Drawing.Point(19, 560);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 21);
             this.label3.TabIndex = 8;
@@ -138,7 +140,7 @@
             this.btn_back.FlatAppearance.BorderSize = 0;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(362, -2);
+            this.btn_back.Location = new System.Drawing.Point(710, -3);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(81, 54);
             this.btn_back.TabIndex = 19;
@@ -146,14 +148,25 @@
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
+            // pb_Stack
+            // 
+            this.pb_Stack.Image = global::Algorithm_Dictionary.Properties.Resources.스택;
+            this.pb_Stack.Location = new System.Drawing.Point(18, 183);
+            this.pb_Stack.Name = "pb_Stack";
+            this.pb_Stack.Size = new System.Drawing.Size(768, 227);
+            this.pb_Stack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Stack.TabIndex = 20;
+            this.pb_Stack.TabStop = false;
+            // 
             // Stack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(453, 511);
+            this.ClientSize = new System.Drawing.Size(809, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_Stack);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -163,9 +176,11 @@
             this.Controls.Add(this.tb_push);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_description);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Stack";
             this.Text = "스택";
             this.Load += new System.EventHandler(this.Stack_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Stack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,5 +196,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_back;
+        private System.Windows.Forms.PictureBox pb_Stack;
     }
 }

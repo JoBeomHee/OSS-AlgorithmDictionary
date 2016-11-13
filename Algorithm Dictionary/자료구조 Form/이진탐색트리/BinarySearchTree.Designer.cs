@@ -43,6 +43,8 @@
             this.lb_free = new System.Windows.Forms.Label();
             this.btn_free = new System.Windows.Forms.Button();
             this.tb_free = new System.Windows.Forms.TextBox();
+            this.pb_binarySearchTree = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_binarySearchTree)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_back
@@ -51,7 +53,7 @@
             this.btn_back.FlatAppearance.BorderSize = 0;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(351, 7);
+            this.btn_back.Location = new System.Drawing.Point(1035, 3);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(81, 54);
             this.btn_back.TabIndex = 27;
@@ -64,7 +66,7 @@
             this.lb_newNode.AutoSize = true;
             this.lb_newNode.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_newNode.ForeColor = System.Drawing.Color.Teal;
-            this.lb_newNode.Location = new System.Drawing.Point(8, 367);
+            this.lb_newNode.Location = new System.Drawing.Point(8, 352);
             this.lb_newNode.Name = "lb_newNode";
             this.lb_newNode.Size = new System.Drawing.Size(238, 21);
             this.lb_newNode.TabIndex = 26;
@@ -87,7 +89,7 @@
             this.btn_malloclist.FlatAppearance.BorderSize = 0;
             this.btn_malloclist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_malloclist.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_malloclist.Location = new System.Drawing.Point(10, 475);
+            this.btn_malloclist.Location = new System.Drawing.Point(392, 460);
             this.btn_malloclist.Name = "btn_malloclist";
             this.btn_malloclist.Size = new System.Drawing.Size(155, 36);
             this.btn_malloclist.TabIndex = 24;
@@ -98,12 +100,12 @@
             // tb_Node
             // 
             this.tb_Node.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_Node.Location = new System.Drawing.Point(11, 393);
+            this.tb_Node.Location = new System.Drawing.Point(11, 378);
             this.tb_Node.Multiline = true;
             this.tb_Node.Name = "tb_Node";
             this.tb_Node.ReadOnly = true;
             this.tb_Node.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Node.Size = new System.Drawing.Size(423, 76);
+            this.tb_Node.Size = new System.Drawing.Size(536, 76);
             this.tb_Node.TabIndex = 23;
             // 
             // btn_New_Node
@@ -112,7 +114,7 @@
             this.btn_New_Node.FlatAppearance.BorderSize = 0;
             this.btn_New_Node.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_New_Node.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_New_Node.Location = new System.Drawing.Point(11, 306);
+            this.btn_New_Node.Location = new System.Drawing.Point(407, 306);
             this.btn_New_Node.Name = "btn_New_Node";
             this.btn_New_Node.Size = new System.Drawing.Size(140, 36);
             this.btn_New_Node.TabIndex = 22;
@@ -128,7 +130,7 @@
             this.tb_NewNode.Name = "tb_NewNode";
             this.tb_NewNode.ReadOnly = true;
             this.tb_NewNode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_NewNode.Size = new System.Drawing.Size(423, 76);
+            this.tb_NewNode.Size = new System.Drawing.Size(536, 76);
             this.tb_NewNode.TabIndex = 21;
             // 
             // lb_description
@@ -150,7 +152,7 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(423, 111);
+            this.tb_description.Size = new System.Drawing.Size(536, 111);
             this.tb_description.TabIndex = 19;
             // 
             // lb_insert
@@ -158,7 +160,7 @@
             this.lb_insert.AutoSize = true;
             this.lb_insert.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_insert.ForeColor = System.Drawing.Color.Teal;
-            this.lb_insert.Location = new System.Drawing.Point(7, 518);
+            this.lb_insert.Location = new System.Drawing.Point(578, 62);
             this.lb_insert.Name = "lb_insert";
             this.lb_insert.Size = new System.Drawing.Size(238, 21);
             this.lb_insert.TabIndex = 30;
@@ -170,7 +172,7 @@
             this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_insert.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_insert.Location = new System.Drawing.Point(9, 626);
+            this.btn_insert.Location = new System.Drawing.Point(961, 170);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(155, 36);
             this.btn_insert.TabIndex = 29;
@@ -181,12 +183,12 @@
             // tb_insert
             // 
             this.tb_insert.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_insert.Location = new System.Drawing.Point(10, 544);
+            this.tb_insert.Location = new System.Drawing.Point(581, 88);
             this.tb_insert.Multiline = true;
             this.tb_insert.Name = "tb_insert";
             this.tb_insert.ReadOnly = true;
             this.tb_insert.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_insert.Size = new System.Drawing.Size(423, 76);
+            this.tb_insert.Size = new System.Drawing.Size(535, 76);
             this.tb_insert.TabIndex = 28;
             // 
             // lb_free
@@ -194,7 +196,7 @@
             this.lb_free.AutoSize = true;
             this.lb_free.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_free.ForeColor = System.Drawing.Color.Teal;
-            this.lb_free.Location = new System.Drawing.Point(7, 676);
+            this.lb_free.Location = new System.Drawing.Point(8, 511);
             this.lb_free.Name = "lb_free";
             this.lb_free.Size = new System.Drawing.Size(216, 21);
             this.lb_free.TabIndex = 33;
@@ -206,7 +208,7 @@
             this.btn_free.FlatAppearance.BorderSize = 0;
             this.btn_free.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_free.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_free.Location = new System.Drawing.Point(12, 795);
+            this.btn_free.Location = new System.Drawing.Point(408, 630);
             this.btn_free.Name = "btn_free";
             this.btn_free.Size = new System.Drawing.Size(139, 36);
             this.btn_free.TabIndex = 32;
@@ -217,21 +219,32 @@
             // tb_free
             // 
             this.tb_free.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_free.Location = new System.Drawing.Point(11, 713);
+            this.tb_free.Location = new System.Drawing.Point(12, 548);
             this.tb_free.Multiline = true;
             this.tb_free.Name = "tb_free";
             this.tb_free.ReadOnly = true;
             this.tb_free.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_free.Size = new System.Drawing.Size(423, 76);
+            this.tb_free.Size = new System.Drawing.Size(535, 76);
             this.tb_free.TabIndex = 31;
+            // 
+            // pb_binarySearchTree
+            // 
+            this.pb_binarySearchTree.Image = global::Algorithm_Dictionary.Properties.Resources.이진탐색트리2;
+            this.pb_binarySearchTree.Location = new System.Drawing.Point(582, 212);
+            this.pb_binarySearchTree.Name = "pb_binarySearchTree";
+            this.pb_binarySearchTree.Size = new System.Drawing.Size(533, 274);
+            this.pb_binarySearchTree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_binarySearchTree.TabIndex = 34;
+            this.pb_binarySearchTree.TabStop = false;
             // 
             // BinarySearchTree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(461, 510);
+            this.ClientSize = new System.Drawing.Size(1144, 649);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_binarySearchTree);
             this.Controls.Add(this.lb_free);
             this.Controls.Add(this.btn_free);
             this.Controls.Add(this.tb_free);
@@ -247,9 +260,11 @@
             this.Controls.Add(this.tb_NewNode);
             this.Controls.Add(this.lb_description);
             this.Controls.Add(this.tb_description);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BinarySearchTree";
             this.Text = "이진탐색트리";
             this.Load += new System.EventHandler(this.BinarySearchTree_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_binarySearchTree)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +287,6 @@
         private System.Windows.Forms.Label lb_free;
         private System.Windows.Forms.Button btn_free;
         private System.Windows.Forms.TextBox tb_free;
+        private System.Windows.Forms.PictureBox pb_binarySearchTree;
     }
 }
