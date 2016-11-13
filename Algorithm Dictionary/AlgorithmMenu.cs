@@ -68,6 +68,11 @@ namespace Algorithm_Dictionary
             }
         }
 
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            tb_Search.Text = tb_Search.Text;
+        }
+
         private void Bst_FormClosed(object sender, FormClosedEventArgs e)
         {
             bst = null;
@@ -102,10 +107,18 @@ namespace Algorithm_Dictionary
             }
         }
 
+        private void tb_search(object sender, KeyPressEventArgs e) //엔터키 눌렀을 때 검색
+        {
+            if (e.KeyChar == '\r')
+            {
+                btn_Search_Click(sender, e);
+
+            }
+        }
+
         private void btn_exit_Click(object sender, EventArgs e)
         {
             Close();
         }
-
     }
 }
