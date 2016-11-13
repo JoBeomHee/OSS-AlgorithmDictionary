@@ -1,6 +1,7 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
+using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +21,7 @@ namespace Algorithm_Dictionary
         LinkedList ll;
         InsertSort Is;
         SelectionSort ss;
+        BinarySearchTree bst;
 
         public AlgorithmMenu()
         {
@@ -57,6 +59,18 @@ namespace Algorithm_Dictionary
                 ss.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "이진탐색트리")
+            {
+                bst = new BinarySearchTree();
+                bst.FormClosed += Bst_FormClosed;
+                bst.Show();
+                this.Close();
+            }
+        }
+
+        private void Bst_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            bst = null;
         }
 
         private void Ss_FormClosed(object sender, FormClosedEventArgs e)

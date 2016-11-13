@@ -150,6 +150,36 @@
     <Compile Include="자료구조 Form\선택정렬\Sort.Designer.cs">
       <DependentUpon>Sort.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTree.Designer.cs">
+      <DependentUpon>BinarySearchTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeFree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeFree.Designer.cs">
+      <DependentUpon>BinarySearchTreeFree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeInsert.Designer.cs">
+      <DependentUpon>BinarySearchTreeInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNewNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNewNode.Designer.cs">
+      <DependentUpon>BinarySearchTreeNewNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.Designer.cs">
+      <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
       <DependentUpon>Stack.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +240,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\선택정렬\Sort.resx">
       <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTree.resx">
+      <DependentUpon>BinarySearchTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeFree.resx">
+      <DependentUpon>BinarySearchTreeFree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeInsert.resx">
+      <DependentUpon>BinarySearchTreeInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeNewNode.resx">
+      <DependentUpon>BinarySearchTreeNewNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.resx">
+      <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
