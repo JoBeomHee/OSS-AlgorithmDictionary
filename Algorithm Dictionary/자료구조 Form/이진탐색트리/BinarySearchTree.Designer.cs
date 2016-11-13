@@ -99,6 +99,7 @@
             // 
             // tb_Node
             // 
+            this.tb_Node.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Node.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_Node.Location = new System.Drawing.Point(11, 378);
             this.tb_Node.Multiline = true;
@@ -124,6 +125,7 @@
             // 
             // tb_NewNode
             // 
+            this.tb_NewNode.BackColor = System.Drawing.SystemColors.Window;
             this.tb_NewNode.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_NewNode.Location = new System.Drawing.Point(11, 224);
             this.tb_NewNode.Multiline = true;
@@ -146,6 +148,7 @@
             // 
             // tb_description
             // 
+            this.tb_description.BackColor = System.Drawing.SystemColors.Window;
             this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_description.Location = new System.Drawing.Point(11, 63);
             this.tb_description.Multiline = true;
@@ -182,6 +185,7 @@
             // 
             // tb_insert
             // 
+            this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
             this.tb_insert.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_insert.Location = new System.Drawing.Point(581, 88);
             this.tb_insert.Multiline = true;
@@ -218,6 +222,7 @@
             // 
             // tb_free
             // 
+            this.tb_free.BackColor = System.Drawing.SystemColors.Window;
             this.tb_free.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_free.Location = new System.Drawing.Point(12, 524);
             this.tb_free.Multiline = true;
@@ -242,6 +247,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1133, 643);
             this.ControlBox = false;
             this.Controls.Add(this.pb_binarySearchTree);

@@ -33,6 +33,7 @@
             // 
             // tb_PushBack
             // 
+            this.tb_PushBack.BackColor = System.Drawing.SystemColors.Window;
             this.tb_PushBack.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_PushBack.Location = new System.Drawing.Point(18, 19);
             this.tb_PushBack.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(359, 257);
             this.Controls.Add(this.tb_PushBack);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_PushBack";
             this.Text = "LinkedList_PushBack";
             this.Load += new System.EventHandler(this.LinkedList_PushBack_Load);

@@ -33,6 +33,7 @@
             // 
             // tb_insert
             // 
+            this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
             this.tb_insert.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_insert.Location = new System.Drawing.Point(13, 9);
             this.tb_insert.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(352, 415);
             this.Controls.Add(this.tb_insert);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_Insert";
             this.Text = "LinkedList_Insert";
             this.Load += new System.EventHandler(this.LinkedList_Insert_Load);

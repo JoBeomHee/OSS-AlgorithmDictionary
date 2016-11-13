@@ -33,6 +33,7 @@
             // 
             // tb_malloclist
             // 
+            this.tb_malloclist.BackColor = System.Drawing.SystemColors.Window;
             this.tb_malloclist.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_malloclist.Location = new System.Drawing.Point(18, 20);
             this.tb_malloclist.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(382, 439);
             this.Controls.Add(this.tb_malloclist);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_Malloclist";
             this.Text = "LinkedList 동적생성";
             this.Load += new System.EventHandler(this.LinkedList_Malloclist_Load);

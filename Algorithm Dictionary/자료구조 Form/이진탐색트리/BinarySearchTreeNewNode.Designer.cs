@@ -33,6 +33,7 @@
             // 
             // tb_NewNode
             // 
+            this.tb_NewNode.BackColor = System.Drawing.SystemColors.Window;
             this.tb_NewNode.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_NewNode.Location = new System.Drawing.Point(3, 11);
             this.tb_NewNode.Multiline = true;
@@ -46,8 +47,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(339, 163);
             this.Controls.Add(this.tb_NewNode);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BinarySearchTreeNewNode";
             this.Text = "BinarySearchTreeNewNode";
             this.Load += new System.EventHandler(this.BinarySearchTreeNewNode_Load);

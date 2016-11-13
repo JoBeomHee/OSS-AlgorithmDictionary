@@ -33,6 +33,7 @@
             // 
             // tb_Delete
             // 
+            this.tb_Delete.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Delete.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_Delete.Location = new System.Drawing.Point(13, 16);
             this.tb_Delete.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(361, 435);
             this.Controls.Add(this.tb_Delete);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_Delete";
             this.Text = "링크드리스트 해제화";
             this.Load += new System.EventHandler(this.LinkedList_Delete_Load);

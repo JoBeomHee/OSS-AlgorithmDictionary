@@ -110,6 +110,7 @@
             // 
             // tb_mallocList
             // 
+            this.tb_mallocList.BackColor = System.Drawing.SystemColors.Window;
             this.tb_mallocList.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_mallocList.Location = new System.Drawing.Point(12, 355);
             this.tb_mallocList.Multiline = true;
@@ -135,6 +136,7 @@
             // 
             // tb_New_Node
             // 
+            this.tb_New_Node.BackColor = System.Drawing.SystemColors.Window;
             this.tb_New_Node.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_New_Node.Location = new System.Drawing.Point(12, 223);
             this.tb_New_Node.Multiline = true;
@@ -157,6 +159,7 @@
             // 
             // tb_description
             // 
+            this.tb_description.BackColor = System.Drawing.SystemColors.Window;
             this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_description.Location = new System.Drawing.Point(12, 62);
             this.tb_description.Multiline = true;
@@ -179,6 +182,7 @@
             // 
             // tb_Delete
             // 
+            this.tb_Delete.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Delete.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_Delete.Location = new System.Drawing.Point(11, 494);
             this.tb_Delete.Multiline = true;
@@ -215,6 +219,7 @@
             // 
             // tb_PushBack
             // 
+            this.tb_PushBack.BackColor = System.Drawing.SystemColors.Window;
             this.tb_PushBack.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_PushBack.Location = new System.Drawing.Point(12, 644);
             this.tb_PushBack.Multiline = true;
@@ -251,6 +256,7 @@
             // 
             // tb_HangNode
             // 
+            this.tb_HangNode.BackColor = System.Drawing.SystemColors.Window;
             this.tb_HangNode.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_HangNode.Location = new System.Drawing.Point(11, 780);
             this.tb_HangNode.Multiline = true;
@@ -287,6 +293,7 @@
             // 
             // tb_insert
             // 
+            this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
             this.tb_insert.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_insert.Location = new System.Drawing.Point(710, 82);
             this.tb_insert.Multiline = true;
@@ -323,6 +330,7 @@
             // 
             // tb_Erase
             // 
+            this.tb_Erase.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Erase.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_Erase.Location = new System.Drawing.Point(710, 730);
             this.tb_Erase.Multiline = true;

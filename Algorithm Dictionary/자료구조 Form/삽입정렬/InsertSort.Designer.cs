@@ -65,6 +65,7 @@
             // 
             // tb_sort
             // 
+            this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
             this.tb_sort.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_sort.Location = new System.Drawing.Point(9, 222);
             this.tb_sort.Multiline = true;
@@ -87,6 +88,7 @@
             // 
             // tb_description
             // 
+            this.tb_description.BackColor = System.Drawing.SystemColors.Window;
             this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_description.Location = new System.Drawing.Point(9, 61);
             this.tb_description.Multiline = true;
@@ -124,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(988, 468);
             this.ControlBox = false;
             this.Controls.Add(this.pb_insertSort);

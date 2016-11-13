@@ -33,6 +33,7 @@
             // 
             // tb_free
             // 
+            this.tb_free.BackColor = System.Drawing.SystemColors.Window;
             this.tb_free.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_free.Location = new System.Drawing.Point(11, 15);
             this.tb_free.Multiline = true;
@@ -48,6 +49,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 372);
             this.Controls.Add(this.tb_free);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BinarySearchTreeFree";
             this.Text = "BinarySearchTreeFree";
             this.Load += new System.EventHandler(this.BinarySearchTreeFree_Load);

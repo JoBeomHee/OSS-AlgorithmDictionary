@@ -33,6 +33,7 @@
             // 
             // tb_New_Node
             // 
+            this.tb_New_Node.BackColor = System.Drawing.SystemColors.Window;
             this.tb_New_Node.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_New_Node.Location = new System.Drawing.Point(13, 13);
             this.tb_New_Node.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(369, 407);
             this.Controls.Add(this.tb_New_Node);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_New_Node";
             this.Text = "LinkedList_New_Node";
             this.Load += new System.EventHandler(this.LinkedList_New_Node_Load);

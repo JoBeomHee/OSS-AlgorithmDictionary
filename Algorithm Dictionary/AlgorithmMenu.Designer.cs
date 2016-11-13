@@ -87,6 +87,8 @@
             this.lb_menu.Name = "lb_menu";
             this.lb_menu.Size = new System.Drawing.Size(495, 270);
             this.lb_menu.TabIndex = 20;
+            this.lb_menu.SelectedIndexChanged += new System.EventHandler(this.lb_menu_SelectedIndexChanged);
+            this.lb_menu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lb_Enter);
             // 
             // pb_Main
             // 

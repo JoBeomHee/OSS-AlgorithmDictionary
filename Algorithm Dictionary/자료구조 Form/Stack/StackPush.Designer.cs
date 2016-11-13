@@ -33,6 +33,7 @@
             // 
             // tb_push
             // 
+            this.tb_push.BackColor = System.Drawing.SystemColors.Window;
             this.tb_push.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_push.Location = new System.Drawing.Point(16, 27);
             this.tb_push.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(337, 336);
             this.Controls.Add(this.tb_push);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "StackPush";
             this.Text = "StackPush";
             this.Load += new System.EventHandler(this.StackPush_Load);

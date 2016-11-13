@@ -33,6 +33,7 @@
             // 
             // tb_HangNode
             // 
+            this.tb_HangNode.BackColor = System.Drawing.SystemColors.Window;
             this.tb_HangNode.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_HangNode.Location = new System.Drawing.Point(9, 14);
             this.tb_HangNode.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(356, 355);
             this.Controls.Add(this.tb_HangNode);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_HangNode";
             this.Text = "LinkedList_HangNode";
             this.Load += new System.EventHandler(this.LinkedList_HangNode_Load);

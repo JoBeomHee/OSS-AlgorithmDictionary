@@ -33,6 +33,7 @@
             // 
             // tb_Erase
             // 
+            this.tb_Erase.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Erase.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_Erase.Location = new System.Drawing.Point(11, 13);
             this.tb_Erase.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(344, 496);
             this.Controls.Add(this.tb_Erase);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_Erase";
             this.Text = "LinkedList_Erase";
             this.Load += new System.EventHandler(this.LinkedList_Erase_Load);

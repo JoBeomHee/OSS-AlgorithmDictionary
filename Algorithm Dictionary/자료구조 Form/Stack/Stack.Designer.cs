@@ -43,6 +43,7 @@
             // 
             // tb_description
             // 
+            this.tb_description.BackColor = System.Drawing.SystemColors.Window;
             this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_description.Location = new System.Drawing.Point(18, 57);
             this.tb_description.Multiline = true;
@@ -65,6 +66,7 @@
             // 
             // tb_push
             // 
+            this.tb_push.BackColor = System.Drawing.SystemColors.Window;
             this.tb_push.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_push.Location = new System.Drawing.Point(18, 445);
             this.tb_push.Multiline = true;
@@ -90,6 +92,7 @@
             // 
             // tb_pop
             // 
+            this.tb_pop.BackColor = System.Drawing.SystemColors.Window;
             this.tb_pop.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_pop.Location = new System.Drawing.Point(18, 584);
             this.tb_pop.Multiline = true;
@@ -163,7 +166,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.Info;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(809, 725);
             this.ControlBox = false;
             this.Controls.Add(this.pb_Stack);

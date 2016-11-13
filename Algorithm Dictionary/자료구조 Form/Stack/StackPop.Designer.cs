@@ -33,6 +33,7 @@
             // 
             // tb_pop
             // 
+            this.tb_pop.BackColor = System.Drawing.SystemColors.Window;
             this.tb_pop.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_pop.Location = new System.Drawing.Point(18, 26);
             this.tb_pop.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(343, 424);
             this.Controls.Add(this.tb_pop);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "StackPop";
             this.Text = "StackPop";
             this.Load += new System.EventHandler(this.StackPop_Load);

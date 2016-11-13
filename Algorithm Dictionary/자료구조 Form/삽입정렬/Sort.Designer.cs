@@ -33,6 +33,7 @@
             // 
             // tb_sort
             // 
+            this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
             this.tb_sort.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_sort.Location = new System.Drawing.Point(9, 13);
             this.tb_sort.Multiline = true;
@@ -49,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(370, 455);
             this.Controls.Add(this.tb_sort);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Sort";
             this.Text = "Sort";
             this.Load += new System.EventHandler(this.Sort_Load);
