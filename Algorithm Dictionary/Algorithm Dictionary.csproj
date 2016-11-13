@@ -138,6 +138,18 @@
     <Compile Include="자료구조 Form\삽입정렬\Sort.Designer.cs">
       <DependentUpon>Sort.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\선택정렬\SelectionSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\선택정렬\SelectionSort.Designer.cs">
+      <DependentUpon>SelectionSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\선택정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\선택정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
       <DependentUpon>Stack.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +203,12 @@
       <DependentUpon>InsertSort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\삽입정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\선택정렬\SelectionSort.resx">
+      <DependentUpon>SelectionSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\선택정렬\Sort.resx">
       <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

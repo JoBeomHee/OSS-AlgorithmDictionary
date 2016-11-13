@@ -1,5 +1,6 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
+using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,7 @@ namespace Algorithm_Dictionary
         Stack stack;
         LinkedList ll;
         InsertSort Is;
+        SelectionSort ss;
 
         public AlgorithmMenu()
         {
@@ -48,6 +50,18 @@ namespace Algorithm_Dictionary
                 Is.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "선택정렬")
+            {
+                ss = new SelectionSort();
+                ss.FormClosed += Ss_FormClosed;
+                ss.Show();
+                this.Close();
+            }
+        }
+
+        private void Ss_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ss = null;
         }
 
         private void Is_FormClosed(object sender, FormClosedEventArgs e)
