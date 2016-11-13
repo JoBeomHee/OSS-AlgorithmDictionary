@@ -42,7 +42,7 @@
             this.tb_Search.Location = new System.Drawing.Point(93, 36);
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
-            this.tb_Search.TabIndex = 18;
+            this.tb_Search.TabIndex = 1;
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
             // 
             // btn_Search
@@ -53,7 +53,7 @@
             this.btn_Search.Location = new System.Drawing.Point(418, 36);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(87, 29);
-            this.btn_Search.TabIndex = 0;
+            this.btn_Search.TabIndex = 2;
             this.btn_Search.Text = "검색";
             this.btn_Search.UseVisualStyleBackColor = true;
             this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);

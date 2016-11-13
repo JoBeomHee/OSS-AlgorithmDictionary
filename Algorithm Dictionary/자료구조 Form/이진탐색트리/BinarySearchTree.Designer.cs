@@ -196,7 +196,7 @@
             this.lb_free.AutoSize = true;
             this.lb_free.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_free.ForeColor = System.Drawing.Color.Teal;
-            this.lb_free.Location = new System.Drawing.Point(8, 511);
+            this.lb_free.Location = new System.Drawing.Point(8, 487);
             this.lb_free.Name = "lb_free";
             this.lb_free.Size = new System.Drawing.Size(216, 21);
             this.lb_free.TabIndex = 33;
@@ -208,7 +208,7 @@
             this.btn_free.FlatAppearance.BorderSize = 0;
             this.btn_free.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_free.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_free.Location = new System.Drawing.Point(408, 630);
+            this.btn_free.Location = new System.Drawing.Point(408, 606);
             this.btn_free.Name = "btn_free";
             this.btn_free.Size = new System.Drawing.Size(139, 36);
             this.btn_free.TabIndex = 32;
@@ -219,7 +219,7 @@
             // tb_free
             // 
             this.tb_free.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_free.Location = new System.Drawing.Point(12, 548);
+            this.tb_free.Location = new System.Drawing.Point(12, 524);
             this.tb_free.Multiline = true;
             this.tb_free.Name = "tb_free";
             this.tb_free.ReadOnly = true;
@@ -242,7 +242,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1144, 649);
+            this.ClientSize = new System.Drawing.Size(1133, 643);
             this.ControlBox = false;
             this.Controls.Add(this.pb_binarySearchTree);
             this.Controls.Add(this.lb_free);

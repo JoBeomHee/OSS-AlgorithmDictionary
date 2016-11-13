@@ -113,9 +113,9 @@
             // pb_SelectSort
             // 
             this.pb_SelectSort.Image = global::Algorithm_Dictionary.Properties.Resources.선택정렬;
-            this.pb_SelectSort.Location = new System.Drawing.Point(466, 11);
+            this.pb_SelectSort.Location = new System.Drawing.Point(457, 11);
             this.pb_SelectSort.Name = "pb_SelectSort";
-            this.pb_SelectSort.Size = new System.Drawing.Size(562, 381);
+            this.pb_SelectSort.Size = new System.Drawing.Size(516, 381);
             this.pb_SelectSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_SelectSort.TabIndex = 26;
             this.pb_SelectSort.TabStop = false;
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1043, 417);
+            this.ClientSize = new System.Drawing.Size(983, 417);
             this.ControlBox = false;
             this.Controls.Add(this.pb_SelectSort);
             this.Controls.Add(this.btn_back);

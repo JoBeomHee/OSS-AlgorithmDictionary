@@ -77,7 +77,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(9, 366);
+            this.label3.Location = new System.Drawing.Point(9, 329);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 21);
             this.label3.TabIndex = 17;
@@ -100,7 +100,7 @@
             this.btn_malloclist.FlatAppearance.BorderSize = 0;
             this.btn_malloclist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_malloclist.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_malloclist.Location = new System.Drawing.Point(586, 474);
+            this.btn_malloclist.Location = new System.Drawing.Point(586, 437);
             this.btn_malloclist.Name = "btn_malloclist";
             this.btn_malloclist.Size = new System.Drawing.Size(93, 36);
             this.btn_malloclist.TabIndex = 15;
@@ -111,7 +111,7 @@
             // tb_mallocList
             // 
             this.tb_mallocList.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_mallocList.Location = new System.Drawing.Point(12, 392);
+            this.tb_mallocList.Location = new System.Drawing.Point(12, 355);
             this.tb_mallocList.Multiline = true;
             this.tb_mallocList.Name = "tb_mallocList";
             this.tb_mallocList.ReadOnly = true;
@@ -171,7 +171,7 @@
             this.lb_Delete.AutoSize = true;
             this.lb_Delete.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_Delete.ForeColor = System.Drawing.Color.Teal;
-            this.lb_Delete.Location = new System.Drawing.Point(9, 507);
+            this.lb_Delete.Location = new System.Drawing.Point(9, 470);
             this.lb_Delete.Name = "lb_Delete";
             this.lb_Delete.Size = new System.Drawing.Size(178, 21);
             this.lb_Delete.TabIndex = 19;
@@ -180,7 +180,7 @@
             // tb_Delete
             // 
             this.tb_Delete.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_Delete.Location = new System.Drawing.Point(11, 531);
+            this.tb_Delete.Location = new System.Drawing.Point(11, 494);
             this.tb_Delete.Multiline = true;
             this.tb_Delete.Name = "tb_Delete";
             this.tb_Delete.ReadOnly = true;
@@ -194,7 +194,7 @@
             this.btn_Delete.FlatAppearance.BorderSize = 0;
             this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Delete.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Delete.Location = new System.Drawing.Point(586, 630);
+            this.btn_Delete.Location = new System.Drawing.Point(586, 593);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(93, 36);
             this.btn_Delete.TabIndex = 21;
@@ -207,7 +207,7 @@
             this.lb_PushBack.AutoSize = true;
             this.lb_PushBack.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_PushBack.ForeColor = System.Drawing.Color.Teal;
-            this.lb_PushBack.Location = new System.Drawing.Point(10, 657);
+            this.lb_PushBack.Location = new System.Drawing.Point(10, 620);
             this.lb_PushBack.Name = "lb_PushBack";
             this.lb_PushBack.Size = new System.Drawing.Size(222, 21);
             this.lb_PushBack.TabIndex = 22;
@@ -216,7 +216,7 @@
             // tb_PushBack
             // 
             this.tb_PushBack.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_PushBack.Location = new System.Drawing.Point(12, 681);
+            this.tb_PushBack.Location = new System.Drawing.Point(12, 644);
             this.tb_PushBack.Multiline = true;
             this.tb_PushBack.Name = "tb_PushBack";
             this.tb_PushBack.ReadOnly = true;
@@ -230,7 +230,7 @@
             this.btn_PushBack.FlatAppearance.BorderSize = 0;
             this.btn_PushBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_PushBack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_PushBack.Location = new System.Drawing.Point(586, 763);
+            this.btn_PushBack.Location = new System.Drawing.Point(586, 726);
             this.btn_PushBack.Name = "btn_PushBack";
             this.btn_PushBack.Size = new System.Drawing.Size(93, 36);
             this.btn_PushBack.TabIndex = 24;
@@ -243,7 +243,7 @@
             this.lb_HangNode.AutoSize = true;
             this.lb_HangNode.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_HangNode.ForeColor = System.Drawing.Color.Teal;
-            this.lb_HangNode.Location = new System.Drawing.Point(8, 793);
+            this.lb_HangNode.Location = new System.Drawing.Point(8, 756);
             this.lb_HangNode.Name = "lb_HangNode";
             this.lb_HangNode.Size = new System.Drawing.Size(200, 21);
             this.lb_HangNode.TabIndex = 25;
@@ -252,7 +252,7 @@
             // tb_HangNode
             // 
             this.tb_HangNode.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_HangNode.Location = new System.Drawing.Point(11, 817);
+            this.tb_HangNode.Location = new System.Drawing.Point(11, 780);
             this.tb_HangNode.Multiline = true;
             this.tb_HangNode.Name = "tb_HangNode";
             this.tb_HangNode.ReadOnly = true;
@@ -266,7 +266,7 @@
             this.btn_HangNode.FlatAppearance.BorderSize = 0;
             this.btn_HangNode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_HangNode.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_HangNode.Location = new System.Drawing.Point(585, 899);
+            this.btn_HangNode.Location = new System.Drawing.Point(585, 862);
             this.btn_HangNode.Name = "btn_HangNode";
             this.btn_HangNode.Size = new System.Drawing.Size(93, 36);
             this.btn_HangNode.TabIndex = 27;

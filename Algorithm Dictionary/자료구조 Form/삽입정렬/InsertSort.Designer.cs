@@ -102,7 +102,7 @@
             this.btn_back.FlatAppearance.BorderSize = 0;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(1077, 1);
+            this.btn_back.Location = new System.Drawing.Point(900, 1);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(81, 54);
             this.btn_back.TabIndex = 19;
@@ -113,9 +113,9 @@
             // pb_insertSort
             // 
             this.pb_insertSort.Image = global::Algorithm_Dictionary.Properties.Resources.삽입정렬;
-            this.pb_insertSort.Location = new System.Drawing.Point(468, 61);
+            this.pb_insertSort.Location = new System.Drawing.Point(450, 61);
             this.pb_insertSort.Name = "pb_insertSort";
-            this.pb_insertSort.Size = new System.Drawing.Size(690, 395);
+            this.pb_insertSort.Size = new System.Drawing.Size(531, 395);
             this.pb_insertSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_insertSort.TabIndex = 20;
             this.pb_insertSort.TabStop = false;
@@ -125,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1170, 468);
+            this.ClientSize = new System.Drawing.Size(988, 468);
             this.ControlBox = false;
             this.Controls.Add(this.pb_insertSort);
             this.Controls.Add(this.btn_back);
