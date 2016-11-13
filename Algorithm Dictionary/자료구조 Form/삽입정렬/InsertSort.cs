@@ -19,18 +19,6 @@ namespace Algorithm_Dictionary.자료구조_Form.삽입정렬
             InitializeComponent();
         }
 
-        private void btn_return_Click(object sender, EventArgs e)
-        {
-            am = new AlgorithmMenu();
-            am.FormClosed += Am_FormClosed;
-            am.Show();
-            this.Close();
-        }
-
-        private void Am_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            am = null;
-        }
 
         private void InsertSort_Load(object sender, EventArgs e)
         {
@@ -49,6 +37,19 @@ namespace Algorithm_Dictionary.자료구조_Form.삽입정렬
         private void Sort_FormClosed(object sender, FormClosedEventArgs e)
         {
             sort = null;
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            am = null;
         }
     }
 }

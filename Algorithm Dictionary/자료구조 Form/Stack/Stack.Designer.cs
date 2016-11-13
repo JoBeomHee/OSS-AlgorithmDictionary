@@ -31,9 +31,9 @@
             this.tb_description = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tb_push = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_stack = new System.Windows.Forms.Button();
             this.tb_pop = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_pop = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_back = new System.Windows.Forms.Button();
@@ -72,19 +72,19 @@
             this.tb_push.Size = new System.Drawing.Size(423, 76);
             this.tb_push.TabIndex = 3;
             // 
-            // button1
+            // btn_stack
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(18, 300);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 36);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "삽입코드보기";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_stack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_stack.FlatAppearance.BorderSize = 0;
+            this.btn_stack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_stack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_stack.Location = new System.Drawing.Point(18, 300);
+            this.btn_stack.Name = "btn_stack";
+            this.btn_stack.Size = new System.Drawing.Size(93, 36);
+            this.btn_stack.TabIndex = 4;
+            this.btn_stack.Text = "삽입코드보기";
+            this.btn_stack.UseVisualStyleBackColor = true;
+            this.btn_stack.Click += new System.EventHandler(this.btn_stack_Click);
             // 
             // tb_pop
             // 
@@ -97,18 +97,18 @@
             this.tb_pop.Size = new System.Drawing.Size(423, 76);
             this.tb_pop.TabIndex = 5;
             // 
-            // button2
+            // btn_pop
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(18, 469);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 36);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "삭제코드보기";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_pop.FlatAppearance.BorderSize = 0;
+            this.btn_pop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_pop.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_pop.Location = new System.Drawing.Point(18, 469);
+            this.btn_pop.Name = "btn_pop";
+            this.btn_pop.Size = new System.Drawing.Size(93, 36);
+            this.btn_pop.TabIndex = 6;
+            this.btn_pop.Text = "삭제코드보기";
+            this.btn_pop.UseVisualStyleBackColor = true;
+            this.btn_pop.Click += new System.EventHandler(this.btn_pop_Click);
             // 
             // label2
             // 
@@ -144,6 +144,7 @@
             this.btn_back.TabIndex = 19;
             this.btn_back.Text = "←";
             this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // Stack
             // 
@@ -156,9 +157,9 @@
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_pop);
             this.Controls.Add(this.tb_pop);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_stack);
             this.Controls.Add(this.tb_push);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_description);
@@ -174,9 +175,9 @@
         private System.Windows.Forms.TextBox tb_description;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tb_push;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_stack;
         private System.Windows.Forms.TextBox tb_pop;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_pop;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_back;

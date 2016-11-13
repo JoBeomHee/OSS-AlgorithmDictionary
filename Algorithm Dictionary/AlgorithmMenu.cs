@@ -48,13 +48,6 @@ namespace Algorithm_Dictionary
                 Is.Show();
                 this.Close();
             }
-
-            if (tb_Search.Text.ToString() == "")
-            {
-                MessageBox.Show("아무것도 입력하지 않으셨습니다.");
-            }
-
-
         }
 
         private void Is_FormClosed(object sender, FormClosedEventArgs e)

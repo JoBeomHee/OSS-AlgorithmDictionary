@@ -14,8 +14,8 @@ namespace Algorithm_Dictionary
     public partial class Stack : Form
     {
         AlgorithmMenu am;
-        StackPush sp;
-        StackPop sd;
+        StackPush push;
+        StackPop pop;
         public Stack()
         {
             InitializeComponent();
@@ -30,31 +30,7 @@ namespace Algorithm_Dictionary
             tb_pop.Text = "다음은 Stack의 데이터를 삭제하는 함수입니다. 함수의 이름은 POP라고 하고 이것의 함수 시그니처를 보게되면 Data SPop(Stack *pstack) 이렇게 됩니다. 이것의 전체 코드를 보고 싶으시면 아래 코드보기 버튼을 누르시면 SPop 함수의 코드가 나오게 됩니다.";
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            sp = new StackPush();
-            sp.FormClosed += Sp_FormClosed;
-            sp.Show();
-        }
-
-        private void Sp_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            sp = null;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            sd = new StackPop();
-            sd.FormClosed += Sd_FormClosed;
-            sd.Show();
-        }
-
-        private void Sd_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            sd = null;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void btn_back_Click(object sender, EventArgs e)
         {
             am = new AlgorithmMenu();
             am.FormClosed += Am_FormClosed;
@@ -65,6 +41,30 @@ namespace Algorithm_Dictionary
         private void Am_FormClosed(object sender, FormClosedEventArgs e)
         {
             am = null;
+        }
+
+        private void btn_stack_Click(object sender, EventArgs e)
+        {
+            push = new StackPush();
+            push.FormClosed += Push_FormClosed;
+            push.Show();
+        }
+
+        private void Push_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            push = null;
+        }
+
+        private void btn_pop_Click(object sender, EventArgs e)
+        {
+            pop = new StackPop();
+            pop.FormClosed += Pop_FormClosed;
+            pop.Show();
+        }
+
+        private void Pop_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            pop = null;
         }
     }
 }

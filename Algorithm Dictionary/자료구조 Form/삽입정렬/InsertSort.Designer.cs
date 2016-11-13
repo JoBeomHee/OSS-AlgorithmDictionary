@@ -49,6 +49,7 @@
             // 
             // btn_sort
             // 
+            this.btn_sort.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sort.FlatAppearance.BorderSize = 0;
             this.btn_sort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sort.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -105,6 +106,7 @@
             this.btn_back.TabIndex = 19;
             this.btn_back.Text = "←";
             this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // InsertSort
             // 
