@@ -197,7 +197,7 @@ namespace Algorithm_Dictionary
             }
         }
 
-        private void lb_Enter(object sender, KeyPressEventArgs e)
+        private void lb_Enter(object sender, KeyPressEventArgs e)  //엔터키 눌렀을 때 적용
         {
             if (e.KeyChar == '\r')
             {

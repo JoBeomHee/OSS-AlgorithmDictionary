@@ -50,9 +50,9 @@
             this.btn_Search.AllowDrop = true;
             this.btn_Search.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Search.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Search.Location = new System.Drawing.Point(418, 36);
+            this.btn_Search.Location = new System.Drawing.Point(406, 36);
             this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(87, 29);
+            this.btn_Search.Size = new System.Drawing.Size(99, 29);
             this.btn_Search.TabIndex = 2;
             this.btn_Search.Text = "검색";
             this.btn_Search.UseVisualStyleBackColor = true;
