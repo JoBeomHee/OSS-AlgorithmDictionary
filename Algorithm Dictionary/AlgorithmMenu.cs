@@ -2,6 +2,7 @@
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
+using Algorithm_Dictionary.자료구조_Form.큐;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,7 @@ namespace Algorithm_Dictionary
         InsertSort Is;
         SelectionSort ss;
         BinarySearchTree bst;
+        Queue q; 
 
         public AlgorithmMenu()
         {
@@ -66,6 +68,18 @@ namespace Algorithm_Dictionary
                 bst.Show();
                 this.Close();
             }
+            if (tb_Search.Text.ToString() == "큐")
+            {
+                q = new Queue();
+                q.FormClosed += Q_FormClosed;
+                q.Show();
+                this.Close();
+            }
+        }
+
+        private void Q_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            q = null;
         }
 
         private void btnOK_Click(object sender, EventArgs e)

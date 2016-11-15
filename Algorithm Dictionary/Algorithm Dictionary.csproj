@@ -180,6 +180,42 @@
     <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.Designer.cs">
       <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\큐\DeQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\DeQueue.Designer.cs">
+      <DependentUpon>DeQueue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\EnQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\EnQueue.Designer.cs">
+      <DependentUpon>EnQueue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\Queue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\Queue.Designer.cs">
+      <DependentUpon>Queue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueDispose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueDispose.Designer.cs">
+      <DependentUpon>QueueDispose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueFullEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueFullEmpty.Designer.cs">
+      <DependentUpon>QueueFullEmpty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueInit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\큐\QueueInit.Designer.cs">
+      <DependentUpon>QueueInit.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
       <DependentUpon>Stack.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +291,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.resx">
       <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\DeQueue.resx">
+      <DependentUpon>DeQueue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\EnQueue.resx">
+      <DependentUpon>EnQueue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\Queue.resx">
+      <DependentUpon>Queue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\QueueDispose.resx">
+      <DependentUpon>QueueDispose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\QueueFullEmpty.resx">
+      <DependentUpon>QueueFullEmpty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\큐\QueueInit.resx">
+      <DependentUpon>QueueInit.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
