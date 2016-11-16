@@ -34,7 +34,7 @@
             // tb_FullEmpty
             // 
             this.tb_FullEmpty.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tb_FullEmpty.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_FullEmpty.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_FullEmpty.Location = new System.Drawing.Point(11, 15);
             this.tb_FullEmpty.Multiline = true;
             this.tb_FullEmpty.Name = "tb_FullEmpty";
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(544, 469);
+            this.ClientSize = new System.Drawing.Size(544, 353);
             this.Controls.Add(this.tb_FullEmpty);
             this.Name = "QueueFullEmpty";
             this.Text = "QueueFullEmpty";

@@ -34,13 +34,13 @@
             // tb_sort
             // 
             this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_sort.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_sort.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_sort.Location = new System.Drawing.Point(13, 16);
             this.tb_sort.Multiline = true;
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(316, 379);
+            this.tb_sort.Size = new System.Drawing.Size(462, 379);
             this.tb_sort.TabIndex = 0;
             // 
             // Sort
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(337, 407);
+            this.ClientSize = new System.Drawing.Size(497, 407);
             this.Controls.Add(this.tb_sort);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Sort";

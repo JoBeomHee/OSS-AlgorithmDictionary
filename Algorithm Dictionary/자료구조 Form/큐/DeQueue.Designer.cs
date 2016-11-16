@@ -34,13 +34,13 @@
             // tb_dqqueue
             // 
             this.tb_dqqueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_dqqueue.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_dqqueue.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_dqqueue.Location = new System.Drawing.Point(15, 13);
             this.tb_dqqueue.Multiline = true;
             this.tb_dqqueue.Name = "tb_dqqueue";
             this.tb_dqqueue.ReadOnly = true;
             this.tb_dqqueue.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_dqqueue.Size = new System.Drawing.Size(542, 386);
+            this.tb_dqqueue.Size = new System.Drawing.Size(651, 386);
             this.tb_dqqueue.TabIndex = 0;
             // 
             // DeQueue
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(569, 422);
+            this.ClientSize = new System.Drawing.Size(678, 422);
             this.Controls.Add(this.tb_dqqueue);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DeQueue";

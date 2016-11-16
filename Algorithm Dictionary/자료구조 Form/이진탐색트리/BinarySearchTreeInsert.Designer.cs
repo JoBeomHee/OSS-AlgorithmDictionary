@@ -34,13 +34,13 @@
             // tb_insert
             // 
             this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_insert.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_insert.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_insert.Location = new System.Drawing.Point(7, 9);
             this.tb_insert.Multiline = true;
             this.tb_insert.Name = "tb_insert";
             this.tb_insert.ReadOnly = true;
             this.tb_insert.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_insert.Size = new System.Drawing.Size(325, 432);
+            this.tb_insert.Size = new System.Drawing.Size(560, 432);
             this.tb_insert.TabIndex = 0;
             // 
             // BinarySearchTreeInsert
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(336, 453);
+            this.ClientSize = new System.Drawing.Size(579, 453);
             this.Controls.Add(this.tb_insert);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BinarySearchTreeInsert";
