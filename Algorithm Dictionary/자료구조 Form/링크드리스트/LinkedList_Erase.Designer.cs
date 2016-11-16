@@ -34,7 +34,7 @@
             // tb_Erase
             // 
             this.tb_Erase.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Erase.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Erase.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_Erase.Location = new System.Drawing.Point(11, 13);
             this.tb_Erase.Multiline = true;
             this.tb_Erase.Name = "tb_Erase";

@@ -80,7 +80,7 @@
             // tb_sort
             // 
             this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_sort.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_sort.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_sort.Location = new System.Drawing.Point(12, 220);
             this.tb_sort.Multiline = true;
             this.tb_sort.Name = "tb_sort";
@@ -103,7 +103,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(12, 59);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";

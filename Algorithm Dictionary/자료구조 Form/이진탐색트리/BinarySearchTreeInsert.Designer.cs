@@ -34,7 +34,7 @@
             // tb_insert
             // 
             this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_insert.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_insert.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_insert.Location = new System.Drawing.Point(7, 9);
             this.tb_insert.Multiline = true;
             this.tb_insert.Name = "tb_insert";

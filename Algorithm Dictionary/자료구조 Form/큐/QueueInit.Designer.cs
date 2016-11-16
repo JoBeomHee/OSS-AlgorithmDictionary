@@ -34,13 +34,13 @@
             // tb_Init
             // 
             this.tb_Init.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Init.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Init.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_Init.Location = new System.Drawing.Point(10, 11);
             this.tb_Init.Multiline = true;
             this.tb_Init.Name = "tb_Init";
             this.tb_Init.ReadOnly = true;
             this.tb_Init.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Init.Size = new System.Drawing.Size(343, 414);
+            this.tb_Init.Size = new System.Drawing.Size(466, 214);
             this.tb_Init.TabIndex = 0;
             // 
             // QueueInit
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(365, 437);
+            this.ClientSize = new System.Drawing.Size(492, 437);
             this.Controls.Add(this.tb_Init);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "QueueInit";

@@ -100,7 +100,7 @@
             // tb_Node
             // 
             this.tb_Node.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Node.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Node.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Node.Location = new System.Drawing.Point(11, 378);
             this.tb_Node.Multiline = true;
             this.tb_Node.Name = "tb_Node";
@@ -126,7 +126,7 @@
             // tb_NewNode
             // 
             this.tb_NewNode.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_NewNode.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_NewNode.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_NewNode.Location = new System.Drawing.Point(11, 224);
             this.tb_NewNode.Multiline = true;
             this.tb_NewNode.Name = "tb_NewNode";
@@ -149,7 +149,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(11, 63);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -186,7 +186,7 @@
             // tb_insert
             // 
             this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_insert.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_insert.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_insert.Location = new System.Drawing.Point(581, 88);
             this.tb_insert.Multiline = true;
             this.tb_insert.Name = "tb_insert";
@@ -223,7 +223,7 @@
             // tb_free
             // 
             this.tb_free.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_free.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_free.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_free.Location = new System.Drawing.Point(12, 524);
             this.tb_free.Multiline = true;
             this.tb_free.Name = "tb_free";

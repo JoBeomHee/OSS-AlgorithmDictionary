@@ -34,13 +34,13 @@
             // tb_enqueue
             // 
             this.tb_enqueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_enqueue.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_enqueue.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_enqueue.Location = new System.Drawing.Point(10, 18);
             this.tb_enqueue.Multiline = true;
             this.tb_enqueue.Name = "tb_enqueue";
             this.tb_enqueue.ReadOnly = true;
             this.tb_enqueue.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_enqueue.Size = new System.Drawing.Size(341, 444);
+            this.tb_enqueue.Size = new System.Drawing.Size(539, 329);
             this.tb_enqueue.TabIndex = 0;
             // 
             // EnQueue
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(360, 474);
+            this.ClientSize = new System.Drawing.Size(585, 474);
             this.Controls.Add(this.tb_enqueue);
             this.Name = "EnQueue";
             this.Text = "EnQueue";

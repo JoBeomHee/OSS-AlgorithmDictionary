@@ -46,6 +46,8 @@
             this.btn_dispose = new System.Windows.Forms.Button();
             this.tb_dispose = new System.Windows.Forms.TextBox();
             this.lb_Dispose = new System.Windows.Forms.Label();
+            this.pb_Queue = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_back
@@ -76,7 +78,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(12, 66);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -99,7 +101,7 @@
             // tb_Init
             // 
             this.tb_Init.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Init.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Init.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Init.Location = new System.Drawing.Point(13, 233);
             this.tb_Init.Multiline = true;
             this.tb_Init.Name = "tb_Init";
@@ -136,7 +138,7 @@
             // tb_FullEmpty
             // 
             this.tb_FullEmpty.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_FullEmpty.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_FullEmpty.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_FullEmpty.Location = new System.Drawing.Point(12, 426);
             this.tb_FullEmpty.Multiline = true;
             this.tb_FullEmpty.Name = "tb_FullEmpty";
@@ -176,7 +178,7 @@
             // tb_Enqueue
             // 
             this.tb_Enqueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Enqueue.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Enqueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Enqueue.Location = new System.Drawing.Point(458, 66);
             this.tb_Enqueue.Multiline = true;
             this.tb_Enqueue.Name = "tb_Enqueue";
@@ -213,7 +215,7 @@
             // tb_DeQueue
             // 
             this.tb_DeQueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_DeQueue.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_DeQueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_DeQueue.Location = new System.Drawing.Point(458, 233);
             this.tb_DeQueue.Multiline = true;
             this.tb_DeQueue.Name = "tb_DeQueue";
@@ -239,19 +241,19 @@
             this.btn_dispose.FlatAppearance.BorderSize = 0;
             this.btn_dispose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dispose.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_dispose.Location = new System.Drawing.Point(754, 544);
+            this.btn_dispose.Location = new System.Drawing.Point(308, 732);
             this.btn_dispose.Name = "btn_dispose";
             this.btn_dispose.Size = new System.Drawing.Size(105, 36);
             this.btn_dispose.TabIndex = 37;
-            this.btn_dispose.Text = "DeQueue함수";
+            this.btn_dispose.Text = "큐 해제화 함수";
             this.btn_dispose.UseVisualStyleBackColor = true;
             this.btn_dispose.Click += new System.EventHandler(this.btn_dispose_Click);
             // 
             // tb_dispose
             // 
             this.tb_dispose.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_dispose.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_dispose.Location = new System.Drawing.Point(458, 426);
+            this.tb_dispose.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_dispose.Location = new System.Drawing.Point(12, 614);
             this.tb_dispose.Multiline = true;
             this.tb_dispose.Name = "tb_dispose";
             this.tb_dispose.ReadOnly = true;
@@ -264,19 +266,30 @@
             this.lb_Dispose.AutoSize = true;
             this.lb_Dispose.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_Dispose.ForeColor = System.Drawing.Color.Teal;
-            this.lb_Dispose.Location = new System.Drawing.Point(458, 402);
+            this.lb_Dispose.Location = new System.Drawing.Point(12, 590);
             this.lb_Dispose.Name = "lb_Dispose";
             this.lb_Dispose.Size = new System.Drawing.Size(198, 21);
             this.lb_Dispose.TabIndex = 35;
             this.lb_Dispose.Text = "Queue 해제화 함수";
+            // 
+            // pb_Queue
+            // 
+            this.pb_Queue.Image = global::Algorithm_Dictionary.Properties.Resources.큐;
+            this.pb_Queue.Location = new System.Drawing.Point(435, 393);
+            this.pb_Queue.Name = "pb_Queue";
+            this.pb_Queue.Size = new System.Drawing.Size(446, 345);
+            this.pb_Queue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Queue.TabIndex = 38;
+            this.pb_Queue.TabStop = false;
             // 
             // Queue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(893, 592);
+            this.ClientSize = new System.Drawing.Size(893, 780);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_Queue);
             this.Controls.Add(this.btn_dispose);
             this.Controls.Add(this.tb_dispose);
             this.Controls.Add(this.lb_Dispose);
@@ -299,6 +312,7 @@
             this.Name = "Queue";
             this.Text = "Queue";
             this.Load += new System.EventHandler(this.Queue_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,5 +338,6 @@
         private System.Windows.Forms.Button btn_dispose;
         private System.Windows.Forms.TextBox tb_dispose;
         private System.Windows.Forms.Label lb_Dispose;
+        private System.Windows.Forms.PictureBox pb_Queue;
     }
 }

@@ -44,7 +44,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(18, 57);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -67,7 +67,7 @@
             // tb_push
             // 
             this.tb_push.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_push.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_push.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_push.Location = new System.Drawing.Point(18, 445);
             this.tb_push.Multiline = true;
             this.tb_push.Name = "tb_push";
@@ -93,7 +93,7 @@
             // tb_pop
             // 
             this.tb_pop.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_pop.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_pop.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_pop.Location = new System.Drawing.Point(18, 584);
             this.tb_pop.Multiline = true;
             this.tb_pop.Name = "tb_pop";

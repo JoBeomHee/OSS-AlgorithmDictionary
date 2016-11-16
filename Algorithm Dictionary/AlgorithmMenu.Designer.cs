@@ -61,9 +61,9 @@
             // 
             // lb_menu
             // 
-            this.lb_menu.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_menu.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_menu.FormattingEnabled = true;
-            this.lb_menu.ItemHeight = 19;
+            this.lb_menu.ItemHeight = 24;
             this.lb_menu.Items.AddRange(new object[] {
             "스택",
             "연결리스트",
@@ -85,7 +85,7 @@
             "머지정렬"});
             this.lb_menu.Location = new System.Drawing.Point(12, 93);
             this.lb_menu.Name = "lb_menu";
-            this.lb_menu.Size = new System.Drawing.Size(495, 270);
+            this.lb_menu.Size = new System.Drawing.Size(495, 268);
             this.lb_menu.TabIndex = 20;
             this.lb_menu.SelectedIndexChanged += new System.EventHandler(this.lb_menu_SelectedIndexChanged);
             this.lb_menu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lb_Enter);

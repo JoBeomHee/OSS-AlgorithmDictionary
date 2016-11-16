@@ -34,7 +34,7 @@
             // tb_newNode
             // 
             this.tb_newNode.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_newNode.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_newNode.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_newNode.Location = new System.Drawing.Point(14, 16);
             this.tb_newNode.Multiline = true;
             this.tb_newNode.Name = "tb_newNode";

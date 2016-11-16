@@ -29,31 +29,45 @@
         private void InitializeComponent()
         {
             this.tb_push = new System.Windows.Forms.TextBox();
+            this.pb_push = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_push)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_push
             // 
             this.tb_push.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_push.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_push.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
             this.tb_push.Location = new System.Drawing.Point(16, 27);
             this.tb_push.Multiline = true;
             this.tb_push.Name = "tb_push";
             this.tb_push.ReadOnly = true;
             this.tb_push.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_push.Size = new System.Drawing.Size(307, 291);
+            this.tb_push.Size = new System.Drawing.Size(444, 145);
             this.tb_push.TabIndex = 0;
+            // 
+            // pb_push
+            // 
+            this.pb_push.Image = global::Algorithm_Dictionary.Properties.Resources.스택_삽입_;
+            this.pb_push.Location = new System.Drawing.Point(19, 193);
+            this.pb_push.Name = "pb_push";
+            this.pb_push.Size = new System.Drawing.Size(440, 244);
+            this.pb_push.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_push.TabIndex = 1;
+            this.pb_push.TabStop = false;
             // 
             // StackPush
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(337, 336);
+            this.ClientSize = new System.Drawing.Size(481, 456);
+            this.Controls.Add(this.pb_push);
             this.Controls.Add(this.tb_push);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "StackPush";
             this.Text = "StackPush";
             this.Load += new System.EventHandler(this.StackPush_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_push)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -62,5 +76,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox tb_push;
+        private System.Windows.Forms.PictureBox pb_push;
     }
 }

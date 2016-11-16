@@ -34,7 +34,7 @@
             // tb_PushBack
             // 
             this.tb_PushBack.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_PushBack.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_PushBack.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_PushBack.Location = new System.Drawing.Point(18, 19);
             this.tb_PushBack.Multiline = true;
             this.tb_PushBack.Name = "tb_PushBack";

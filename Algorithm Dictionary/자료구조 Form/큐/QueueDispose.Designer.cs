@@ -34,13 +34,13 @@
             // tb_dispose
             // 
             this.tb_dispose.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_dispose.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_dispose.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_dispose.Location = new System.Drawing.Point(10, 11);
             this.tb_dispose.Multiline = true;
             this.tb_dispose.Name = "tb_dispose";
             this.tb_dispose.ReadOnly = true;
             this.tb_dispose.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_dispose.Size = new System.Drawing.Size(281, 256);
+            this.tb_dispose.Size = new System.Drawing.Size(518, 142);
             this.tb_dispose.TabIndex = 0;
             // 
             // QueueDispose
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(298, 279);
+            this.ClientSize = new System.Drawing.Size(547, 279);
             this.Controls.Add(this.tb_dispose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "QueueDispose";

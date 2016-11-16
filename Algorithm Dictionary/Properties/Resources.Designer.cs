@@ -113,6 +113,26 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 스택_삭제_ {
+            get {
+                object obj = ResourceManager.GetObject("스택(삭제)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 스택_삽입_ {
+            get {
+                object obj = ResourceManager.GetObject("스택(삽입)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 연결리스트_삭제_ {
             get {
                 object obj = ResourceManager.GetObject("연결리스트(삭제)", resourceCulture);
@@ -136,6 +156,16 @@ namespace Algorithm_Dictionary.Properties {
         internal static System.Drawing.Bitmap 이진탐색트리2 {
             get {
                 object obj = ResourceManager.GetObject("이진탐색트리2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 큐 {
+            get {
+                object obj = ResourceManager.GetObject("큐", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

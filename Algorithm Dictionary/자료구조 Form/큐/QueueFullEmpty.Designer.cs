@@ -34,13 +34,13 @@
             // tb_FullEmpty
             // 
             this.tb_FullEmpty.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tb_FullEmpty.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_FullEmpty.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_FullEmpty.Location = new System.Drawing.Point(11, 15);
             this.tb_FullEmpty.Multiline = true;
             this.tb_FullEmpty.Name = "tb_FullEmpty";
             this.tb_FullEmpty.ReadOnly = true;
             this.tb_FullEmpty.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_FullEmpty.Size = new System.Drawing.Size(344, 442);
+            this.tb_FullEmpty.Size = new System.Drawing.Size(524, 278);
             this.tb_FullEmpty.TabIndex = 0;
             // 
             // QueueFullEmpty
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(365, 469);
+            this.ClientSize = new System.Drawing.Size(544, 469);
             this.Controls.Add(this.tb_FullEmpty);
             this.Name = "QueueFullEmpty";
             this.Text = "QueueFullEmpty";

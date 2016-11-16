@@ -34,7 +34,7 @@
             // tb_free
             // 
             this.tb_free.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_free.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_free.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_free.Location = new System.Drawing.Point(11, 15);
             this.tb_free.Multiline = true;
             this.tb_free.Name = "tb_free";
