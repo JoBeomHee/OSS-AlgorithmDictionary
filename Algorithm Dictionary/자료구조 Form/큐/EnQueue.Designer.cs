@@ -50,6 +50,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(571, 370);
             this.Controls.Add(this.tb_enqueue);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "EnQueue";
             this.Text = "EnQueue";
             this.Load += new System.EventHandler(this.EnQueue_Load);
