@@ -1,4 +1,5 @@
-﻿using Algorithm_Dictionary.자료구조_Form.Stack;
+﻿using Algorithm_Dictionary.자료구조_Form;
+using Algorithm_Dictionary.자료구조_Form.Stack;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
