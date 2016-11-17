@@ -36,7 +36,7 @@
             // tb_pop
             // 
             this.tb_pop.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_pop.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_pop.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.tb_pop.Location = new System.Drawing.Point(18, 26);
             this.tb_pop.Multiline = true;
             this.tb_pop.Name = "tb_pop";

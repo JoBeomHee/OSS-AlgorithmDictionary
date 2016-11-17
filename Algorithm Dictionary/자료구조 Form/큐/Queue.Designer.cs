@@ -56,7 +56,7 @@
             this.btn_back.FlatAppearance.BorderSize = 0;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(790, 6);
+            this.btn_back.Location = new System.Drawing.Point(1044, 6);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(91, 54);
             this.btn_back.TabIndex = 22;
@@ -84,7 +84,7 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(401, 111);
+            this.tb_description.Size = new System.Drawing.Size(558, 111);
             this.tb_description.TabIndex = 20;
             // 
             // lb_
@@ -107,7 +107,7 @@
             this.tb_Init.Name = "tb_Init";
             this.tb_Init.ReadOnly = true;
             this.tb_Init.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Init.Size = new System.Drawing.Size(401, 111);
+            this.tb_Init.Size = new System.Drawing.Size(557, 111);
             this.tb_Init.TabIndex = 24;
             // 
             // btn_stack
@@ -116,7 +116,7 @@
             this.btn_stack.FlatAppearance.BorderSize = 0;
             this.btn_stack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_stack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_stack.Location = new System.Drawing.Point(321, 350);
+            this.btn_stack.Location = new System.Drawing.Point(477, 351);
             this.btn_stack.Name = "btn_stack";
             this.btn_stack.Size = new System.Drawing.Size(93, 36);
             this.btn_stack.TabIndex = 25;
@@ -144,7 +144,7 @@
             this.tb_FullEmpty.Name = "tb_FullEmpty";
             this.tb_FullEmpty.ReadOnly = true;
             this.tb_FullEmpty.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_FullEmpty.Size = new System.Drawing.Size(401, 111);
+            this.tb_FullEmpty.Size = new System.Drawing.Size(558, 111);
             this.tb_FullEmpty.TabIndex = 27;
             // 
             // btn_FullEmpty
@@ -153,7 +153,7 @@
             this.btn_FullEmpty.FlatAppearance.BorderSize = 0;
             this.btn_FullEmpty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FullEmpty.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_FullEmpty.Location = new System.Drawing.Point(308, 544);
+            this.btn_FullEmpty.Location = new System.Drawing.Point(487, 543);
             this.btn_FullEmpty.Name = "btn_FullEmpty";
             this.btn_FullEmpty.Size = new System.Drawing.Size(105, 36);
             this.btn_FullEmpty.TabIndex = 28;
@@ -167,7 +167,7 @@
             this.btn_Enqueue.FlatAppearance.BorderSize = 0;
             this.btn_Enqueue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Enqueue.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Enqueue.Location = new System.Drawing.Point(754, 184);
+            this.btn_Enqueue.Location = new System.Drawing.Point(1030, 183);
             this.btn_Enqueue.Name = "btn_Enqueue";
             this.btn_Enqueue.Size = new System.Drawing.Size(105, 36);
             this.btn_Enqueue.TabIndex = 31;
@@ -179,12 +179,12 @@
             // 
             this.tb_Enqueue.BackColor = System.Drawing.SystemColors.Window;
             this.tb_Enqueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_Enqueue.Location = new System.Drawing.Point(458, 66);
+            this.tb_Enqueue.Location = new System.Drawing.Point(598, 66);
             this.tb_Enqueue.Multiline = true;
             this.tb_Enqueue.Name = "tb_Enqueue";
             this.tb_Enqueue.ReadOnly = true;
             this.tb_Enqueue.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Enqueue.Size = new System.Drawing.Size(401, 111);
+            this.tb_Enqueue.Size = new System.Drawing.Size(537, 111);
             this.tb_Enqueue.TabIndex = 30;
             // 
             // lb_EnQueue
@@ -192,7 +192,7 @@
             this.lb_EnQueue.AutoSize = true;
             this.lb_EnQueue.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_EnQueue.ForeColor = System.Drawing.Color.Teal;
-            this.lb_EnQueue.Location = new System.Drawing.Point(458, 42);
+            this.lb_EnQueue.Location = new System.Drawing.Point(598, 42);
             this.lb_EnQueue.Name = "lb_EnQueue";
             this.lb_EnQueue.Size = new System.Drawing.Size(218, 21);
             this.lb_EnQueue.TabIndex = 29;
@@ -204,7 +204,7 @@
             this.btn_Dequeue.FlatAppearance.BorderSize = 0;
             this.btn_Dequeue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Dequeue.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Dequeue.Location = new System.Drawing.Point(754, 351);
+            this.btn_Dequeue.Location = new System.Drawing.Point(1030, 351);
             this.btn_Dequeue.Name = "btn_Dequeue";
             this.btn_Dequeue.Size = new System.Drawing.Size(105, 36);
             this.btn_Dequeue.TabIndex = 34;
@@ -216,12 +216,12 @@
             // 
             this.tb_DeQueue.BackColor = System.Drawing.SystemColors.Window;
             this.tb_DeQueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_DeQueue.Location = new System.Drawing.Point(458, 233);
+            this.tb_DeQueue.Location = new System.Drawing.Point(598, 233);
             this.tb_DeQueue.Multiline = true;
             this.tb_DeQueue.Name = "tb_DeQueue";
             this.tb_DeQueue.ReadOnly = true;
             this.tb_DeQueue.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_DeQueue.Size = new System.Drawing.Size(401, 111);
+            this.tb_DeQueue.Size = new System.Drawing.Size(537, 111);
             this.tb_DeQueue.TabIndex = 33;
             // 
             // lb_DeQueue
@@ -229,7 +229,7 @@
             this.lb_DeQueue.AutoSize = true;
             this.lb_DeQueue.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_DeQueue.ForeColor = System.Drawing.Color.Teal;
-            this.lb_DeQueue.Location = new System.Drawing.Point(458, 209);
+            this.lb_DeQueue.Location = new System.Drawing.Point(598, 209);
             this.lb_DeQueue.Name = "lb_DeQueue";
             this.lb_DeQueue.Size = new System.Drawing.Size(220, 21);
             this.lb_DeQueue.TabIndex = 32;
@@ -241,7 +241,7 @@
             this.btn_dispose.FlatAppearance.BorderSize = 0;
             this.btn_dispose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dispose.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_dispose.Location = new System.Drawing.Point(308, 732);
+            this.btn_dispose.Location = new System.Drawing.Point(465, 732);
             this.btn_dispose.Name = "btn_dispose";
             this.btn_dispose.Size = new System.Drawing.Size(105, 36);
             this.btn_dispose.TabIndex = 37;
@@ -258,7 +258,7 @@
             this.tb_dispose.Name = "tb_dispose";
             this.tb_dispose.ReadOnly = true;
             this.tb_dispose.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_dispose.Size = new System.Drawing.Size(401, 111);
+            this.tb_dispose.Size = new System.Drawing.Size(558, 111);
             this.tb_dispose.TabIndex = 36;
             // 
             // lb_Dispose
@@ -275,9 +275,9 @@
             // pb_Queue
             // 
             this.pb_Queue.Image = global::Algorithm_Dictionary.Properties.Resources.큐;
-            this.pb_Queue.Location = new System.Drawing.Point(435, 393);
+            this.pb_Queue.Location = new System.Drawing.Point(598, 393);
             this.pb_Queue.Name = "pb_Queue";
-            this.pb_Queue.Size = new System.Drawing.Size(446, 345);
+            this.pb_Queue.Size = new System.Drawing.Size(537, 345);
             this.pb_Queue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Queue.TabIndex = 38;
             this.pb_Queue.TabStop = false;
@@ -287,7 +287,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(893, 780);
+            this.ClientSize = new System.Drawing.Size(1147, 780);
             this.ControlBox = false;
             this.Controls.Add(this.pb_Queue);
             this.Controls.Add(this.btn_dispose);

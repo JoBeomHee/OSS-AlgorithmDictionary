@@ -34,13 +34,13 @@
             // tb_malloclist
             // 
             this.tb_malloclist.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_malloclist.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_malloclist.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_malloclist.Location = new System.Drawing.Point(18, 20);
             this.tb_malloclist.Multiline = true;
             this.tb_malloclist.Name = "tb_malloclist";
             this.tb_malloclist.ReadOnly = true;
             this.tb_malloclist.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_malloclist.Size = new System.Drawing.Size(344, 407);
+            this.tb_malloclist.Size = new System.Drawing.Size(814, 407);
             this.tb_malloclist.TabIndex = 0;
             // 
             // LinkedList_Malloclist
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(382, 439);
+            this.ClientSize = new System.Drawing.Size(844, 439);
             this.Controls.Add(this.tb_malloclist);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_Malloclist";

@@ -55,7 +55,7 @@
             this.btn_sort.FlatAppearance.BorderSize = 0;
             this.btn_sort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sort.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_sort.Location = new System.Drawing.Point(339, 374);
+            this.btn_sort.Location = new System.Drawing.Point(339, 426);
             this.btn_sort.Name = "btn_sort";
             this.btn_sort.Size = new System.Drawing.Size(93, 36);
             this.btn_sort.TabIndex = 13;
@@ -72,7 +72,7 @@
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(423, 146);
+            this.tb_sort.Size = new System.Drawing.Size(423, 198);
             this.tb_sort.TabIndex = 12;
             // 
             // lb_description

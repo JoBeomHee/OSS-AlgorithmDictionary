@@ -34,13 +34,13 @@
             // tb_New_Node
             // 
             this.tb_New_Node.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_New_Node.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_New_Node.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_New_Node.Location = new System.Drawing.Point(13, 13);
             this.tb_New_Node.Multiline = true;
             this.tb_New_Node.Name = "tb_New_Node";
             this.tb_New_Node.ReadOnly = true;
             this.tb_New_Node.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_New_Node.Size = new System.Drawing.Size(337, 382);
+            this.tb_New_Node.Size = new System.Drawing.Size(519, 382);
             this.tb_New_Node.TabIndex = 0;
             // 
             // LinkedList_New_Node
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(369, 407);
+            this.ClientSize = new System.Drawing.Size(544, 407);
             this.Controls.Add(this.tb_New_Node);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_New_Node";

@@ -175,7 +175,7 @@
             this.btn_insert.FlatAppearance.BorderSize = 0;
             this.btn_insert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_insert.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_insert.Location = new System.Drawing.Point(961, 170);
+            this.btn_insert.Location = new System.Drawing.Point(961, 207);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(155, 36);
             this.btn_insert.TabIndex = 29;
@@ -192,7 +192,7 @@
             this.tb_insert.Name = "tb_insert";
             this.tb_insert.ReadOnly = true;
             this.tb_insert.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_insert.Size = new System.Drawing.Size(535, 76);
+            this.tb_insert.Size = new System.Drawing.Size(535, 113);
             this.tb_insert.TabIndex = 28;
             // 
             // lb_free
@@ -235,7 +235,7 @@
             // pb_binarySearchTree
             // 
             this.pb_binarySearchTree.Image = global::Algorithm_Dictionary.Properties.Resources.이진탐색트리2;
-            this.pb_binarySearchTree.Location = new System.Drawing.Point(582, 212);
+            this.pb_binarySearchTree.Location = new System.Drawing.Point(582, 253);
             this.pb_binarySearchTree.Name = "pb_binarySearchTree";
             this.pb_binarySearchTree.Size = new System.Drawing.Size(533, 274);
             this.pb_binarySearchTree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

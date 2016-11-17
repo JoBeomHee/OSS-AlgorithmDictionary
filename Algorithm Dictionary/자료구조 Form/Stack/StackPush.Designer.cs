@@ -36,7 +36,7 @@
             // tb_push
             // 
             this.tb_push.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_push.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_push.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
             this.tb_push.Location = new System.Drawing.Point(16, 27);
             this.tb_push.Multiline = true;
             this.tb_push.Name = "tb_push";

@@ -34,13 +34,13 @@
             // tb_PushBack
             // 
             this.tb_PushBack.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_PushBack.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold);
+            this.tb_PushBack.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold);
             this.tb_PushBack.Location = new System.Drawing.Point(18, 19);
             this.tb_PushBack.Multiline = true;
             this.tb_PushBack.Name = "tb_PushBack";
             this.tb_PushBack.ReadOnly = true;
             this.tb_PushBack.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_PushBack.Size = new System.Drawing.Size(326, 221);
+            this.tb_PushBack.Size = new System.Drawing.Size(744, 221);
             this.tb_PushBack.TabIndex = 0;
             // 
             // LinkedList_PushBack
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(359, 257);
+            this.ClientSize = new System.Drawing.Size(777, 257);
             this.Controls.Add(this.tb_PushBack);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LinkedList_PushBack";
