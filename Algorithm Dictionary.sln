@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "선택정렬", "선택정�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "큐", "큐\큐.vcxproj", "{C8EE5694-9FEC-457A-83D0-3B319029ECD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "쉘정렬", "쉘정렬\쉘정렬.vcxproj", "{E385E510-6137-471C-967E-E4719AD9BAF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,6 +110,16 @@ Global
 		{C8EE5694-9FEC-457A-83D0-3B319029ECD4}.Release|x64.Build.0 = Release|x64
 		{C8EE5694-9FEC-457A-83D0-3B319029ECD4}.Release|x86.ActiveCfg = Release|Win32
 		{C8EE5694-9FEC-457A-83D0-3B319029ECD4}.Release|x86.Build.0 = Release|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Debug|x64.ActiveCfg = Debug|x64
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Debug|x64.Build.0 = Debug|x64
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Debug|x86.Build.0 = Debug|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Release|x64.ActiveCfg = Release|x64
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Release|x64.Build.0 = Release|x64
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Release|x86.ActiveCfg = Release|Win32
+		{E385E510-6137-471C-967E-E4719AD9BAF5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
