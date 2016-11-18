@@ -45,18 +45,19 @@ void intervalSort(int a[], int begin, int end, int interval)
 void ShellSort(int a[], int size)
 {
 	int i, t, interval;
-	for (t = 0; t<size; t++)
+	for (t = 0; t < size; t++)
 		printf("%d \n", a[t]);
-		interval = size / 2;                            //간격을 나눔
+	interval = size / 2;                            //간격을 나눔
 
-	while (interval >= 1) 
+	while (interval >= 1)
 	{
-		for (i = 0; i<interval; i++)
+		for (i = 0; i < interval; i++)
 			intervalSort(a, i, size - 1, interval); //간격을 나누는 함수 호출
-			printf("interval = %d  >> ", interval);
+		printf("interval = %d  >> ", interval);
 
-		for (t = 0; t<size; t++) 
+		for (t = 0; t < size; t++)
 			printf("%d \n", a[t]);
-			interval = interval / 2;
-}
+		interval = interval / 2;
+	}
 	printf("\n [총 데이터 비교 횟수: %d번 ]\n", count);   //비교횟수 출력
+}
