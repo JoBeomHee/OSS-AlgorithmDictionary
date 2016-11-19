@@ -23,19 +23,6 @@ namespace Algorithm_Dictionary.자료구조_Form.이진탐색트리
             InitializeComponent();
         }
 
-        private void btn_back_Click(object sender, EventArgs e)
-        {
-            am = new AlgorithmMenu();
-            am.FormClosed += Am_FormClosed;
-            am.Show();
-            this.Close();
-        }
-
-        private void Am_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            am = null;
-        }
-
         private void BinarySearchTree_Load(object sender, EventArgs e)
         {
             tb_description.AppendText("이진탐색트리는 각 노드가 최대 2개의 child node를 갖는 이진트리의 특수한 형태입니다.\r\n이진탐색트리는 데이터를 정렬된 형태로 보관하기 때문에 효율적으로 탐색 연산을 수행할 수 있습니다.\r\n평균적으로 이진 탐색 트리에서 탐색 연산의 시간복잡도는 O(log2 n)입니다.\r\n그러나 이진 탐색 트리는 입력되는 값의 순서에 따라 트리의 구성이 달라지기 때문에 트리가 한쪽으로 기울어진 평향 이진 트리가 생성될수 있습니다.\r\n이러한 경우에는 탐색 연산의 시간복잡도가 O(n)으로 급증합니다.\r\n이진탐색 트리의 정의로는 각 노드는 최대 2개의 child node만을 가질수 있고, 노드의 왼쪽 subtree는 그 노드의 값보다 작은 값들을 지닌 노드들로 이루어 집니다.\r\n그리고 노드의 오른쪽 subtree는 그 노드의 값보다 큰 값들을 지닌 노드들로 이루어 지고 좌우 subtree는 각각이 다시 이진 탐색 트리입니다.\r\n그리고 각 노드의 값은 중복을 허용하지 않는 다는 특징이 있습니다.");
@@ -95,6 +82,19 @@ namespace Algorithm_Dictionary.자료구조_Form.이진탐색트리
         private void Bstf_FormClosed(object sender, FormClosedEventArgs e)
         {
             bstf = null;
+        }
+
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            am = null;
         }
     }
 }

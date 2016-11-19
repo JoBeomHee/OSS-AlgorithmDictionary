@@ -141,5 +141,18 @@ namespace Algorithm_Dictionary.자료구조_Form.링크드리스트
         {
             le = null;
         }
+
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed1;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed1(object sender, FormClosedEventArgs e)
+        {
+            am = null;
+        }
     }
 }

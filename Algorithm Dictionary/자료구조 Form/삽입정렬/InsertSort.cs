@@ -39,7 +39,8 @@ namespace Algorithm_Dictionary.자료구조_Form.삽입정렬
             sort = null;
         }
 
-        private void btn_back_Click(object sender, EventArgs e)
+
+        private void pb_back_Click(object sender, EventArgs e)
         {
             am = new AlgorithmMenu();
             am.FormClosed += Am_FormClosed;

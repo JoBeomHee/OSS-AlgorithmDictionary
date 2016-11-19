@@ -30,9 +30,10 @@
         {
             this.tb_Search = new System.Windows.Forms.TextBox();
             this.lb_menu = new System.Windows.Forms.ListBox();
-            this.btn_exit = new System.Windows.Forms.Button();
+            this.pb_exit = new System.Windows.Forms.PictureBox();
             this.pb_Search = new System.Windows.Forms.PictureBox();
             this.pb_Main = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).BeginInit();
             this.SuspendLayout();
@@ -77,24 +78,23 @@
             this.lb_menu.SelectedIndexChanged += new System.EventHandler(this.lb_menu_SelectedIndexChanged);
             this.lb_menu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lb_Enter);
             // 
-            // btn_exit
+            // pb_exit
             // 
-            this.btn_exit.BackColor = System.Drawing.SystemColors.Window;
-            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_exit.FlatAppearance.BorderSize = 0;
-            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_exit.Location = new System.Drawing.Point(424, 4);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(31, 26);
-            this.btn_exit.TabIndex = 22;
-            this.btn_exit.Text = "X";
-            this.btn_exit.UseVisualStyleBackColor = false;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            this.pb_exit.BackColor = System.Drawing.Color.White;
+            this.pb_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_exit.Image = global::Algorithm_Dictionary.Properties.Resources.끄기;
+            this.pb_exit.Location = new System.Drawing.Point(418, 5);
+            this.pb_exit.Name = "pb_exit";
+            this.pb_exit.Size = new System.Drawing.Size(36, 25);
+            this.pb_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_exit.TabIndex = 24;
+            this.pb_exit.TabStop = false;
+            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
             // 
             // pb_Search
             // 
             this.pb_Search.BackColor = System.Drawing.Color.White;
+            this.pb_Search.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Search.Image = global::Algorithm_Dictionary.Properties.Resources.검색이미지;
             this.pb_Search.Location = new System.Drawing.Point(405, 36);
             this.pb_Search.Name = "pb_Search";
@@ -124,8 +124,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(467, 379);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_exit);
             this.Controls.Add(this.pb_Search);
-            this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.pb_Main);
             this.Controls.Add(this.lb_menu);
             this.Controls.Add(this.tb_Search);
@@ -133,6 +133,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AlgorithmMenu";
             this.Text = "알고리즘 종류";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).EndInit();
             this.ResumeLayout(false);
@@ -144,7 +145,7 @@
         private System.Windows.Forms.TextBox tb_Search;
         private System.Windows.Forms.ListBox lb_menu;
         private System.Windows.Forms.PictureBox pb_Main;
-        private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.PictureBox pb_Search;
+        private System.Windows.Forms.PictureBox pb_exit;
     }
 }

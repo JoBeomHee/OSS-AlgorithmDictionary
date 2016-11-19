@@ -24,19 +24,6 @@ namespace Algorithm_Dictionary.자료구조_Form.큐
             InitializeComponent();
         }
 
-        private void btn_back_Click(object sender, EventArgs e)
-        {
-            am = new AlgorithmMenu();
-            am.FormClosed += Am_FormClosed;
-            am.Show();
-            this.Close();
-        }
-
-        private void Am_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            am = null;
-        }
-
         private void Queue_Load(object sender, EventArgs e)
         {
             tb_description.AppendText("큐는 순차적으로 자료를 보관하고 가장 최근에 보관한 자료를 꺼내는(FIFO, First In First Out) 버퍼입니다.\r\n여기에서는 버퍼의 크기가 정적인 배열로 정의하는 것을 먼저 구현할 겁니다.\r\n배열로 큐를 정의할 때 자료를 보관하는 버퍼 외에 자료를 보관할 위치와 꺼낼 인덱스를 기억하고 있습니다.\r\n보관할 위치는 맨 뒤에 보관해서 rear라고 부르고 꺼낼 위치는 맨 앞이어서 front라 부릅니다.\r\n그리고 큐에 자료를 보관하는 행위를 EnQueue 혹은 Put이라 부릅니다.\r\n큐에서 자료를 꺼내는 행위는 DeDueue 혹은 Get이라 부릅니다.\r\n그리고 배열로 큐를 구현할 때는 큐가 비었는지 혹은 꽉 찼는지 확인할 수 있는 기능을 제공합니다.\r\n다음은 배열로 구현한 원형 큐입니다.원형 큐는 맨 뒤에 보관한 다음 다시 앞에 보관하는 큐를 말합니다.\r\n이와 같이 보관하면 큐가 꽉 찼을 때와 비었을 때 구분하지 못하는 문제가 있습니다.\r\n이를 해결하는 방법 중에 rear 다음이 front일 때 꽉 찬 것으로 취급하는 방법이 있습니다.\r\n여기에서는 이 방법을 사용하여 구현했습니다.\r\n우리는 원형큐를 가지고 큐를 구현하겠습니다.");
@@ -110,6 +97,19 @@ namespace Algorithm_Dictionary.자료구조_Form.큐
         private void Qd_FormClosed(object sender, FormClosedEventArgs e)
         {
             qd = null;
+        }
+
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            am = null;
         }
     }
 }

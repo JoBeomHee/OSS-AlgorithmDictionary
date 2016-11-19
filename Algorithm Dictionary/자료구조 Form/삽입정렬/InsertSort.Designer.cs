@@ -33,9 +33,10 @@
             this.tb_sort = new System.Windows.Forms.TextBox();
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
-            this.btn_back = new System.Windows.Forms.Button();
             this.pb_insertSort = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_insertSort)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_sort
@@ -98,20 +99,6 @@
             this.tb_description.Size = new System.Drawing.Size(423, 111);
             this.tb_description.TabIndex = 10;
             // 
-            // btn_back
-            // 
-            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(900, 1);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(81, 54);
-            this.btn_back.TabIndex = 19;
-            this.btn_back.Text = "←";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
-            // 
             // pb_insertSort
             // 
             this.pb_insertSort.Image = global::Algorithm_Dictionary.Properties.Resources.삽입정렬;
@@ -122,6 +109,18 @@
             this.pb_insertSort.TabIndex = 20;
             this.pb_insertSort.TabStop = false;
             // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(913, 2);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 22;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // InsertSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -129,8 +128,8 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(988, 468);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_insertSort);
-            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.lb_sort);
             this.Controls.Add(this.btn_sort);
             this.Controls.Add(this.tb_sort);
@@ -141,6 +140,7 @@
             this.Text = "삽입정렬";
             this.Load += new System.EventHandler(this.InsertSort_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_insertSort)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,7 +152,7 @@
         private System.Windows.Forms.TextBox tb_sort;
         private System.Windows.Forms.Label lb_description;
         private System.Windows.Forms.TextBox tb_description;
-        private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.PictureBox pb_insertSort;
+        private System.Windows.Forms.PictureBox pb_back;
     }
 }

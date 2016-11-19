@@ -27,19 +27,6 @@ namespace Algorithm_Dictionary.자료구조_Form.쉘정렬
             tb_sort.AppendText("쉘 정렬 함수는 비교 및 정렬해주는 함수와 간격을 나누는 함수 이렇게 두개의 함수가 필요합니다.여기서 정렬을 해주는 함수를 intervalSort라고 선언하고 간격을 나누는 함수를 ShellSort라고 선언해줍니다. 각각의 함수들의 더 사제한 설명은 아래 코드보기 버튼을 클릭하시면 코드와 함께 주석으로 각각의 가능들에 대해서 자세히 볼 수 있습니다.");
         }
 
-        private void btn_back_Click(object sender, EventArgs e)
-        {
-            am = new AlgorithmMenu();
-            am.FormClosed += Am_FormClosed;
-            am.Show();
-            this.Close();
-        }
-
-        private void Am_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            am = null;
-        }
-
         private void btn_sort_Click(object sender, EventArgs e)
         {
             ssi = new ShellShortInterval();
@@ -50,6 +37,19 @@ namespace Algorithm_Dictionary.자료구조_Form.쉘정렬
         private void Ssi_FormClosed(object sender, FormClosedEventArgs e)
         {
             ssi = null;
+        }
+
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            am = new AlgorithmMenu();
+            am.FormClosed += Am_FormClosed;
+            am.Show();
+            this.Close();
+        }
+
+        private void Am_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            am = null;
         }
     }
 }

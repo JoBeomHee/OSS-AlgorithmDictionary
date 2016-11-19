@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_back = new System.Windows.Forms.Button();
             this.lb_newNode = new System.Windows.Forms.Label();
             this.lb_init = new System.Windows.Forms.Label();
             this.btn_malloclist = new System.Windows.Forms.Button();
@@ -44,22 +43,10 @@
             this.btn_free = new System.Windows.Forms.Button();
             this.tb_free = new System.Windows.Forms.TextBox();
             this.pb_binarySearchTree = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_binarySearchTree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_back
-            // 
-            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(1035, 3);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(81, 54);
-            this.btn_back.TabIndex = 27;
-            this.btn_back.Text = "←";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // lb_newNode
             // 
@@ -242,6 +229,18 @@
             this.pb_binarySearchTree.TabIndex = 34;
             this.pb_binarySearchTree.TabStop = false;
             // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(1047, 4);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 39;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // BinarySearchTree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -250,6 +249,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1133, 643);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_binarySearchTree);
             this.Controls.Add(this.lb_free);
             this.Controls.Add(this.btn_free);
@@ -257,7 +257,6 @@
             this.Controls.Add(this.lb_insert);
             this.Controls.Add(this.btn_insert);
             this.Controls.Add(this.tb_insert);
-            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.lb_newNode);
             this.Controls.Add(this.lb_init);
             this.Controls.Add(this.btn_malloclist);
@@ -271,14 +270,13 @@
             this.Text = "이진탐색트리";
             this.Load += new System.EventHandler(this.BinarySearchTree_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_binarySearchTree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.Label lb_newNode;
         private System.Windows.Forms.Label lb_init;
         private System.Windows.Forms.Button btn_malloclist;
@@ -294,5 +292,6 @@
         private System.Windows.Forms.Button btn_free;
         private System.Windows.Forms.TextBox tb_free;
         private System.Windows.Forms.PictureBox pb_binarySearchTree;
+        private System.Windows.Forms.PictureBox pb_back;
     }
 }

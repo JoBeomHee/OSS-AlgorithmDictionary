@@ -157,10 +157,6 @@ namespace Algorithm_Dictionary
             }
         }
 
-        private void btn_exit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
 
         private void lb_menu_SelectedIndexChanged(object sender, EventArgs e) // 리스트 박스 선택
         {
@@ -245,6 +241,11 @@ namespace Algorithm_Dictionary
                 pb_Search_Click(sender, e);
 
             }
+        }
+
+        private void pb_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_back = new System.Windows.Forms.Button();
             this.lb_decription = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
             this.lb_ = new System.Windows.Forms.Label();
@@ -47,22 +46,10 @@
             this.tb_dispose = new System.Windows.Forms.TextBox();
             this.lb_Dispose = new System.Windows.Forms.Label();
             this.pb_Queue = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_back
-            // 
-            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(1044, 6);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(91, 54);
-            this.btn_back.TabIndex = 22;
-            this.btn_back.Text = "←";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // lb_decription
             // 
@@ -282,6 +269,18 @@
             this.pb_Queue.TabIndex = 38;
             this.pb_Queue.TabStop = false;
             // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(1067, 12);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 40;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // Queue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -289,6 +288,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1147, 780);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_Queue);
             this.Controls.Add(this.btn_dispose);
             this.Controls.Add(this.tb_dispose);
@@ -305,7 +305,6 @@
             this.Controls.Add(this.btn_stack);
             this.Controls.Add(this.tb_Init);
             this.Controls.Add(this.lb_);
-            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.lb_decription);
             this.Controls.Add(this.tb_description);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -313,14 +312,13 @@
             this.Text = "Queue";
             this.Load += new System.EventHandler(this.Queue_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.Label lb_decription;
         private System.Windows.Forms.TextBox tb_description;
         private System.Windows.Forms.Label lb_;
@@ -339,5 +337,6 @@
         private System.Windows.Forms.TextBox tb_dispose;
         private System.Windows.Forms.Label lb_Dispose;
         private System.Windows.Forms.PictureBox pb_Queue;
+        private System.Windows.Forms.PictureBox pb_back;
     }
 }

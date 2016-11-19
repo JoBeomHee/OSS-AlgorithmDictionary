@@ -18,7 +18,7 @@ namespace Algorithm_Dictionary.자료구조_Form.깊이우선탐색
             InitializeComponent();
         }
 
-        private void btn_back_Click(object sender, EventArgs e)
+        private void pb_back_Click(object sender, EventArgs e)
         {
             am = new AlgorithmMenu();
             am.FormClosed += Am_FormClosed;

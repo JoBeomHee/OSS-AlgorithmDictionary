@@ -36,8 +36,9 @@
             this.btn_pop = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btn_back = new System.Windows.Forms.Button();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             this.pb_Stack = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Stack)).BeginInit();
             this.SuspendLayout();
             // 
@@ -137,19 +138,17 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Stack 삭제";
             // 
-            // btn_back
+            // pb_back
             // 
-            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(710, -3);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(81, 54);
-            this.btn_back.TabIndex = 19;
-            this.btn_back.Text = "←";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(723, 3);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 21;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // pb_Stack
             // 
@@ -169,8 +168,8 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(809, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_Stack);
-            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_pop);
@@ -183,6 +182,7 @@
             this.Name = "Stack";
             this.Text = "스택";
             this.Load += new System.EventHandler(this.Stack_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Stack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -198,7 +198,7 @@
         private System.Windows.Forms.Button btn_pop;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.PictureBox pb_Stack;
+        private System.Windows.Forms.PictureBox pb_back;
     }
 }

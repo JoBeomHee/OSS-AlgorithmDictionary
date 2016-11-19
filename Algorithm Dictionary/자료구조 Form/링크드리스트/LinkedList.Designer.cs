@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_back = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_malloclist = new System.Windows.Forms.Button();
@@ -54,23 +53,11 @@
             this.btn_Erase = new System.Windows.Forms.Button();
             this.pb_Node_remove = new System.Windows.Forms.PictureBox();
             this.pb_Node_insert = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Node_remove)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Node_insert)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_back
-            // 
-            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("굴림", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_back.Location = new System.Drawing.Point(1308, 14);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(81, 54);
-            this.btn_back.TabIndex = 18;
-            this.btn_back.Text = "←";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // label3
             // 
@@ -374,14 +361,27 @@
             this.pb_Node_insert.TabIndex = 34;
             this.pb_Node_insert.TabStop = false;
             // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(1301, 12);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 36;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // LinkedList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1400, 930);
+            this.ClientSize = new System.Drawing.Size(1417, 930);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_Node_remove);
             this.Controls.Add(this.pb_Node_insert);
             this.Controls.Add(this.btn_Erase);
@@ -399,7 +399,6 @@
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.tb_Delete);
             this.Controls.Add(this.lb_Delete);
-            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_malloclist);
@@ -414,14 +413,13 @@
             this.Load += new System.EventHandler(this.LinkedList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_Node_remove)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Node_insert)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_malloclist;
@@ -447,5 +445,6 @@
         private System.Windows.Forms.Button btn_Erase;
         private System.Windows.Forms.PictureBox pb_Node_insert;
         private System.Windows.Forms.PictureBox pb_Node_remove;
+        private System.Windows.Forms.PictureBox pb_back;
     }
 }
