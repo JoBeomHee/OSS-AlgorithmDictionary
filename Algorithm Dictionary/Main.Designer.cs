@@ -69,13 +69,13 @@
             this.btn_start.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_start.FlatAppearance.BorderSize = 0;
             this.btn_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_start.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_start.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_start.ForeColor = System.Drawing.Color.Teal;
             this.btn_start.Location = new System.Drawing.Point(29, 394);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(174, 71);
             this.btn_start.TabIndex = 2;
-            this.btn_start.Text = "시작하기";
+            this.btn_start.Text = "START";
             this.btn_start.UseVisualStyleBackColor = false;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
@@ -116,13 +116,13 @@
             this.btn_exit.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_exit.FlatAppearance.BorderSize = 0;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_exit.Font = new System.Drawing.Font("굴림", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btn_exit.ForeColor = System.Drawing.Color.Teal;
             this.btn_exit.Location = new System.Drawing.Point(209, 394);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(174, 71);
             this.btn_exit.TabIndex = 6;
-            this.btn_exit.Text = "종료하기";
+            this.btn_exit.Text = "EXIT";
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
