@@ -231,7 +231,7 @@ namespace Algorithm_Dictionary
             if (lb_menu.SelectedIndex == 17)
             {
                 tb_Search.Text = "머지정렬";
-            }
+            }         
         }
 
         private void lb_Enter(object sender, KeyPressEventArgs e)  //엔터키 눌렀을 때 적용
