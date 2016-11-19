@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.tb_Search = new System.Windows.Forms.TextBox();
-            this.btn_Search = new System.Windows.Forms.Button();
             this.lb_menu = new System.Windows.Forms.ListBox();
-            this.pb_Main = new System.Windows.Forms.PictureBox();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.pb_Search = new System.Windows.Forms.PictureBox();
+            this.pb_Main = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,22 +44,7 @@
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 1;
- 
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
-            // 
-            // btn_Search
-            // 
-            this.btn_Search.AllowDrop = true;
-            this.btn_Search.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Search.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Search.Location = new System.Drawing.Point(406, 36);
-            this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(99, 29);
-            this.btn_Search.TabIndex = 2;
-            this.btn_Search.Text = "검색";
-            this.btn_Search.UseVisualStyleBackColor = true;
-            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
-            this.btn_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Key_Enter);
             // 
             // lb_menu
             // 
@@ -86,10 +72,37 @@
             "머지정렬"});
             this.lb_menu.Location = new System.Drawing.Point(12, 93);
             this.lb_menu.Name = "lb_menu";
-            this.lb_menu.Size = new System.Drawing.Size(495, 268);
+            this.lb_menu.Size = new System.Drawing.Size(443, 268);
             this.lb_menu.TabIndex = 20;
             this.lb_menu.SelectedIndexChanged += new System.EventHandler(this.lb_menu_SelectedIndexChanged);
             this.lb_menu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lb_Enter);
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.BackColor = System.Drawing.SystemColors.Window;
+            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_exit.FlatAppearance.BorderSize = 0;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exit.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_exit.Location = new System.Drawing.Point(424, 4);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(31, 26);
+            this.btn_exit.TabIndex = 22;
+            this.btn_exit.Text = "X";
+            this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            // 
+            // pb_Search
+            // 
+            this.pb_Search.BackColor = System.Drawing.Color.White;
+            this.pb_Search.Image = global::Algorithm_Dictionary.Properties.Resources.검색이미지;
+            this.pb_Search.Location = new System.Drawing.Point(405, 36);
+            this.pb_Search.Name = "pb_Search";
+            this.pb_Search.Size = new System.Drawing.Size(49, 29);
+            this.pb_Search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Search.TabIndex = 23;
+            this.pb_Search.TabStop = false;
+            this.pb_Search.Click += new System.EventHandler(this.pb_Search_Click);
             // 
             // pb_Main
             // 
@@ -102,21 +115,6 @@
             this.pb_Main.TabIndex = 21;
             this.pb_Main.TabStop = false;
             // 
-            // btn_exit
-            // 
-            this.btn_exit.BackColor = System.Drawing.SystemColors.Window;
-            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_exit.FlatAppearance.BorderSize = 0;
-            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_exit.Location = new System.Drawing.Point(475, 4);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(31, 26);
-            this.btn_exit.TabIndex = 22;
-            this.btn_exit.Text = "X";
-            this.btn_exit.UseVisualStyleBackColor = false;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
-            // 
             // AlgorithmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -124,17 +122,18 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(517, 379);
+            this.ClientSize = new System.Drawing.Size(467, 379);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_Search);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.pb_Main);
             this.Controls.Add(this.lb_menu);
-            this.Controls.Add(this.btn_Search);
             this.Controls.Add(this.tb_Search);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AlgorithmMenu";
             this.Text = "알고리즘 종류";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -143,9 +142,9 @@
 
         #endregion
         private System.Windows.Forms.TextBox tb_Search;
-        private System.Windows.Forms.Button btn_Search;
         private System.Windows.Forms.ListBox lb_menu;
         private System.Windows.Forms.PictureBox pb_Main;
         private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.PictureBox pb_Search;
     }
 }

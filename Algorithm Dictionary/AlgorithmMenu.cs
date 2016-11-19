@@ -34,9 +34,8 @@ namespace Algorithm_Dictionary
             InitializeComponent();
         }
 
-        private void btn_Search_Click(object sender, EventArgs e)
+        private void pb_Search_Click(object sender, EventArgs e)
         {
-
             if (tb_Search.Text.ToString() == "스택")
             {
                 stack = new Stack();
@@ -58,14 +57,14 @@ namespace Algorithm_Dictionary
                 Is.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "선택정렬")
+            if (tb_Search.Text.ToString() == "선택정렬")
             {
                 ss = new SelectionSort();
                 ss.FormClosed += Ss_FormClosed;
                 ss.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "이진탐색트리")
+            if (tb_Search.Text.ToString() == "이진탐색트리")
             {
                 bst = new BinarySearchTree();
                 bst.FormClosed += Bst_FormClosed;
@@ -79,14 +78,14 @@ namespace Algorithm_Dictionary
                 q.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "쉘정렬")
+            if (tb_Search.Text.ToString() == "쉘정렬")
             {
                 shellSort = new ShellSort();
                 shellSort.FormClosed += ShellSort_FormClosed;
                 shellSort.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "깊이우선탐색")
+            if (tb_Search.Text.ToString() == "깊이우선탐색")
             {
                 dfs = new DepthFirstSearch();
                 dfs.FormClosed += Dfs_FormClosed;
@@ -144,7 +143,7 @@ namespace Algorithm_Dictionary
         {
             if (e.KeyChar == '\r')
             {
-                btn_Search_Click(sender, e);
+                pb_Search_Click(sender, e);
 
             }
         }
@@ -153,7 +152,7 @@ namespace Algorithm_Dictionary
         {
             if (e.KeyChar == '\r')
             {
-                btn_Search_Click(sender, e);
+                pb_Search_Click(sender, e);
 
             }
         }
@@ -243,11 +242,9 @@ namespace Algorithm_Dictionary
         {
             if (e.KeyChar == '\r')
             {
-                btn_Search_Click(sender, e);
+                pb_Search_Click(sender, e);
 
             }
         }
-
-
     }
 }

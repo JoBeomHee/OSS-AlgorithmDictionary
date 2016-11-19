@@ -63,9 +63,29 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap AlgorithmDictionary_아이콘 {
             get {
                 object obj = ResourceManager.GetObject("AlgorithmDictionary 아이콘", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 검색이미지 {
+            get {
+                object obj = ResourceManager.GetObject("검색이미지", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

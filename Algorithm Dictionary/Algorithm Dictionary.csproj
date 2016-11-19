@@ -360,6 +360,8 @@
     <None Include="Resources\트리 아이콘.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\1.PNG" />
+    <None Include="Resources\검색이미지.PNG" />
     <Content Include="Resources\삽입정렬.PNG" />
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />
