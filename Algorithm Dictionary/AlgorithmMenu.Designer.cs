@@ -43,6 +43,7 @@
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 1;
+ 
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
             // 
             // btn_Search
