@@ -247,18 +247,5 @@ namespace Algorithm_Dictionary
         {
             this.Close();
         }
-
-        private void AlgorithmMenu_Load(object sender, EventArgs e)
-        {
-            tb_Search.Text = "Search";
-        }
-
-        private void tb_Search_TextChanged(object sender, EventArgs e)
-        {
-            if(tb_Search.Text.ToString() == "Search")
-            {
-                tb_Search.Clear();
-            }
-        }
     }
 }

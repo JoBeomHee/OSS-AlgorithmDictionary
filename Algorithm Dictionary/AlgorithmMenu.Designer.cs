@@ -45,7 +45,6 @@
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 0;
-            this.tb_Search.TextChanged += new System.EventHandler(this.tb_Search_TextChanged);
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
             // 
             // lb_menu
@@ -134,7 +133,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AlgorithmMenu";
             this.Text = "알고리즘 종류";
-            this.Load += new System.EventHandler(this.AlgorithmMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).EndInit();
