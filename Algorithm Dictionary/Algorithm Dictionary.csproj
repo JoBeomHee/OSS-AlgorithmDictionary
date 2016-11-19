@@ -150,6 +150,18 @@
     <Compile Include="자료구조 Form\선택정렬\Sort.Designer.cs">
       <DependentUpon>Sort.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\쉘정렬\ShellShortInterval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\쉘정렬\ShellShortInterval.Designer.cs">
+      <DependentUpon>ShellShortInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\쉘정렬\ShellSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\쉘정렬\ShellSort.Designer.cs">
+      <DependentUpon>ShellSort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -276,6 +288,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\선택정렬\Sort.resx">
       <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\쉘정렬\ShellShortInterval.resx">
+      <DependentUpon>ShellShortInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\쉘정렬\ShellSort.resx">
+      <DependentUpon>ShellSort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTree.resx">
       <DependentUpon>BinarySearchTree.cs</DependentUpon>

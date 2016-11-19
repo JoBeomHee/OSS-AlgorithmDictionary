@@ -1,6 +1,7 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
+using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using Algorithm_Dictionary.자료구조_Form.큐;
 using System;
@@ -23,7 +24,8 @@ namespace Algorithm_Dictionary
         InsertSort Is;
         SelectionSort ss;
         BinarySearchTree bst;
-        Queue q; 
+        Queue q;
+        ShellSort shellSort;
 
         public AlgorithmMenu()
         {
@@ -75,6 +77,18 @@ namespace Algorithm_Dictionary
                 q.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "쉘정렬")
+            {
+                shellSort = new ShellSort();
+                shellSort.FormClosed += ShellSort_FormClosed;
+                shellSort.Show();
+                this.Close();
+            }
+        }
+
+        private void ShellSort_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            shellSort = null;
         }
 
         private void Q_FormClosed(object sender, FormClosedEventArgs e)
