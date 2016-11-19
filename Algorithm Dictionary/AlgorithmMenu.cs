@@ -1,4 +1,5 @@
-﻿using Algorithm_Dictionary.자료구조_Form.링크드리스트;
+﻿using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
+using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using Algorithm_Dictionary.자료구조_Form.쉘정렬;
@@ -26,6 +27,7 @@ namespace Algorithm_Dictionary
         BinarySearchTree bst;
         Queue q;
         ShellSort shellSort;
+        DepthFirstSearch dfs;
 
         public AlgorithmMenu()
         {
@@ -84,6 +86,18 @@ namespace Algorithm_Dictionary
                 shellSort.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "깊이우선탐색")
+            {
+                dfs = new DepthFirstSearch();
+                dfs.FormClosed += Dfs_FormClosed;
+                dfs.Show();
+                this.Close();
+            }
+        }
+
+        private void Dfs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            dfs = null;
         }
 
         private void ShellSort_FormClosed(object sender, FormClosedEventArgs e)

@@ -78,6 +78,12 @@
     <Compile Include="자료구조 Form\Stack\StackPush.Designer.cs">
       <DependentUpon>StackPush.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\깊이우선탐색\DepthFirstSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\깊이우선탐색\DepthFirstSearch.Designer.cs">
+      <DependentUpon>DepthFirstSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\링크드리스트\LinkedList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\Stack\StackPush.resx">
       <DependentUpon>StackPush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\깊이우선탐색\DepthFirstSearch.resx">
+      <DependentUpon>DepthFirstSearch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList.resx">
       <DependentUpon>LinkedList.cs</DependentUpon>
