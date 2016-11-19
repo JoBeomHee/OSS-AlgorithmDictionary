@@ -69,5 +69,10 @@ namespace Algorithm_Dictionary
         {
             am = null;
         }
+
+        private void lb_link_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://ehclub.co.kr/2562");
+        }
     }
 }

@@ -52,5 +52,10 @@ namespace Algorithm_Dictionary.자료구조_Form.삽입정렬
         {
             am = null;
         }
+
+        private void lb_link_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://ehclub.co.kr/1548");
+        }
     }
 }

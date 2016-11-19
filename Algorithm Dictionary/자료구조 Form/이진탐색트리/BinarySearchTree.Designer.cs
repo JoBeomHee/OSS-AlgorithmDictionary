@@ -44,6 +44,8 @@
             this.tb_free = new System.Windows.Forms.TextBox();
             this.pb_binarySearchTree = new System.Windows.Forms.PictureBox();
             this.pb_back = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lb_link = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_binarySearchTree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
@@ -87,7 +89,7 @@
             // tb_Node
             // 
             this.tb_Node.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Node.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_Node.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Node.Location = new System.Drawing.Point(11, 378);
             this.tb_Node.Multiline = true;
             this.tb_Node.Name = "tb_Node";
@@ -113,7 +115,7 @@
             // tb_NewNode
             // 
             this.tb_NewNode.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_NewNode.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_NewNode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_NewNode.Location = new System.Drawing.Point(11, 224);
             this.tb_NewNode.Multiline = true;
             this.tb_NewNode.Name = "tb_NewNode";
@@ -136,7 +138,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(11, 63);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -173,7 +175,7 @@
             // tb_insert
             // 
             this.tb_insert.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_insert.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_insert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_insert.Location = new System.Drawing.Point(581, 88);
             this.tb_insert.Multiline = true;
             this.tb_insert.Name = "tb_insert";
@@ -210,7 +212,7 @@
             // tb_free
             // 
             this.tb_free.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_free.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_free.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_free.Location = new System.Drawing.Point(12, 524);
             this.tb_free.Multiline = true;
             this.tb_free.Name = "tb_free";
@@ -241,6 +243,29 @@
             this.pb_back.TabStop = false;
             this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(861, 544);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 12);
+            this.label4.TabIndex = 46;
+            this.label4.Text = "참고 사이트 :";
+            // 
+            // lb_link
+            // 
+            this.lb_link.AutoSize = true;
+            this.lb_link.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lb_link.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_link.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lb_link.Location = new System.Drawing.Point(950, 544);
+            this.lb_link.Name = "lb_link";
+            this.lb_link.Size = new System.Drawing.Size(165, 12);
+            this.lb_link.TabIndex = 45;
+            this.lb_link.Text = "http://ehclub.co.kr/1499";
+            this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
+            // 
             // BinarySearchTree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -249,6 +274,8 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1133, 643);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_binarySearchTree);
             this.Controls.Add(this.lb_free);
@@ -293,5 +320,7 @@
         private System.Windows.Forms.TextBox tb_free;
         private System.Windows.Forms.PictureBox pb_binarySearchTree;
         private System.Windows.Forms.PictureBox pb_back;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lb_link;
     }
 }

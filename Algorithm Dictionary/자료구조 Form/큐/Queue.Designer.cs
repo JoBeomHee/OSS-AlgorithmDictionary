@@ -47,6 +47,8 @@
             this.lb_Dispose = new System.Windows.Forms.Label();
             this.pb_Queue = new System.Windows.Forms.PictureBox();
             this.pb_back = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lb_link = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +67,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(12, 66);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -88,7 +90,7 @@
             // tb_Init
             // 
             this.tb_Init.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Init.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_Init.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Init.Location = new System.Drawing.Point(13, 233);
             this.tb_Init.Multiline = true;
             this.tb_Init.Name = "tb_Init";
@@ -125,7 +127,7 @@
             // tb_FullEmpty
             // 
             this.tb_FullEmpty.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_FullEmpty.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_FullEmpty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_FullEmpty.Location = new System.Drawing.Point(12, 426);
             this.tb_FullEmpty.Multiline = true;
             this.tb_FullEmpty.Name = "tb_FullEmpty";
@@ -165,7 +167,7 @@
             // tb_Enqueue
             // 
             this.tb_Enqueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_Enqueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_Enqueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_Enqueue.Location = new System.Drawing.Point(598, 66);
             this.tb_Enqueue.Multiline = true;
             this.tb_Enqueue.Name = "tb_Enqueue";
@@ -202,7 +204,7 @@
             // tb_DeQueue
             // 
             this.tb_DeQueue.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_DeQueue.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_DeQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_DeQueue.Location = new System.Drawing.Point(598, 233);
             this.tb_DeQueue.Multiline = true;
             this.tb_DeQueue.Name = "tb_DeQueue";
@@ -239,7 +241,7 @@
             // tb_dispose
             // 
             this.tb_dispose.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_dispose.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_dispose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_dispose.Location = new System.Drawing.Point(12, 614);
             this.tb_dispose.Multiline = true;
             this.tb_dispose.Name = "tb_dispose";
@@ -281,6 +283,29 @@
             this.pb_back.TabStop = false;
             this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(881, 744);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 12);
+            this.label4.TabIndex = 48;
+            this.label4.Text = "참고 사이트 :";
+            // 
+            // lb_link
+            // 
+            this.lb_link.AutoSize = true;
+            this.lb_link.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lb_link.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_link.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lb_link.Location = new System.Drawing.Point(970, 744);
+            this.lb_link.Name = "lb_link";
+            this.lb_link.Size = new System.Drawing.Size(165, 12);
+            this.lb_link.TabIndex = 47;
+            this.lb_link.Text = "http://ehclub.co.kr/2559";
+            this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
+            // 
             // Queue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -288,6 +313,8 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1147, 780);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_Queue);
             this.Controls.Add(this.btn_dispose);
@@ -338,5 +365,7 @@
         private System.Windows.Forms.Label lb_Dispose;
         private System.Windows.Forms.PictureBox pb_Queue;
         private System.Windows.Forms.PictureBox pb_back;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lb_link;
     }
 }

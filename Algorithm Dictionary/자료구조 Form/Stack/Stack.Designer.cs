@@ -38,6 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pb_back = new System.Windows.Forms.PictureBox();
             this.pb_Stack = new System.Windows.Forms.PictureBox();
+            this.lb_link = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Stack)).BeginInit();
             this.SuspendLayout();
@@ -45,7 +47,7 @@
             // tb_description
             // 
             this.tb_description.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_description.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_description.Location = new System.Drawing.Point(18, 57);
             this.tb_description.Multiline = true;
             this.tb_description.Name = "tb_description";
@@ -68,7 +70,7 @@
             // tb_push
             // 
             this.tb_push.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_push.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_push.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_push.Location = new System.Drawing.Point(18, 445);
             this.tb_push.Multiline = true;
             this.tb_push.Name = "tb_push";
@@ -94,7 +96,7 @@
             // tb_pop
             // 
             this.tb_pop.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_pop.Font = new System.Drawing.Font("한컴바탕확장", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_pop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.tb_pop.Location = new System.Drawing.Point(18, 584);
             this.tb_pop.Multiline = true;
             this.tb_pop.Name = "tb_pop";
@@ -160,14 +162,39 @@
             this.pb_Stack.TabIndex = 20;
             this.pb_Stack.TabStop = false;
             // 
+            // lb_link
+            // 
+            this.lb_link.AutoSize = true;
+            this.lb_link.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lb_link.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_link.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lb_link.Location = new System.Drawing.Point(626, 724);
+            this.lb_link.Name = "lb_link";
+            this.lb_link.Size = new System.Drawing.Size(165, 12);
+            this.lb_link.TabIndex = 22;
+            this.lb_link.Text = "http://ehclub.co.kr/2562";
+            this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(537, 724);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 12);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "참고 사이트 :";
+            // 
             // Stack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(809, 725);
+            this.ClientSize = new System.Drawing.Size(807, 754);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
             this.Controls.Add(this.pb_Stack);
             this.Controls.Add(this.label3);
@@ -200,5 +227,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pb_Stack;
         private System.Windows.Forms.PictureBox pb_back;
+        private System.Windows.Forms.Label lb_link;
+        private System.Windows.Forms.Label label4;
     }
 }

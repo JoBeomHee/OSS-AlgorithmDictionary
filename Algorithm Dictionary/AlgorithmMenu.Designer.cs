@@ -44,12 +44,13 @@
             this.tb_Search.Location = new System.Drawing.Point(93, 36);
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
-            this.tb_Search.TabIndex = 1;
+            this.tb_Search.TabIndex = 0;
+            this.tb_Search.TextChanged += new System.EventHandler(this.tb_Search_TextChanged);
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
             // 
             // lb_menu
             // 
-            this.lb_menu.Font = new System.Drawing.Font("한컴바탕확장", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_menu.FormattingEnabled = true;
             this.lb_menu.ItemHeight = 24;
             this.lb_menu.Items.AddRange(new object[] {
@@ -74,7 +75,7 @@
             this.lb_menu.Location = new System.Drawing.Point(12, 93);
             this.lb_menu.Name = "lb_menu";
             this.lb_menu.Size = new System.Drawing.Size(443, 268);
-            this.lb_menu.TabIndex = 20;
+            this.lb_menu.TabIndex = 1;
             this.lb_menu.SelectedIndexChanged += new System.EventHandler(this.lb_menu_SelectedIndexChanged);
             this.lb_menu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lb_Enter);
             // 
@@ -133,6 +134,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AlgorithmMenu";
             this.Text = "알고리즘 종류";
+            this.Load += new System.EventHandler(this.AlgorithmMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Main)).EndInit();

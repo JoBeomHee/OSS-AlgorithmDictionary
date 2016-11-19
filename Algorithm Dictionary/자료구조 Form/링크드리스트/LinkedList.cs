@@ -154,5 +154,10 @@ namespace Algorithm_Dictionary.자료구조_Form.링크드리스트
         {
             am = null;
         }
+
+        private void lb_link_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://ehclub.co.kr/2526");
+        }
     }
 }
