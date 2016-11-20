@@ -197,7 +197,79 @@ namespace Algorithm_Dictionary
                     lb_menu.Items.Add(str);
                 }
             }
-            
+
+            if(tb_Search.Text.ToString() == "스")
+            {
+                tb_Search.Text = "스택(Stack)";
+            }
+            if (tb_Search.Text.ToString() == "연")
+            {
+                tb_Search.Text = "연결리스트(LinkedList)";
+            }
+            if (tb_Search.Text.ToString() == "큐")
+            {
+                tb_Search.Text = "큐(Queue)";
+            }
+            if (tb_Search.Text.ToString() == "크")
+            {
+                tb_Search.Text = "크루스칼알고리즘(Kurskal's algorithm)";
+            }
+            if (tb_Search.Text.ToString() == "프")
+            {
+                tb_Search.Text = "프림알고리즘(Prim's algorithm)";
+            }
+            if (tb_Search.Text.ToString() == "깊")
+            {
+                tb_Search.Text = "깊이우선탐색(Depth-first search)";
+            }
+            if (tb_Search.Text.ToString() == "너")
+            {
+                tb_Search.Text = "너비우선탐색(Breadth-first search)";
+            }
+            if (tb_Search.Text.ToString() == "이")
+            {
+                tb_Search.Text = "이진탐색트리(BinarySearchTree)";
+            }
+            if (tb_Search.Text.ToString() == "삽")
+            {
+                tb_Search.Text = "삽입정렬(InsertSort)";
+            }
+            if (tb_Search.Text.ToString() == "선")
+            {
+                tb_Search.Text = "선택정렬(SelectionSort)";
+            }
+            if (tb_Search.Text.ToString() == "쉘")
+            {
+                tb_Search.Text = "쉘정렬(ShellSort)";
+            }
+            if (tb_Search.Text.ToString() == "버")
+            {
+                tb_Search.Text = "버블정렬(BubbleSort)";
+            }
+            if (tb_Search.Text.ToString() == "힙")
+            {
+                tb_Search.Text = "힙정렬(HeapSort)";
+            }
+            if (tb_Search.Text.ToString() == "퀵")
+            {
+                tb_Search.Text = "퀵정렬(QuickSort)";
+            }
+            if (tb_Search.Text.ToString() == "카")
+            {
+                tb_Search.Text = "카운팅정렬(CountingSort)";
+            }
+            if (tb_Search.Text.ToString() == "기")
+            {
+                tb_Search.Text = "기수정렬(RadixSort)";
+            }
+            if (tb_Search.Text.ToString() == "버")
+            {
+                tb_Search.Text = "버킷정렬(BucketSort)";
+            }
+            if (tb_Search.Text.ToString() == "머")
+            {
+                tb_Search.Text = "머지정렬(MergeSort)";
+            }
         }
     }
 }
