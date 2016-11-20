@@ -107,6 +107,7 @@
             // 
             // btn_pop
             // 
+            this.btn_pop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pop.FlatAppearance.BorderSize = 0;
             this.btn_pop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_pop.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
