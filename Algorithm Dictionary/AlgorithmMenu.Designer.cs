@@ -53,29 +53,6 @@
             this.lb_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_menu.FormattingEnabled = true;
             this.lb_menu.ItemHeight = 24;
-            this.lb_menu.Items.AddRange(new object[] {
-            "스택",
-            "연결리스트",
-            "큐",
-            "크루스칼 알고리즘",
-            "프림 알고리즘",
-            "깊이우선탐색",
-            "너비우선탐색",
-            "이진탐색트리",
-            "삽입정렬",
-            "선택정렬",
-            "쉘정렬",
-            "버블정렬",
-            "힙정렬",
-            "퀵정렬",
-            "ㅅ",
-            "ㄴ",
-            "ㅅ1",
-            "ㅅㅅㅅ2",
-            "카운팅정렬",
-            "기수정렬",
-            "버킷정렬",
-            "머지정렬"});
             this.lb_menu.Location = new System.Drawing.Point(12, 93);
             this.lb_menu.Name = "lb_menu";
             this.lb_menu.Size = new System.Drawing.Size(443, 268);
