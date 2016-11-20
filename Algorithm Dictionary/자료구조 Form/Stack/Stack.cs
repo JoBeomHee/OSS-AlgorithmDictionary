@@ -50,6 +50,7 @@ namespace Algorithm_Dictionary
             pop = new StackPop();
             pop.FormClosed += Pop_FormClosed;
             pop.Show();
+
         }
 
         private void Pop_FormClosed(object sender, FormClosedEventArgs e)
@@ -62,7 +63,9 @@ namespace Algorithm_Dictionary
             am = new AlgorithmMenu();
             am.FormClosed += Am_FormClosed;
             am.Show();
-            this.Close();
+            this.Close();     
+
+
         }
 
         private void Am_FormClosed(object sender, FormClosedEventArgs e)

@@ -258,7 +258,7 @@ namespace Algorithm_Dictionary
             {
                 tb_Search.Text = "카운팅정렬(CountingSort)";
             }
-            if (tb_Search.Text.ToString() == "기")
+            if (tb_Search.Text.ToString() == "기수")
             {
                 tb_Search.Text = "기수정렬(RadixSort)";
             }
