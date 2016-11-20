@@ -6,6 +6,7 @@ using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using Algorithm_Dictionary.자료구조_Form.큐;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +26,7 @@ namespace Algorithm_Dictionary
         InsertSort Is;
         SelectionSort ss;
         BinarySearchTree bst;
-        Queue q;
+        QUeue q;
         ShellSort shellSort;
         DepthFirstSearch dfs;
 
@@ -73,7 +74,7 @@ namespace Algorithm_Dictionary
             }
             if (tb_Search.Text.ToString() == "큐")
             {
-                q = new Queue();
+                q = new QUeue();
                 q.FormClosed += Q_FormClosed;
                 q.Show();
                 this.Close();
@@ -246,6 +247,19 @@ namespace Algorithm_Dictionary
         private void pb_exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void tb_Search_TextChanged(object sender, EventArgs e)
+        {
+            var itemList = lb_menu.Items.Cast<String>().ToList();
+
+            if(itemList.Count>0)
+            {
+                lb_menu.Items.Clear();
+                
+                lb_menu.Items.AddRange(
+                    itemList.Where(i => i.Contains(tb_Search.Text)).ToArray());
+            }
         }
     }
 }

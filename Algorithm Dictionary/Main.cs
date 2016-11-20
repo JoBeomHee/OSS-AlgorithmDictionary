@@ -32,7 +32,16 @@ namespace Algorithm_Dictionary
 
         private void btn_exit_Click(object sender, EventArgs e)
         {
-            Close();
+            string message = "정말로 종료하시겠습니까?";
+            string caption = "Error Detected in input";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if(result == System.Windows.Forms.DialogResult.Yes)
+            {
+                Close();
+            }
         }
     }
 }

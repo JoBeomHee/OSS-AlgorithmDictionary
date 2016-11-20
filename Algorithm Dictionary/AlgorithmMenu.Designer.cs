@@ -45,6 +45,7 @@
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 0;
+            this.tb_Search.TextChanged += new System.EventHandler(this.tb_Search_TextChanged);
             this.tb_Search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_search);
             // 
             // lb_menu
@@ -67,6 +68,10 @@
             "버블정렬",
             "힙정렬",
             "퀵정렬",
+            "ㅅ",
+            "ㄴ",
+            "ㅅ1",
+            "ㅅㅅㅅ2",
             "카운팅정렬",
             "기수정렬",
             "버킷정렬",

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Algorithm_Dictionary.자료구조_Form.큐
 {
-    public partial class Queue : Form
+    public partial class QUeue : Form
     {
         AlgorithmMenu am;
         QueueInit qi;
@@ -19,7 +19,7 @@ namespace Algorithm_Dictionary.자료구조_Form.큐
         DeQueue dq;
         QueueDispose qd;
 
-        public Queue()
+        public QUeue()
         {
             InitializeComponent();
         }

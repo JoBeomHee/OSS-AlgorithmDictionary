@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_Dictionary.자료구조_Form.큐
 {
-    partial class Queue
+    partial class QUeue
     {
         /// <summary>
         /// Required designer variable.
