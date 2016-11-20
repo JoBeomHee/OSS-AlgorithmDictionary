@@ -33,7 +33,7 @@ namespace Algorithm_Dictionary
         private void btn_exit_Click(object sender, EventArgs e)
         {
             string message = "정말로 종료하시겠습니까?";
-            string caption = "Error Detected in input";
+            string caption = "Exit";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result;
 
