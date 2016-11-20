@@ -170,7 +170,7 @@ namespace Algorithm_Dictionary
 
         private void lb_menu_SelectedIndexChanged(object sender, EventArgs e) // 리스트 박스 선택
         {
-            if (lb_menu.SelectedIndex == 0)
+            if (lb_menu.SelectedItems.ToString() == "스택(Stack)")
             {
                 tb_Search.Text = "스택(Stack)";
             }
@@ -241,7 +241,7 @@ namespace Algorithm_Dictionary
             if (lb_menu.SelectedIndex == 17)
             {
                 tb_Search.Text = "머지정렬(MergeSort)";
-            }         
+            }
         }
 
         private void lb_Enter(object sender, KeyPressEventArgs e)  //엔터키 눌렀을 때 적용
