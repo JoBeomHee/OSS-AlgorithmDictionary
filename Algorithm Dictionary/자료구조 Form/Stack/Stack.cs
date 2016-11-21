@@ -64,8 +64,6 @@ namespace Algorithm_Dictionary
             am.FormClosed += Am_FormClosed;
             am.Show();
             this.Close();     
-
-
         }
 
         private void Am_FormClosed(object sender, FormClosedEventArgs e)
