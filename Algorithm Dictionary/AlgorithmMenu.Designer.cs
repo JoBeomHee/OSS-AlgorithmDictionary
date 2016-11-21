@@ -41,7 +41,7 @@
             // tb_Search
             // 
             this.tb_Search.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_Search.Location = new System.Drawing.Point(93, 36);
+            this.tb_Search.Location = new System.Drawing.Point(92, 43);
             this.tb_Search.Name = "tb_Search";
             this.tb_Search.Size = new System.Drawing.Size(307, 29);
             this.tb_Search.TabIndex = 0;
@@ -65,9 +65,9 @@
             this.pb_exit.BackColor = System.Drawing.Color.White;
             this.pb_exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_exit.Image = global::Algorithm_Dictionary.Properties.Resources.끄기;
-            this.pb_exit.Location = new System.Drawing.Point(418, 5);
+            this.pb_exit.Location = new System.Drawing.Point(414, 5);
             this.pb_exit.Name = "pb_exit";
-            this.pb_exit.Size = new System.Drawing.Size(36, 25);
+            this.pb_exit.Size = new System.Drawing.Size(36, 32);
             this.pb_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_exit.TabIndex = 24;
             this.pb_exit.TabStop = false;
@@ -78,9 +78,9 @@
             this.pb_Search.BackColor = System.Drawing.Color.White;
             this.pb_Search.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Search.Image = global::Algorithm_Dictionary.Properties.Resources.검색이미지;
-            this.pb_Search.Location = new System.Drawing.Point(405, 36);
+            this.pb_Search.Location = new System.Drawing.Point(405, 43);
             this.pb_Search.Name = "pb_Search";
-            this.pb_Search.Size = new System.Drawing.Size(49, 29);
+            this.pb_Search.Size = new System.Drawing.Size(49, 36);
             this.pb_Search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_Search.TabIndex = 23;
             this.pb_Search.TabStop = false;

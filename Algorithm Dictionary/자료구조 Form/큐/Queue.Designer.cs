@@ -142,7 +142,7 @@
             this.btn_FullEmpty.FlatAppearance.BorderSize = 0;
             this.btn_FullEmpty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FullEmpty.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_FullEmpty.Location = new System.Drawing.Point(487, 543);
+            this.btn_FullEmpty.Location = new System.Drawing.Point(477, 543);
             this.btn_FullEmpty.Name = "btn_FullEmpty";
             this.btn_FullEmpty.Size = new System.Drawing.Size(105, 36);
             this.btn_FullEmpty.TabIndex = 28;
@@ -306,7 +306,7 @@
             this.lb_link.Text = "http://ehclub.co.kr/2559";
             this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
             // 
-            // Queue
+            // QUeue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -335,7 +335,7 @@
             this.Controls.Add(this.lb_decription);
             this.Controls.Add(this.tb_description);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Queue";
+            this.Name = "QUeue";
             this.Text = "Queue";
             this.Load += new System.EventHandler(this.Queue_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_Queue)).EndInit();

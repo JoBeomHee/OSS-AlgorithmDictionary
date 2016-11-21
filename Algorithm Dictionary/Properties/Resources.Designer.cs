@@ -93,6 +93,36 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 깊이우선탐색_결과_ {
+            get {
+                object obj = ResourceManager.GetObject("깊이우선탐색(결과)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 깊이우선탐색_그래프_ {
+            get {
+                object obj = ResourceManager.GetObject("깊이우선탐색(그래프)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 깊이우선탐색_탐색_ {
+            get {
+                object obj = ResourceManager.GetObject("깊이우선탐색(탐색)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 끄기 {
             get {
                 object obj = ResourceManager.GetObject("끄기", resourceCulture);

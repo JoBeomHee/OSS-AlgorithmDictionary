@@ -30,12 +30,12 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_New_Node = new System.Windows.Forms.Button();
-            this.tb_New_Node = new System.Windows.Forms.TextBox();
+            this.btn_Graph = new System.Windows.Forms.Button();
+            this.tb_Graph = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
-            this.tb_New = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tb_Search = new System.Windows.Forms.TextBox();
+            this.btn_Search = new System.Windows.Forms.Button();
             this.pb_back = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
@@ -49,9 +49,9 @@
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(7, 326);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(238, 21);
+            this.label3.Size = new System.Drawing.Size(194, 21);
             this.label3.TabIndex = 23;
-            this.label3.Text = "깊이우선탐색 동적생성";
+            this.label3.Text = "깊이우선탐색 탐색";
             // 
             // label2
             // 
@@ -60,34 +60,35 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(7, 190);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 21);
+            this.label2.Size = new System.Drawing.Size(216, 21);
             this.label2.TabIndex = 22;
-            this.label2.Text = "깊이우선탐색 생성함수";
+            this.label2.Text = "깊이우선탐색 그래프";
             // 
-            // btn_New_Node
+            // btn_Graph
             // 
-            this.btn_New_Node.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_New_Node.FlatAppearance.BorderSize = 0;
-            this.btn_New_Node.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_New_Node.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_New_Node.Location = new System.Drawing.Point(350, 302);
-            this.btn_New_Node.Name = "btn_New_Node";
-            this.btn_New_Node.Size = new System.Drawing.Size(104, 36);
-            this.btn_New_Node.TabIndex = 21;
-            this.btn_New_Node.Text = "Node생성함수 ";
-            this.btn_New_Node.UseVisualStyleBackColor = true;
+            this.btn_Graph.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Graph.FlatAppearance.BorderSize = 0;
+            this.btn_Graph.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Graph.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_Graph.Location = new System.Drawing.Point(478, 296);
+            this.btn_Graph.Name = "btn_Graph";
+            this.btn_Graph.Size = new System.Drawing.Size(116, 36);
+            this.btn_Graph.TabIndex = 21;
+            this.btn_Graph.Text = "2차원배열 그래프";
+            this.btn_Graph.UseVisualStyleBackColor = true;
+            this.btn_Graph.Click += new System.EventHandler(this.btn_Graph_Click);
             // 
-            // tb_New_Node
+            // tb_Graph
             // 
-            this.tb_New_Node.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_New_Node.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_New_Node.Location = new System.Drawing.Point(11, 214);
-            this.tb_New_Node.Multiline = true;
-            this.tb_New_Node.Name = "tb_New_Node";
-            this.tb_New_Node.ReadOnly = true;
-            this.tb_New_Node.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_New_Node.Size = new System.Drawing.Size(444, 76);
-            this.tb_New_Node.TabIndex = 20;
+            this.tb_Graph.BackColor = System.Drawing.SystemColors.Window;
+            this.tb_Graph.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_Graph.Location = new System.Drawing.Point(11, 214);
+            this.tb_Graph.Multiline = true;
+            this.tb_Graph.Name = "tb_Graph";
+            this.tb_Graph.ReadOnly = true;
+            this.tb_Graph.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tb_Graph.Size = new System.Drawing.Size(583, 76);
+            this.tb_Graph.TabIndex = 20;
             // 
             // label1
             // 
@@ -109,39 +110,40 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(444, 111);
+            this.tb_description.Size = new System.Drawing.Size(584, 111);
             this.tb_description.TabIndex = 18;
             // 
-            // tb_New
+            // tb_Search
             // 
-            this.tb_New.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_New.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_New.Location = new System.Drawing.Point(9, 362);
-            this.tb_New.Multiline = true;
-            this.tb_New.Name = "tb_New";
-            this.tb_New.ReadOnly = true;
-            this.tb_New.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_New.Size = new System.Drawing.Size(444, 76);
-            this.tb_New.TabIndex = 24;
+            this.tb_Search.BackColor = System.Drawing.SystemColors.Window;
+            this.tb_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_Search.Location = new System.Drawing.Point(9, 362);
+            this.tb_Search.Multiline = true;
+            this.tb_Search.Name = "tb_Search";
+            this.tb_Search.ReadOnly = true;
+            this.tb_Search.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tb_Search.Size = new System.Drawing.Size(585, 76);
+            this.tb_Search.TabIndex = 24;
             // 
-            // button1
+            // btn_Search
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(349, 453);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 36);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "성동적생함수 ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Search.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Search.FlatAppearance.BorderSize = 0;
+            this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Search.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btn_Search.Location = new System.Drawing.Point(522, 444);
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(72, 36);
+            this.btn_Search.TabIndex = 25;
+            this.btn_Search.Text = "탐색 함수 ";
+            this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // pb_back
             // 
             this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(903, 11);
+            this.pb_back.Location = new System.Drawing.Point(526, 5);
             this.pb_back.Name = "pb_back";
             this.pb_back.Size = new System.Drawing.Size(68, 48);
             this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +155,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(717, 564);
+            this.label4.Location = new System.Drawing.Point(340, 512);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 12);
             this.label4.TabIndex = 29;
@@ -165,7 +167,7 @@
             this.lb_link.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lb_link.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_link.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lb_link.Location = new System.Drawing.Point(806, 564);
+            this.lb_link.Location = new System.Drawing.Point(429, 512);
             this.lb_link.Name = "lb_link";
             this.lb_link.Size = new System.Drawing.Size(165, 12);
             this.lb_link.TabIndex = 28;
@@ -177,22 +179,23 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(983, 585);
+            this.ClientSize = new System.Drawing.Size(613, 556);
             this.ControlBox = false;
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.tb_New);
+            this.Controls.Add(this.btn_Search);
+            this.Controls.Add(this.tb_Search);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btn_New_Node);
-            this.Controls.Add(this.tb_New_Node);
+            this.Controls.Add(this.btn_Graph);
+            this.Controls.Add(this.tb_Graph);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_description);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DepthFirstSearch";
             this.Text = "DepthFirstSearch";
+            this.Load += new System.EventHandler(this.DepthFirstSearch_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -203,12 +206,12 @@
 
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_New_Node;
-        private System.Windows.Forms.TextBox tb_New_Node;
+        private System.Windows.Forms.Button btn_Graph;
+        private System.Windows.Forms.TextBox tb_Graph;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tb_description;
-        private System.Windows.Forms.TextBox tb_New;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tb_Search;
+        private System.Windows.Forms.Button btn_Search;
         private System.Windows.Forms.PictureBox pb_back;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lb_link;
