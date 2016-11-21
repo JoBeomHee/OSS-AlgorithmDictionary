@@ -36,7 +36,9 @@
             this.pb_back = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
+            this.pb_Shell = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Shell)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_sort
@@ -56,7 +58,7 @@
             this.btn_sort.FlatAppearance.BorderSize = 0;
             this.btn_sort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sort.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_sort.Location = new System.Drawing.Point(340, 370);
+            this.btn_sort.Location = new System.Drawing.Point(443, 334);
             this.btn_sort.Name = "btn_sort";
             this.btn_sort.Size = new System.Drawing.Size(93, 36);
             this.btn_sort.TabIndex = 29;
@@ -73,7 +75,7 @@
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(423, 146);
+            this.tb_sort.Size = new System.Drawing.Size(526, 110);
             this.tb_sort.TabIndex = 28;
             // 
             // lb_description
@@ -96,14 +98,14 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(423, 111);
+            this.tb_description.Size = new System.Drawing.Size(526, 111);
             this.tb_description.TabIndex = 26;
             // 
             // pb_back
             // 
             this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(365, 3);
+            this.pb_back.Location = new System.Drawing.Point(1002, 2);
             this.pb_back.Name = "pb_back";
             this.pb_back.Size = new System.Drawing.Size(68, 48);
             this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -115,7 +117,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(631, 395);
+            this.label4.Location = new System.Drawing.Point(282, 395);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 12);
             this.label4.TabIndex = 44;
@@ -127,20 +129,31 @@
             this.lb_link.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lb_link.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_link.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lb_link.Location = new System.Drawing.Point(720, 395);
+            this.lb_link.Location = new System.Drawing.Point(371, 395);
             this.lb_link.Name = "lb_link";
             this.lb_link.Size = new System.Drawing.Size(165, 12);
             this.lb_link.TabIndex = 43;
             this.lb_link.Text = "http://ehclub.co.kr/1549";
             this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
             // 
+            // pb_Shell
+            // 
+            this.pb_Shell.Image = global::Algorithm_Dictionary.Properties.Resources.쉘정렬;
+            this.pb_Shell.Location = new System.Drawing.Point(563, 56);
+            this.pb_Shell.Name = "pb_Shell";
+            this.pb_Shell.Size = new System.Drawing.Size(506, 339);
+            this.pb_Shell.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_Shell.TabIndex = 45;
+            this.pb_Shell.TabStop = false;
+            // 
             // ShellSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(890, 416);
+            this.ClientSize = new System.Drawing.Size(1082, 416);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_Shell);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
@@ -154,6 +167,7 @@
             this.Text = "ShellSort";
             this.Load += new System.EventHandler(this.ShellSort_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Shell)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,5 +182,6 @@
         private System.Windows.Forms.PictureBox pb_back;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lb_link;
+        private System.Windows.Forms.PictureBox pb_Shell;
     }
 }

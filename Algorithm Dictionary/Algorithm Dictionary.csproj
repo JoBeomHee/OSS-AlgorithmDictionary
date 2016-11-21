@@ -389,6 +389,7 @@
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />
     <None Include="Resources\스택%28삭제%29.png" />
+    <None Include="Resources\쉘정렬.PNG" />
     <Content Include="Resources\스택.PNG" />
     <Content Include="Resources\연결리스트%28삭제%29.PNG" />
     <Content Include="Resources\연결리스트%28삽입%29.PNG" />

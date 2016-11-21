@@ -40,7 +40,7 @@
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(367, 547);
+            this.tb_sort.Size = new System.Drawing.Size(635, 547);
             this.tb_sort.TabIndex = 0;
             // 
             // ShellShortInterval
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(388, 571);
+            this.ClientSize = new System.Drawing.Size(662, 571);
             this.Controls.Add(this.tb_sort);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ShellShortInterval";

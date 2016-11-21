@@ -173,6 +173,16 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 쉘정렬 {
+            get {
+                object obj = ResourceManager.GetObject("쉘정렬", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 스택 {
             get {
                 object obj = ResourceManager.GetObject("스택", resourceCulture);
