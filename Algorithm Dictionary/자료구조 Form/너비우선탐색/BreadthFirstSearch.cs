@@ -13,6 +13,9 @@ namespace Algorithm_Dictionary.자료구조_Form.너비우선탐색
     public partial class BreadthFirstSearch : Form
     {
         AlgorithmMenu am;
+        Graph gp;
+        Search sh;
+
         public BreadthFirstSearch()
         {
             InitializeComponent();
@@ -35,5 +38,36 @@ namespace Algorithm_Dictionary.자료구조_Form.너비우선탐색
         {
             System.Diagnostics.Process.Start("http://ehclub.co.kr/1580");
         }
+
+        private void BreadthFirstSearch_Load(object sender, EventArgs e)
+        {
+            tb_description.AppendText("");
+            tb_Graph.AppendText("");
+            tb_Search.AppendText("");
+        }
+        private void btn_Graph_Click(object sender, EventArgs e)
+        {
+            gp = new Graph();
+            gp.FormClosed += Gp_FormClosed;
+            gp.Show();
+        }
+
+        private void Gp_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            gp = null;
+        }
+
+        private void btn_Search_Click(object sender, EventArgs e)
+        {
+            sh = new Search();
+            sh.FormClosed += Sh_FormClosed;
+            sh.Show();
+        }
+
+        private void Sh_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            sh = null;
+        }
+
     }
 }

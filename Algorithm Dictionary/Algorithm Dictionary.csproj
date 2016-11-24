@@ -102,6 +102,18 @@
     <Compile Include="자료구조 Form\너비우선탐색\BreadthFirstSearch.Designer.cs">
       <DependentUpon>BreadthFirstSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\너비우선탐색\Graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\너비우선탐색\Graph.Designer.cs">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\너비우선탐색\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\너비우선탐색\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\링크드리스트\LinkedList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +301,12 @@
     <EmbeddedResource Include="자료구조 Form\너비우선탐색\BreadthFirstSearch.resx">
       <DependentUpon>BreadthFirstSearch.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\너비우선탐색\Graph.resx">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\너비우선탐색\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList.resx">
       <DependentUpon>LinkedList.cs</DependentUpon>
     </EmbeddedResource>
@@ -394,6 +412,9 @@
     <None Include="Resources\깊이우선탐색%28그래프%29.PNG" />
     <None Include="Resources\깊이우선탐색%28탐색%29.PNG" />
     <None Include="Resources\깊이우선탐색%28결과%29.PNG" />
+    <None Include="Resources\너비우선탐색%28그래프%29.PNG" />
+    <None Include="Resources\너비우선탐색%28탐색%29.PNG" />
+    <None Include="Resources\너비우선탐색%28결과%29.PNG" />
     <Content Include="Resources\삽입정렬.PNG" />
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />
