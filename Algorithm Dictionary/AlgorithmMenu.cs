@@ -1,4 +1,5 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
+using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
@@ -29,6 +30,7 @@ namespace Algorithm_Dictionary
         QUeue q;
         ShellSort shellSort;
         DepthFirstSearch dfs;
+        BreadthFirstSearch bfs;
 
         List<string> items = new List<string>();
 
@@ -102,6 +104,18 @@ namespace Algorithm_Dictionary
                 dfs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "너비우선탐색(Breadth-first search)")
+            {
+                bfs = new BreadthFirstSearch();
+                bfs.FormClosed += Bfs_FormClosed;
+                bfs.Show();
+                this.Close();
+            }
+        }
+
+        private void Bfs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            bfs = null;
         }
 
         private void Dfs_FormClosed(object sender, FormClosedEventArgs e)
