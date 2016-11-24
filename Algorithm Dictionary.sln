@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "버블정렬", "버블정�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "너비우선탐색", "너비우선탐색\너비우선탐색.vcxproj", "{0AEFC2C7-D649-416D-8AC8-1353C83615F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "퀵정렬", "퀵정렬\퀵정렬.vcxproj", "{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +162,16 @@ Global
 		{0AEFC2C7-D649-416D-8AC8-1353C83615F6}.Release|x64.Build.0 = Release|x64
 		{0AEFC2C7-D649-416D-8AC8-1353C83615F6}.Release|x86.ActiveCfg = Release|Win32
 		{0AEFC2C7-D649-416D-8AC8-1353C83615F6}.Release|x86.Build.0 = Release|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Debug|x64.ActiveCfg = Debug|x64
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Debug|x64.Build.0 = Debug|x64
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Debug|x86.Build.0 = Debug|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Release|x64.ActiveCfg = Release|x64
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Release|x64.Build.0 = Release|x64
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Release|x86.ActiveCfg = Release|Win32
+		{9DCA4F04-3CBB-4E2D-805F-CE69CF402B67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,7 +44,7 @@ void main() {
 	int List[8] = { 69, 10, 30, 2, 16, 8, 31, 22 };  // 정렬하고자 하는 원소리스트 List
 	int Size = sizeof(List) / sizeof(List[0]);        // 전체 배열의 크기를 원소의 크기로 나누면 배열의 크기를 알 수 있다.
 
-	printf("**버블정렬 (Insert Sort)\n");           // 버블정렬에 대하여
+	printf("**버블정렬 (Bubble Sort)\n");           // 버블정렬에 대하여
 	printf("인접한 두 개의 원소를 비교하여 자리를 교환하는 방식으로 정렬하는 방법 \n\n");
 
 	bubbleSort(List, Size);                      //버블정렬 함수 호출
