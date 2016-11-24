@@ -20,20 +20,21 @@ void bubbleSort(int list[], int Size)  // 버블정렬 함수
 	}
 	printf("\n\n<<<<<<<<<<<<< 버블정렬 수행 >>>>>>>>>>>>>>>\n");
 
-	for (i = Size - 1; i >= 0; i--) {
+	for (i = Size - 1; i >0; i--) {
+		printf("\n%d 단계 : ",Size-i);
+		for (j = -1; j<i; j++) {            //  첫번째 원소부터 i번 원소까지 반복수행                   for (j = 0; j<=i; j++) 로 나타낼 수 있다 
 
-		for (j = 0; j<i; j++) {
-
-			if (list[j] > list[j + 1]) {
-
-				temp = list[j];
-				list[j] = list[j + 1];
-				list[j + 1] = temp;
-
-			}
+			if (list[j] > list[j+1]) {      // 인접한 두 개의 원소를 비교하여 자리를 교환                  if (list[j-1] > list[j]) {
+				  
+				temp = list[j];             //                                                              temp = list[j-1];
+				list[j] = list[j+1];        //                                                              list[j-1] = list[j]; 
+				list[j+1] = temp;           //                                                              list[j] = temp;
+				 
+			}                               //                                                               }
+			printf("\n\t");
+			for (sort = 0; sort <Size; sort++) printf("%3d ", list[sort]); // 정렬의 한 단계별로 결과 출력
 		}
-		printf("\n%d 단계 : ", i);
-		for (sort = 0; sort <Size; sort++) printf("%3d", list[sort]); // 단계별로 결과 출력
+
 	}
 }
 
@@ -43,12 +44,10 @@ void main() {
 	int List[8] = { 69, 10, 30, 2, 16, 8, 31, 22 };  // 정렬하고자 하는 원소리스트 List
 	int Size = sizeof(List) / sizeof(List[0]);        // 전체 배열의 크기를 원소의 크기로 나누면 배열의 크기를 알 수 있다.
 
-
-
 	printf("**버블정렬 (Insert Sort)\n");           // 버블정렬에 대하여
 	printf("인접한 두 개의 원소를 비교하여 자리를 교환하는 방식으로 정렬하는 방법 \n\n");
 
-	bubbleSort(List, Size);                      //버븡정렬 함수 호출
+	bubbleSort(List, Size);                      //버블정렬 함수 호출
 	getchar();
 
 	system("pause");
