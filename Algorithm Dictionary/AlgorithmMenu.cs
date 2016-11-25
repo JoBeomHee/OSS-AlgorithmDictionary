@@ -1,6 +1,7 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
+using Algorithm_Dictionary.자료구조_Form.버블정렬;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using Algorithm_Dictionary.자료구조_Form.쉘정렬;
@@ -31,6 +32,7 @@ namespace Algorithm_Dictionary
         ShellSort shellSort;
         DepthFirstSearch dfs;
         BreadthFirstSearch bfs;
+        BubbleSort bs;
 
         List<string> items = new List<string>();
 
@@ -111,6 +113,18 @@ namespace Algorithm_Dictionary
                 bfs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "버블정렬(BubbleSort)")
+            {
+                bs = new BubbleSort();
+                bs.FormClosed += Bs_FormClosed;
+                bs.Show();
+                this.Close();
+            }
+        }
+
+        private void Bs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            bs = null;
         }
 
         private void Bfs_FormClosed(object sender, FormClosedEventArgs e)
@@ -184,8 +198,12 @@ namespace Algorithm_Dictionary
 
         private void lb_menu_SelectedIndexChanged(object sender, EventArgs e) // 리스트 박스 선택
         {
-            tb_Search.Text = lb_menu.SelectedItem.ToString();
-        }
+            try
+            {
+                tb_Search.Text = lb_menu.SelectedItem.ToString();
+            } catch(Exception error)
+            { }
+}
 
         private void lb_Enter(object sender, KeyPressEventArgs e)  //엔터키 눌렀을 때 적용
         {
@@ -203,14 +221,16 @@ namespace Algorithm_Dictionary
 
         private void tb_Search_TextChanged(object sender, EventArgs e)
         {
-            lb_menu.Items.Clear();
-            foreach(string str in items)
+            try
             {
-                if(str.StartsWith(tb_Search.Text, StringComparison.CurrentCultureIgnoreCase))
+                lb_menu.Items.Clear();
+                foreach (string str in items)
                 {
-                    lb_menu.Items.Add(str);
+                    if (str.StartsWith(tb_Search.Text, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        lb_menu.Items.Add(str);
+                    }
                 }
-            }
 
             if(tb_Search.Text.ToString() == "스")
             {
@@ -283,6 +303,11 @@ namespace Algorithm_Dictionary
             if (tb_Search.Text.ToString() == "머")
             {
                 tb_Search.Text = "머지정렬(MergeSort)";
+            }
+            }
+            catch (Exception error)
+            {
+
             }
         }
     }
