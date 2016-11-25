@@ -12,7 +12,7 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>ธี
 #include <math.h>
 
 int size, i = 0;
