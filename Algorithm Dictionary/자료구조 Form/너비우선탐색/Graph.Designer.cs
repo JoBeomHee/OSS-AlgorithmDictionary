@@ -63,6 +63,7 @@
             this.ClientSize = new System.Drawing.Size(415, 550);
             this.Controls.Add(this.pb_Graph);
             this.Controls.Add(this.tb_Graph);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Graph";
             this.Text = "Graph";
             this.Load += new System.EventHandler(this.Graph_Load);

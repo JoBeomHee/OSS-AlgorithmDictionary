@@ -19,6 +19,7 @@ namespace Algorithm_Dictionary.자료구조_Form.깊이우선탐색
 
         private void Search_Load(object sender, EventArgs e)
         {
+            tb_Search.AppendText("뿌리노드를 1로 시작하겠습니다.\r\n");
             tb_Search.AppendText("int visit[7 + 1];\r\n");
             tb_Search.AppendText("void search(int i)\r\n");
             tb_Search.AppendText("{\r\n");

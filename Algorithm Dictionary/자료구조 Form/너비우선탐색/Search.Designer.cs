@@ -76,6 +76,7 @@
             this.Controls.Add(this.pb_Result);
             this.Controls.Add(this.pb_Graph);
             this.Controls.Add(this.tb_Search);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Search";
             this.Text = "Search";
             this.Load += new System.EventHandler(this.Search_Load);
