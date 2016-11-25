@@ -6,6 +6,7 @@ using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
+using Algorithm_Dictionary.자료구조_Form.퀵정렬;
 using Algorithm_Dictionary.자료구조_Form.큐;
 using System;
 using System.Collections;
@@ -33,6 +34,7 @@ namespace Algorithm_Dictionary
         DepthFirstSearch dfs;
         BreadthFirstSearch bfs;
         BubbleSort bs;
+        QuickSort qs;
 
         List<string> items = new List<string>();
 
@@ -120,6 +122,18 @@ namespace Algorithm_Dictionary
                 bs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "퀵정렬(QuickSort)")
+            {
+                qs = new QuickSort();
+                qs.FormClosed += Qs_FormClosed;
+                qs.Show();
+                this.Close();
+            }
+        }
+
+        private void Qs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            qs = null;
         }
 
         private void Bs_FormClosed(object sender, FormClosedEventArgs e)
