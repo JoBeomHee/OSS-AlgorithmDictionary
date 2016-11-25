@@ -29,12 +29,22 @@ void main() {
 	int size = sizeof(list) / sizeof(list[0]);        // 전체 배열의 크기를 원소의 크기로 나누면 배열의 크기를 알 수 있다.
 
 	printf("**퀵정렬 (Quick Sort)\n");                // 퀵정렬에 대하여
-	printf("정렬할 전체 원소에 대해서 정렬을 수행하지 않고 기준값을 중심으로 왼쪽 부분집합과 오른쪽 부분집합으로 분할하는 방법 \n\n");
+	printf("정렬할 전체 원소에 대해서 정렬을 수행하지 않고 기준값을 중심으로 왼쪽 부분집합과오른쪽 부분집합으로 분할하는 방법 \n\n");
+
+	printf("\n정렬할 원소 \n");
+	for (i = 0; i < size; i++) {   // list배열 안의 정렬하고자 하는 원소들 출력
+		printf("%3d", list[i]);
+	}
+	printf("\n");
 
 	quickSort(list, 0, size - 1);                      //퀵정렬 함수 호출
-	getchar();
 
-	system("pause");
+	printf("\n => 정렬 후 \n");                       //정렬한 후 상태 출력.
+	for (int i = 0; i < size; i++) {
+		printf("%d ", list[i]);
+	}
+	printf("\n");
+	getchar();
 
 }
 
@@ -46,9 +56,10 @@ int partition(int List[], int begin, int end)     // 부분집합 안에서 피봇의 위치
 	L = begin;
 	R = end;
 
-	pivot = (int)floor((begin + end ) / 2);        // 중간에 위치한 자료를 피봇 원소로 선택
-	printf("\n [%d단계 : pivot =%d]\n", ++i, List[pivot]);
-
+	pivot = (int)floor((begin + end) / 2);        // 중간에 위치한 자료를 피봇 원소로 선택
+	
+	printf("\n [ pivot =%d]\n", List[pivot]);
+	
 	while (L < R) {
 		while ((List[L] <= List[pivot]) && (L <= R)) L++;
 		while ((List[R] > List[pivot]) && (L <= R)) R--;
@@ -60,7 +71,7 @@ int partition(int List[], int begin, int end)     // 부분집합 안에서 피봇의 위치
 			if (R == pivot) {                            // L과 R원소를 교환하여, 결과적으로 피봇 원소의 위치가 변경된 경우
 				for (sort = 0; sort < size; sort++)
 				{
-					printf(" %d", List[sort]); // 현재의 정렬 상태 출력
+					printf(" %d", List[sort]);          // 현재의 정렬 상태 출력
 				}
 				printf("\n");
 				return L;
@@ -71,12 +82,12 @@ int partition(int List[], int begin, int end)     // 부분집합 안에서 피봇의 위치
 	//  while (L < R)
 	//		(L > R)이 된 경우
 
-		temp = List[pivot];
-		List[pivot] = List[R];
-		List[R] = temp;
-		for (sort = 0; sort < size; sort++) printf(" %d", List[sort]); // 현재의 정렬 상태 출력
-		printf("\n");
-		return R;
+	temp = List[pivot];
+	List[pivot] = List[R];
+	List[R] = temp;
+	//for (sort = 0; sort < size; sort++) printf(" %d", List[sort]); // 현재의 정렬 상태 출력
+	printf("\n");
+	return R;
 }
 
 void quickSort(int List[], int begin, int end) {
@@ -84,7 +95,13 @@ void quickSort(int List[], int begin, int end) {
 	if (begin < end) {
 		int p_operation;
 		p_operation = partition(List, begin, end);
-		quickSort(List, begin, p_operation-1);                     // 피봇의 왼쪽 부분집합에 대해 퀵 정렬 재귀호출
-		quickSort(List, p_operation+1, end);                     // 피봇의 오른쪽 부분집합에 대해 퀵 정렬 재귀호출
-	} 
+
+		for (int i = 0; i < 8; i++) {
+			printf("%d ", List[i]);
+		}
+		printf("\n");
+
+		quickSort(List, begin, p_operation - 1);                     // 피봇의 왼쪽 부분집합에 대해 퀵 정렬 재귀호출
+		quickSort(List, p_operation + 1, end);                     // 피봇의 오른쪽 부분집합에 대해 퀵 정렬 재귀호출
+	}
 }
