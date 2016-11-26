@@ -8,6 +8,7 @@ using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using Algorithm_Dictionary.자료구조_Form.퀵정렬;
 using Algorithm_Dictionary.자료구조_Form.큐;
+using Algorithm_Dictionary.자료구조_Form.히프정렬;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -35,6 +36,7 @@ namespace Algorithm_Dictionary
         BreadthFirstSearch bfs;
         BubbleSort bs;
         QuickSort qs;
+        HeapSort hs;
 
         List<string> items = new List<string>();
 
@@ -129,6 +131,18 @@ namespace Algorithm_Dictionary
                 qs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "힙정렬(HeapSort)")
+            {
+                hs = new HeapSort();
+                hs.FormClosed += Hs_FormClosed;
+                hs.Show();
+                this.Close();
+            }
+        }
+
+        private void Hs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            hs = null;
         }
 
         private void Qs_FormClosed(object sender, FormClosedEventArgs e)
