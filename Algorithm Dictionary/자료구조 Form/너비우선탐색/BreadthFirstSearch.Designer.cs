@@ -30,7 +30,6 @@
         {
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
-            this.pb_back = new System.Windows.Forms.PictureBox();
             this.btn_Search = new System.Windows.Forms.Button();
             this.tb_Search = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,6 +38,7 @@
             this.tb_Graph = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,18 +64,6 @@
             this.lb_link.TabIndex = 39;
             this.lb_link.Text = "http://ehclub.co.kr/1580";
             this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
-            // 
-            // pb_back
-            // 
-            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(528, 14);
-            this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(68, 48);
-            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_back.TabIndex = 38;
-            this.pb_back.TabStop = false;
-            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // btn_Search
             // 
@@ -174,12 +162,25 @@
             this.tb_description.Size = new System.Drawing.Size(584, 111);
             this.tb_description.TabIndex = 30;
             // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(528, 14);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 38;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // BreadthFirstSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(608, 546);
+            this.ControlBox = false;
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);

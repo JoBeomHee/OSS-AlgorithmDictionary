@@ -41,9 +41,9 @@ namespace Algorithm_Dictionary.자료구조_Form.너비우선탐색
 
         private void BreadthFirstSearch_Load(object sender, EventArgs e)
         {
-            tb_description.AppendText("");
-            tb_Graph.AppendText("");
-            tb_Search.AppendText("");
+            tb_description.AppendText("시작 정점을 방문한 후 시작 정점에 인접한 모든 정점들을 우선 방문하는 방법.\r\n더 이상 방문하지 않은 정점이 없을 때까지 방문하지 않은 모든 정점들에 대해서도 너비우선탐색을 적용한다\r\n");
+            tb_Graph.AppendText("다음은 너비우선탐색의 그래프 입니다.\r\n이미 그래프가 그려져 있다는 가정하에 2차원 배열로 그래프를 표현해 보았습니다.");
+            tb_Search.AppendText("다음은 너비우선탐색의 탐색 함수입니다.\r\n너비우선탐색이 어떤순으로 그래프를 방문하고 방문하지 않은 정점을 찾아가는지에 대해 설명하겠습니다.");
         }
         private void btn_Graph_Click(object sender, EventArgs e)
         {

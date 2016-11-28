@@ -162,6 +162,18 @@
     <Compile Include="자료구조 Form\링크드리스트\LinkedList_PushBack.Designer.cs">
       <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\버블정렬\BubbleSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\버블정렬\BubbleSort.Designer.cs">
+      <DependentUpon>BubbleSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\버블정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\버블정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\삽입정렬\InsertSort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +240,18 @@
     <Compile Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.Designer.cs">
       <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\퀵정렬\QuickSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\퀵정렬\QuickSort.Designer.cs">
+      <DependentUpon>QuickSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\퀵정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\퀵정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\큐\DeQueue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +287,18 @@
     </Compile>
     <Compile Include="자료구조 Form\큐\QueueInit.Designer.cs">
       <DependentUpon>QueueInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\히프정렬\HeapSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\히프정렬\HeapSort.Designer.cs">
+      <DependentUpon>HeapSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\히프정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\히프정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="자료구조 Form\Stack\Stack.resx">
       <DependentUpon>Stack.cs</DependentUpon>
@@ -331,6 +367,12 @@
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_PushBack.resx">
       <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\버블정렬\BubbleSort.resx">
+      <DependentUpon>BubbleSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\버블정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\삽입정렬\InsertSort.resx">
       <DependentUpon>InsertSort.cs</DependentUpon>
     </EmbeddedResource>
@@ -364,6 +406,12 @@
     <EmbeddedResource Include="자료구조 Form\이진탐색트리\BinarySearchTreeNode.resx">
       <DependentUpon>BinarySearchTreeNode.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\퀵정렬\QuickSort.resx">
+      <DependentUpon>QuickSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\퀵정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\큐\DeQueue.resx">
       <DependentUpon>DeQueue.cs</DependentUpon>
     </EmbeddedResource>
@@ -381,6 +429,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\큐\QueueInit.resx">
       <DependentUpon>QueueInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\히프정렬\HeapSort.resx">
+      <DependentUpon>HeapSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\히프정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -427,6 +481,7 @@
     <None Include="Resources\이진탐색트리2.PNG" />
     <Content Include="Resources\큐.PNG" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
