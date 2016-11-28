@@ -1,4 +1,3 @@
-
 /*
 *퀵정렬(Quick Sort) : 정렬할 전체 원소에 대해서 정렬을 수행하지 않고 기준값을 중심으로 왼쪽 부분집합과 오른쪽 부분집합으로 분할.
 왼쪽 부분집합에는 기준값보다 작은 원소들을 이동시키고, 오른쪽 부분집합에는 기준값보다 큰 원소들을 이동시킨다.
@@ -21,7 +20,6 @@ int partition(int List[], int begin, int end);
 void quickSort(int List[], int begin, int end);
 
 
-
 void main() {
 
 
@@ -31,7 +29,7 @@ void main() {
 	printf("**퀵정렬 (Quick Sort)\n");                // 퀵정렬에 대하여
 	printf("정렬할 전체 원소에 대해서 정렬을 수행하지 않고 기준값을 중심으로 왼쪽 부분집합과오른쪽 부분집합으로 분할하는 방법 \n\n");
 
-	printf("\n정렬할 원소 \n");
+	printf("\n정렬할 원소\n");
 	for (i = 0; i < size; i++) {   // list배열 안의 정렬하고자 하는 원소들 출력
 		printf("%3d", list[i]);
 	}
@@ -61,20 +59,26 @@ int partition(int List[], int begin, int end)     // 부분집합 안에서 피봇의 위치
 	printf("\n [ pivot =%d]\n", List[pivot]);
 	
 	while (L < R) {
-		while ((List[L] <= List[pivot]) && (L <= R)) L++;
-		while ((List[R] > List[pivot]) && (L <= R)) R--;
+		while ((List[L] <= List[pivot]) && (L <= R)) L++; // List[L]이 List[pivot]보다 작거나 같고 L이 R보다 작거나 같을동안 L을 증가.
+		                                                  // 즉, pivot원소보다 같거나 큰 원소를 찾을 때 까지 또는 L과 R이 만날 때 까지 L을
+		                                                  // 왼쪽에서 오른쪽 으로 이동.
+
+		while ((List[R] > List[pivot]) && (L <= R)) R--;  // List[R]이 List[pivot]보다 크고 L이 R보다 작거나 같을동안 L을 감소.
+														  // 즉, pivot원소보다 작은 원소를 찾을 때 까지 또는 L과 R이 만날 때 까지 R을
+														  // 오른쪽에서 왼쪽 으로 이동.
 
 		if (L <= R) {
-			temp = List[L];
+			temp = List[L];                               // List[L]과 List[R]을 서로 교환
 			List[L] = List[R];
 			List[R] = temp;
-			if (R == pivot) {                            // L과 R원소를 교환하여, 결과적으로 피봇 원소의 위치가 변경된 경우
-				for (sort = 0; sort < size; sort++)
+
+			if (R == pivot) {                           // R과 pivot이 같은 경우 Pivot 원소에 대한 자리교환이 발생하였으므로 pivot의 위치를 확정하고
+				for (sort = 0; sort < size; sort++)     
 				{
 					printf(" %d", List[sort]);          // 현재의 정렬 상태 출력
 				}
 				printf("\n");
-				return L;
+				return L;                               // pivot의 확정된 위치 L을 반환
 			}
 		}
 
@@ -82,26 +86,27 @@ int partition(int List[], int begin, int end)     // 부분집합 안에서 피봇의 위치
 	//  while (L < R)
 	//		(L > R)이 된 경우
 
-	temp = List[pivot];
-	List[pivot] = List[R];
+	temp = List[pivot];           // List[pivot]과 List[R]을 서로교환
+	List[pivot] = List[R];        // Pivot 원소에 대한 자리교환이 발생하였으므로 pivot의 위치를 확정
 	List[R] = temp;
-	//for (sort = 0; sort < size; sort++) printf(" %d", List[sort]); // 현재의 정렬 상태 출력
 	printf("\n");
-	return R;
+	return R;                     // pivot의 확정된 위치 R을 반환
 }
 
 void quickSort(int List[], int begin, int end) {
 
-	if (begin < end) {
-		int p_operation;
-		p_operation = partition(List, begin, end);
+	if (begin < end) {            // 배열 List에 대해서 begin부터 end까지를 범위로 하는 부분집합에 대해 
+		int p_operation;         
+								                    // 퀵 정렬을 수행하기위해 함수호출
+		p_operation = partition(List, begin, end);  // 함수수행 후 반환된 R, 즉 새로 확정된 피봇의 자리를 변수 p_operation에 설정
 
 		for (int i = 0; i < 8; i++) {
 			printf("%d ", List[i]);
 		}
 		printf("\n");
 
+		                                                             // 새로 확정된 피봇위치  p_operation 중심으로 새로 생성된 부분집합에 대해 수행
 		quickSort(List, begin, p_operation - 1);                     // 피봇의 왼쪽 부분집합에 대해 퀵 정렬 재귀호출
-		quickSort(List, p_operation + 1, end);                     // 피봇의 오른쪽 부분집합에 대해 퀵 정렬 재귀호출
+		quickSort(List, p_operation + 1, end);                       // 피봇의 오른쪽 부분집합에 대해 퀵 정렬 재귀호출
 	}
 }
