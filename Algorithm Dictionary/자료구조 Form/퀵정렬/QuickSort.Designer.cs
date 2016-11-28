@@ -30,12 +30,14 @@
         {
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
-            this.pb_back = new System.Windows.Forms.PictureBox();
             this.lb_sort = new System.Windows.Forms.Label();
             this.btn_sort = new System.Windows.Forms.Button();
             this.tb_sort = new System.Windows.Forms.TextBox();
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
+            this.pb_QuickSort = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QuickSort)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,18 +64,6 @@
             this.lb_link.Text = "http://ehclub.co.kr/1550";
             this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
             // 
-            // pb_back
-            // 
-            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(1006, 2);
-            this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(68, 48);
-            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_back.TabIndex = 51;
-            this.pb_back.TabStop = false;
-            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
-            // 
             // lb_sort
             // 
             this.lb_sort.AutoSize = true;
@@ -91,7 +81,7 @@
             this.btn_sort.FlatAppearance.BorderSize = 0;
             this.btn_sort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sort.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_sort.Location = new System.Drawing.Point(447, 334);
+            this.btn_sort.Location = new System.Drawing.Point(460, 334);
             this.btn_sort.Name = "btn_sort";
             this.btn_sort.Size = new System.Drawing.Size(93, 36);
             this.btn_sort.TabIndex = 49;
@@ -108,7 +98,7 @@
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(526, 110);
+            this.tb_sort.Size = new System.Drawing.Size(539, 110);
             this.tb_sort.TabIndex = 48;
             // 
             // lb_description
@@ -131,8 +121,30 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(526, 111);
+            this.tb_description.Size = new System.Drawing.Size(539, 111);
             this.tb_description.TabIndex = 46;
+            // 
+            // pb_QuickSort
+            // 
+            this.pb_QuickSort.Image = global::Algorithm_Dictionary.Properties.Resources.퀵정렬;
+            this.pb_QuickSort.Location = new System.Drawing.Point(572, 57);
+            this.pb_QuickSort.Name = "pb_QuickSort";
+            this.pb_QuickSort.Size = new System.Drawing.Size(502, 366);
+            this.pb_QuickSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_QuickSort.TabIndex = 54;
+            this.pb_QuickSort.TabStop = false;
+            // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(1006, 2);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 51;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // QuickSort
             // 
@@ -141,6 +153,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1089, 435);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_QuickSort);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
@@ -152,6 +165,7 @@
             this.Name = "QuickSort";
             this.Text = "QuickSort";
             this.Load += new System.EventHandler(this.QuickSort_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QuickSort)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -168,5 +182,6 @@
         private System.Windows.Forms.TextBox tb_sort;
         private System.Windows.Forms.Label lb_description;
         private System.Windows.Forms.TextBox tb_description;
+        private System.Windows.Forms.PictureBox pb_QuickSort;
     }
 }

@@ -479,6 +479,8 @@
     <Content Include="Resources\연결리스트%28삽입%29.PNG" />
     <Content Include="Resources\이진탐색트리.PNG" />
     <None Include="Resources\이진탐색트리2.PNG" />
+    <None Include="Resources\퀵정렬.PNG" />
+    <None Include="Resources\최소히프정렬.PNG" />
     <Content Include="Resources\큐.PNG" />
   </ItemGroup>
   <ItemGroup />
