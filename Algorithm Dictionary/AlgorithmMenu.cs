@@ -1,4 +1,5 @@
-﻿using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
+﻿using Algorithm_Dictionary.자료구조_Form.기수정렬;
+using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.버블정렬;
@@ -37,6 +38,7 @@ namespace Algorithm_Dictionary
         BubbleSort bs;
         QuickSort qs;
         HeapSort hs;
+        RadixSort rs;
 
         List<string> items = new List<string>();
 
@@ -138,6 +140,18 @@ namespace Algorithm_Dictionary
                 hs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "기수정렬(RadixSort)")
+            {
+                rs = new RadixSort();
+                rs.FormClosed += Rs_FormClosed;
+                rs.Show();
+                this.Close();
+            }
+        }
+
+        private void Rs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            rs = null;
         }
 
         private void Hs_FormClosed(object sender, FormClosedEventArgs e)
