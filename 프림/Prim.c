@@ -16,8 +16,8 @@ prim의 방법은 신장트리집합에, 인접한 정점들 중에서 최저간선으로 연결된 정점을 선
 #define TRUE 1
 #define FALSE 0
 
-#define VERTICES 7
-#define INF 1000L
+#define VERTICES 7      /* 정점의 수 */
+#define INF 1000L       /* 무한 값(연결이 없는 경우) */
 
 int adj_mat[VERTICES][VERTICES] = // 임의의 그래프
 {
