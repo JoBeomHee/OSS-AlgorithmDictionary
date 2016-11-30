@@ -34,13 +34,14 @@
             // tb_sort
             // 
             this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_sort.Location = new System.Drawing.Point(22, 23);
+            this.tb_sort.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
+            this.tb_sort.Location = new System.Drawing.Point(14, 15);
             this.tb_sort.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tb_sort.Multiline = true;
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(319, 408);
+            this.tb_sort.Size = new System.Drawing.Size(449, 429);
             this.tb_sort.TabIndex = 0;
             // 
             // Sort
@@ -48,7 +49,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(357, 459);
+            this.ClientSize = new System.Drawing.Size(477, 459);
             this.Controls.Add(this.tb_sort);
             this.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

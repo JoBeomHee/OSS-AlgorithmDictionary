@@ -36,7 +36,9 @@
             this.tb_sort = new System.Windows.Forms.TextBox();
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
+            this.pb_HeapSort = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_HeapSort)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -134,6 +136,16 @@
             this.tb_description.Size = new System.Drawing.Size(423, 111);
             this.tb_description.TabIndex = 43;
             // 
+            // pb_HeapSort
+            // 
+            this.pb_HeapSort.Image = global::Algorithm_Dictionary.Properties.Resources.최소히프정렬;
+            this.pb_HeapSort.Location = new System.Drawing.Point(464, 58);
+            this.pb_HeapSort.Name = "pb_HeapSort";
+            this.pb_HeapSort.Size = new System.Drawing.Size(461, 375);
+            this.pb_HeapSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_HeapSort.TabIndex = 51;
+            this.pb_HeapSort.TabStop = false;
+            // 
             // HeapSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -141,6 +153,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(933, 473);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_HeapSort);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
@@ -153,6 +166,7 @@
             this.Text = "HeapSort";
             this.Load += new System.EventHandler(this.HeapSort_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_HeapSort)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,5 +182,6 @@
         private System.Windows.Forms.TextBox tb_sort;
         private System.Windows.Forms.Label lb_description;
         private System.Windows.Forms.TextBox tb_description;
+        private System.Windows.Forms.PictureBox pb_HeapSort;
     }
 }

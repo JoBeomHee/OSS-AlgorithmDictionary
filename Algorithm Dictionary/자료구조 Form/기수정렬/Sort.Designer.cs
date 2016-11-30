@@ -1,4 +1,4 @@
-﻿namespace Algorithm_Dictionary.자료구조_Form.히프정렬
+﻿namespace Algorithm_Dictionary.자료구조_Form.기수정렬
 {
     partial class Sort
     {
@@ -34,13 +34,12 @@
             // tb_sort
             // 
             this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
-            this.tb_sort.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_sort.Location = new System.Drawing.Point(10, 17);
+            this.tb_sort.Location = new System.Drawing.Point(11, 17);
             this.tb_sort.Multiline = true;
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(445, 508);
+            this.tb_sort.Size = new System.Drawing.Size(393, 485);
             this.tb_sort.TabIndex = 0;
             // 
             // Sort
@@ -48,7 +47,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(462, 536);
+            this.ClientSize = new System.Drawing.Size(414, 514);
             this.Controls.Add(this.tb_sort);
             this.Name = "Sort";
             this.Text = "Sort";
