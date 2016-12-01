@@ -75,6 +75,7 @@
             this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_back.TabIndex = 49;
             this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // btn_Search
             // 
