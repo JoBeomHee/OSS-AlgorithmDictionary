@@ -214,6 +214,18 @@
     <Compile Include="자료구조 Form\버블정렬\Sort.Designer.cs">
       <DependentUpon>Sort.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\버킷정렬\BucketSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\버킷정렬\BucketSort.Designer.cs">
+      <DependentUpon>BucketSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\버킷정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\버킷정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\삽입정렬\InsertSort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -328,6 +340,12 @@
     <Compile Include="자료구조 Form\큐\QueueInit.Designer.cs">
       <DependentUpon>QueueInit.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Prim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Prim.Designer.cs">
+      <DependentUpon>Prim.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\히프정렬\HeapSort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -419,6 +437,12 @@
     <EmbeddedResource Include="자료구조 Form\버블정렬\Sort.resx">
       <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\버킷정렬\BucketSort.resx">
+      <DependentUpon>BucketSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\버킷정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\삽입정렬\InsertSort.resx">
       <DependentUpon>InsertSort.cs</DependentUpon>
     </EmbeddedResource>
@@ -475,6 +499,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\큐\QueueInit.resx">
       <DependentUpon>QueueInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\프림알고리즘\Prim.resx">
+      <DependentUpon>Prim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\히프정렬\HeapSort.resx">
       <DependentUpon>HeapSort.cs</DependentUpon>

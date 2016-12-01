@@ -3,6 +3,7 @@ using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.버블정렬;
+using Algorithm_Dictionary.자료구조_Form.버킷정렬;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
 using Algorithm_Dictionary.자료구조_Form.선택정렬;
 using Algorithm_Dictionary.자료구조_Form.쉘정렬;
@@ -39,6 +40,7 @@ namespace Algorithm_Dictionary
         QuickSort qs;
         HeapSort hs;
         RadixSort rs;
+        BucketSort bucketsort;
 
         List<string> items = new List<string>();
 
@@ -147,6 +149,18 @@ namespace Algorithm_Dictionary
                 rs.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "버킷정렬(BucketSort)")
+            {
+                bucketsort = new BucketSort();
+                bucketsort.FormClosed += Bucketsort_FormClosed;
+                bucketsort.Show();
+                this.Close();
+            }
+        }
+
+        private void Bucketsort_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            bucketsort = null;
         }
 
         private void Rs_FormClosed(object sender, FormClosedEventArgs e)
@@ -318,7 +332,7 @@ namespace Algorithm_Dictionary
             {
                 tb_Search.Text = "쉘정렬(ShellSort)";
             }
-            if (tb_Search.Text.ToString() == "버")
+            if (tb_Search.Text.ToString() == "버블")
             {
                 tb_Search.Text = "버블정렬(BubbleSort)";
             }
@@ -338,7 +352,7 @@ namespace Algorithm_Dictionary
             {
                 tb_Search.Text = "기수정렬(RadixSort)";
             }
-            if (tb_Search.Text.ToString() == "버")
+            if (tb_Search.Text.ToString() == "버킷")
             {
                 tb_Search.Text = "버킷정렬(BucketSort)";
             }
