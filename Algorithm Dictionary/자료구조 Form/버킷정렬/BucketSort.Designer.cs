@@ -30,12 +30,12 @@
         {
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
-            this.pb_back = new System.Windows.Forms.PictureBox();
             this.lb_sort = new System.Windows.Forms.Label();
             this.btn_sort = new System.Windows.Forms.Button();
             this.tb_sort = new System.Windows.Forms.TextBox();
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,18 +60,7 @@
             this.lb_link.Size = new System.Drawing.Size(274, 12);
             this.lb_link.TabIndex = 58;
             this.lb_link.Text = "http://egloos.zum.com/Duckkk/v/668549";
-            // 
-            // pb_back
-            // 
-            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(923, 15);
-            this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(68, 48);
-            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_back.TabIndex = 57;
-            this.pb_back.TabStop = false;
-            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
             // 
             // lb_sort
             // 
@@ -132,6 +121,18 @@
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tb_description.Size = new System.Drawing.Size(423, 111);
             this.tb_description.TabIndex = 52;
+            // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(923, 15);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 57;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // BucketSort
             // 
