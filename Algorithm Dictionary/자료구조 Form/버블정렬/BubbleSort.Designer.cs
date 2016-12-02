@@ -33,9 +33,11 @@
             this.tb_sort = new System.Windows.Forms.TextBox();
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
-            this.pb_back = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lb_link = new System.Windows.Forms.Label();
+            this.pb_BubbleSort = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_BubbleSort)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +46,7 @@
             this.lb_sort.AutoSize = true;
             this.lb_sort.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb_sort.ForeColor = System.Drawing.Color.Teal;
-            this.lb_sort.Location = new System.Drawing.Point(12, 191);
+            this.lb_sort.Location = new System.Drawing.Point(12, 232);
             this.lb_sort.Name = "lb_sort";
             this.lb_sort.Size = new System.Drawing.Size(194, 21);
             this.lb_sort.TabIndex = 21;
@@ -68,12 +70,12 @@
             // 
             this.tb_sort.BackColor = System.Drawing.SystemColors.Window;
             this.tb_sort.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.tb_sort.Location = new System.Drawing.Point(11, 218);
+            this.tb_sort.Location = new System.Drawing.Point(11, 271);
             this.tb_sort.Multiline = true;
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(423, 198);
+            this.tb_sort.Size = new System.Drawing.Size(423, 145);
             this.tb_sort.TabIndex = 19;
             // 
             // lb_description
@@ -96,20 +98,8 @@
             this.tb_description.Name = "tb_description";
             this.tb_description.ReadOnly = true;
             this.tb_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_description.Size = new System.Drawing.Size(423, 111);
+            this.tb_description.Size = new System.Drawing.Size(423, 153);
             this.tb_description.TabIndex = 17;
-            // 
-            // pb_back
-            // 
-            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
-            this.pb_back.Location = new System.Drawing.Point(845, 9);
-            this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(68, 48);
-            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_back.TabIndex = 23;
-            this.pb_back.TabStop = false;
-            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // label4
             // 
@@ -134,6 +124,28 @@
             this.lb_link.Text = "http://ehclub.co.kr/2844";
             this.lb_link.Click += new System.EventHandler(this.lb_link_Click);
             // 
+            // pb_BubbleSort
+            // 
+            this.pb_BubbleSort.Image = global::Algorithm_Dictionary.Properties.Resources.버블정렬;
+            this.pb_BubbleSort.Location = new System.Drawing.Point(454, 54);
+            this.pb_BubbleSort.Name = "pb_BubbleSort";
+            this.pb_BubbleSort.Size = new System.Drawing.Size(458, 368);
+            this.pb_BubbleSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_BubbleSort.TabIndex = 43;
+            this.pb_BubbleSort.TabStop = false;
+            // 
+            // pb_back
+            // 
+            this.pb_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_back.Image = global::Algorithm_Dictionary.Properties.Resources.돌아가기;
+            this.pb_back.Location = new System.Drawing.Point(845, 9);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(68, 48);
+            this.pb_back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_back.TabIndex = 23;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
             // BubbleSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -141,6 +153,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(925, 466);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_BubbleSort);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
@@ -153,6 +166,7 @@
             this.Name = "BubbleSort";
             this.Text = "BubbleSort";
             this.Load += new System.EventHandler(this.BubbleSort_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_BubbleSort)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -169,5 +183,6 @@
         private System.Windows.Forms.PictureBox pb_back;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lb_link;
+        private System.Windows.Forms.PictureBox pb_BubbleSort;
     }
 }
