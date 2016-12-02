@@ -1,6 +1,7 @@
 ﻿using Algorithm_Dictionary.자료구조_Form.기수정렬;
 using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
+using Algorithm_Dictionary.자료구조_Form.다익스트라;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
 using Algorithm_Dictionary.자료구조_Form.버블정렬;
 using Algorithm_Dictionary.자료구조_Form.버킷정렬;
@@ -41,6 +42,7 @@ namespace Algorithm_Dictionary
         HeapSort hs;
         RadixSort rs;
         BucketSort bucketsort;
+        Dijkstra dijkstra;
 
         List<string> items = new List<string>();
 
@@ -48,7 +50,7 @@ namespace Algorithm_Dictionary
         {
             InitializeComponent();
 
-            items.AddRange(new string[] { "스택(Stack)", "연결리스트(LinkedList)", "큐(Queue)", "크루스칼알고리즘(Kruskal's algorithm)", "프림알고리즘(Prim's algorithm)", "깊이우선탐색(Depth-first search)", "너비우선탐색(Breadth-first search)", "이진탐색트리(BinarySearchTree)", "삽입정렬(InsertSort)", "선택정렬(SelectionSort)", "쉘정렬(ShellSort)", "버블정렬(BubbleSort)", "힙정렬(HeapSort)", "퀵정렬(QuickSort)", "카운팅정렬(CountingSort)", "기수정렬(RadixSort)", "버킷정렬(BucketSort)", "머지정렬(MergeSort)" });
+            items.AddRange(new string[] { "스택(Stack)", "연결리스트(LinkedList)", "큐(Queue)", "다익스트라알고리즘(Dijkstra algorithm)", "프림알고리즘(Prim's algorithm)", "깊이우선탐색(Depth-first search)", "너비우선탐색(Breadth-first search)", "이진탐색트리(BinarySearchTree)", "삽입정렬(InsertSort)", "선택정렬(SelectionSort)", "쉘정렬(ShellSort)", "버블정렬(BubbleSort)", "힙정렬(HeapSort)", "퀵정렬(QuickSort)", "카운팅정렬(CountingSort)", "기수정렬(RadixSort)", "버킷정렬(BucketSort)", "머지정렬(MergeSort)" });
 
             foreach(string str in items)
             {
@@ -156,6 +158,18 @@ namespace Algorithm_Dictionary
                 bucketsort.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "다익스트라알고리즘(Dijkstra algorithm)")
+            {
+                dijkstra = new Dijkstra();
+                dijkstra.FormClosed += Dijkstra_FormClosed;
+                dijkstra.Show();
+                this.Close();
+            }
+        }
+
+        private void Dijkstra_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            dijkstra = null;
         }
 
         private void Bucketsort_FormClosed(object sender, FormClosedEventArgs e)
@@ -300,15 +314,15 @@ namespace Algorithm_Dictionary
             {
                 tb_Search.Text = "큐(Queue)";
             }
-            if (tb_Search.Text.ToString() == "크")
+            if (tb_Search.Text.ToString() == "다")
             {
-                tb_Search.Text = "크루스칼알고리즘(Kurskal's algorithm)";
+                tb_Search.Text = "다익스트라알고리즘(Dijkstra algorithm)";
             }
             if (tb_Search.Text.ToString() == "프")
             {
                 tb_Search.Text = "프림알고리즘(Prim's algorithm)";
             }
-            if (tb_Search.Text.ToString() == "깊")
+            if (tb_Search.Text.ToString() == "깊이")
             {
                 tb_Search.Text = "깊이우선탐색(Depth-first search)";
             }
