@@ -36,7 +36,9 @@
             this.lb_description = new System.Windows.Forms.Label();
             this.tb_description = new System.Windows.Forms.TextBox();
             this.pb_back = new System.Windows.Forms.PictureBox();
+            this.pb_BucketSort = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_BucketSort)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -134,6 +136,16 @@
             this.pb_back.TabStop = false;
             this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
+            // pb_BucketSort
+            // 
+            this.pb_BucketSort.Image = global::Algorithm_Dictionary.Properties.Resources.버킷정렬;
+            this.pb_BucketSort.Location = new System.Drawing.Point(455, 64);
+            this.pb_BucketSort.Name = "pb_BucketSort";
+            this.pb_BucketSort.Size = new System.Drawing.Size(535, 399);
+            this.pb_BucketSort.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_BucketSort.TabIndex = 60;
+            this.pb_BucketSort.TabStop = false;
+            // 
             // BucketSort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -141,6 +153,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1003, 504);
             this.ControlBox = false;
+            this.Controls.Add(this.pb_BucketSort);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lb_link);
             this.Controls.Add(this.pb_back);
@@ -153,6 +166,7 @@
             this.Text = "BucketSort";
             this.Load += new System.EventHandler(this.BucketSort_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_BucketSort)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,5 +181,6 @@
         private System.Windows.Forms.TextBox tb_sort;
         private System.Windows.Forms.Label lb_description;
         private System.Windows.Forms.TextBox tb_description;
+        private System.Windows.Forms.PictureBox pb_BucketSort;
     }
 }

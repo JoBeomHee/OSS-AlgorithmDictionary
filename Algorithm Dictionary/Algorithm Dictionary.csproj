@@ -55,10 +55,16 @@
     <ManifestKeyFile>Algorithm Dictionary_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -510,6 +516,7 @@
       <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Algorithm Dictionary_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -545,6 +552,7 @@
     <None Include="Resources\너비우선탐색%28결과%29.PNG" />
     <None Include="Resources\버블정렬.PNG" />
     <None Include="Resources\기수정렬.PNG" />
+    <None Include="Resources\버킷정렬.PNG" />
     <Content Include="Resources\삽입정렬.PNG" />
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />
