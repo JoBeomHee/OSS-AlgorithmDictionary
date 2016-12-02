@@ -104,7 +104,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(467, 379);
+            this.ClientSize = new System.Drawing.Size(484, 379);
             this.ControlBox = false;
             this.Controls.Add(this.pb_exit);
             this.Controls.Add(this.pb_Search);
