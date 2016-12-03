@@ -196,6 +196,18 @@
     <Compile Include="자료구조 Form\링크드리스트\LinkedList_PushBack.Designer.cs">
       <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\머지정렬\MergeSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\머지정렬\MergeSort.Designer.cs">
+      <DependentUpon>MergeSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\머지정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\머지정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\버블정렬\BubbleSort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -427,6 +439,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList_PushBack.resx">
       <DependentUpon>LinkedList_PushBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\머지정렬\MergeSort.resx">
+      <DependentUpon>MergeSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\머지정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\버블정렬\BubbleSort.resx">
       <DependentUpon>BubbleSort.cs</DependentUpon>

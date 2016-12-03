@@ -3,6 +3,7 @@ using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.다익스트라;
 using Algorithm_Dictionary.자료구조_Form.링크드리스트;
+using Algorithm_Dictionary.자료구조_Form.머지정렬;
 using Algorithm_Dictionary.자료구조_Form.버블정렬;
 using Algorithm_Dictionary.자료구조_Form.버킷정렬;
 using Algorithm_Dictionary.자료구조_Form.삽입정렬;
@@ -43,7 +44,7 @@ namespace Algorithm_Dictionary
         RadixSort rs;
         BucketSort bucketsort;
         Dijkstra dijkstra;
-
+        MergeSort mergesort;
         List<string> items = new List<string>();
 
         public AlgorithmMenu()
@@ -165,6 +166,18 @@ namespace Algorithm_Dictionary
                 dijkstra.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "머지정렬(MergeSort)")
+            {
+                mergesort = new MergeSort();
+                mergesort.FormClosed += Mergesort_FormClosed;
+                mergesort.Show();
+                this.Close();
+            }
+        }
+
+        private void Mergesort_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            mergesort = null;
         }
 
         private void Dijkstra_FormClosed(object sender, FormClosedEventArgs e)
