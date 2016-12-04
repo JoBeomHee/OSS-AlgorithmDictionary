@@ -1,4 +1,5 @@
-﻿using Algorithm_Dictionary.자료구조_Form.기수정렬;
+﻿using Algorithm_Dictionary.자료구조_Form.계수정렬;
+using Algorithm_Dictionary.자료구조_Form.기수정렬;
 using Algorithm_Dictionary.자료구조_Form.깊이우선탐색;
 using Algorithm_Dictionary.자료구조_Form.너비우선탐색;
 using Algorithm_Dictionary.자료구조_Form.다익스트라;
@@ -45,6 +46,8 @@ namespace Algorithm_Dictionary
         BucketSort bucketsort;
         Dijkstra dijkstra;
         MergeSort mergesort;
+        CountingSort cs;
+
         List<string> items = new List<string>();
 
         public AlgorithmMenu()
@@ -173,6 +176,18 @@ namespace Algorithm_Dictionary
                 mergesort.Show();
                 this.Close();
             }
+            if(tb_Search.Text.ToString() == "카운팅정렬(CountingSort)")
+            {
+                cs = new CountingSort();
+                cs.FormClosed += Cs_FormClosed;
+                cs.Show();
+                this.Close();
+            }
+        }
+
+        private void Cs_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            cs = null;
         }
 
         private void Mergesort_FormClosed(object sender, FormClosedEventArgs e)

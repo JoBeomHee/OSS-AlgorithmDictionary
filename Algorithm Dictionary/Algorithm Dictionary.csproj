@@ -94,6 +94,18 @@
     <Compile Include="자료구조 Form\Stack\StackPush.Designer.cs">
       <DependentUpon>StackPush.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\계수정렬\CountingSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\계수정렬\CountingSort.Designer.cs">
+      <DependentUpon>CountingSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\계수정렬\Sort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\계수정렬\Sort.Designer.cs">
+      <DependentUpon>Sort.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\기수정렬\RadixSort.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -388,6 +400,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\Stack\StackPush.resx">
       <DependentUpon>StackPush.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\계수정렬\CountingSort.resx">
+      <DependentUpon>CountingSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\계수정렬\Sort.resx">
+      <DependentUpon>Sort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\기수정렬\RadixSort.resx">
       <DependentUpon>RadixSort.cs</DependentUpon>
