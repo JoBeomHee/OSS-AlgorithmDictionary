@@ -577,6 +577,8 @@
     <None Include="Resources\너비우선탐색%28그래프%29.PNG" />
     <None Include="Resources\너비우선탐색%28탐색%29.PNG" />
     <None Include="Resources\너비우선탐색%28결과%29.PNG" />
+    <None Include="Resources\병합정렬.PNG" />
+    <None Include="Resources\계수정렬.png" />
     <Content Include="Resources\삽입정렬.PNG" />
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />

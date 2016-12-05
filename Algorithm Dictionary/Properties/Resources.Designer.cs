@@ -93,6 +93,16 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 계수정렬 {
+            get {
+                object obj = ResourceManager.GetObject("계수정렬", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 기수정렬 {
             get {
                 object obj = ResourceManager.GetObject("기수정렬", resourceCulture);
@@ -206,6 +216,16 @@ namespace Algorithm_Dictionary.Properties {
         internal static System.Drawing.Bitmap 버킷정렬 {
             get {
                 object obj = ResourceManager.GetObject("버킷정렬", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 병합정렬 {
+            get {
+                object obj = ResourceManager.GetObject("병합정렬", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

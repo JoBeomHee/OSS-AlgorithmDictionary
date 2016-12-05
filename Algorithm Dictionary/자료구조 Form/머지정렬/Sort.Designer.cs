@@ -41,7 +41,7 @@
             this.tb_sort.Name = "tb_sort";
             this.tb_sort.ReadOnly = true;
             this.tb_sort.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_sort.Size = new System.Drawing.Size(397, 504);
+            this.tb_sort.Size = new System.Drawing.Size(465, 504);
             this.tb_sort.TabIndex = 0;
             // 
             // Sort
@@ -49,7 +49,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(416, 528);
+            this.ClientSize = new System.Drawing.Size(484, 528);
             this.Controls.Add(this.tb_sort);
             this.Name = "Sort";
             this.Text = "Sort";
