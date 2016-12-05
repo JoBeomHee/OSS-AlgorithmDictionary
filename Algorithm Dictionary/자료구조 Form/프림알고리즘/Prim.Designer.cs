@@ -191,6 +191,7 @@
             this.Controls.Add(this.tb_description);
             this.Name = "Prim";
             this.Text = "Prim";
+            this.Load += new System.EventHandler(this.Prim_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,5 +35,10 @@ namespace Algorithm_Dictionary.자료구조_Form.프림알고리
         {
             am = null;
         }
+
+        private void Prim_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

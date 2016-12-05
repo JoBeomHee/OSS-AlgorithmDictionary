@@ -192,6 +192,7 @@
             this.Controls.Add(this.tb_description);
             this.Name = "Dijkstra";
             this.Text = "Dijkstra";
+            this.Load += new System.EventHandler(this.Dijkstra_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

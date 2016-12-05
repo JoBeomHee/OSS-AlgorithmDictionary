@@ -13,6 +13,7 @@ using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using Algorithm_Dictionary.자료구조_Form.퀵정렬;
 using Algorithm_Dictionary.자료구조_Form.큐;
+using Algorithm_Dictionary.자료구조_Form.프림알고리;
 using Algorithm_Dictionary.자료구조_Form.히프정렬;
 using System;
 using System.Collections;
@@ -47,6 +48,7 @@ namespace Algorithm_Dictionary
         Dijkstra dijkstra;
         MergeSort mergesort;
         CountingSort cs;
+        Prim prim;
 
         List<string> items = new List<string>();
 
@@ -169,7 +171,14 @@ namespace Algorithm_Dictionary
                 dijkstra.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "머지정렬(MergeSort)")
+            if (tb_Search.Text.ToString() == "프림알고리즘(Prim's algorithm)")
+            {
+                prim = new Prim();
+                prim.FormClosed += Prim_FormClosed;
+                prim.Show();
+                this.Close();
+            }
+            if (tb_Search.Text.ToString() == "머지정렬(MergeSort)")
             {
                 mergesort = new MergeSort();
                 mergesort.FormClosed += Mergesort_FormClosed;
@@ -183,6 +192,11 @@ namespace Algorithm_Dictionary
                 cs.Show();
                 this.Close();
             }
+        }
+
+        private void Prim_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            prim = null;
         }
 
         private void Cs_FormClosed(object sender, FormClosedEventArgs e)

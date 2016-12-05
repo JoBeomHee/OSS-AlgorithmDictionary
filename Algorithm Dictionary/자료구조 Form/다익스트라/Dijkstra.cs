@@ -35,5 +35,10 @@ namespace Algorithm_Dictionary.자료구조_Form.다익스트라
         {
             System.Diagnostics.Process.Start("http://ehclub.co.kr/1583");
         }
+
+        private void Dijkstra_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
