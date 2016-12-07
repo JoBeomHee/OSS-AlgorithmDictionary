@@ -58,7 +58,7 @@ namespace Algorithm_Dictionary
 
             items.AddRange(new string[] { "스택(Stack)", "연결리스트(LinkedList)", "큐(Queue)", "다익스트라알고리즘(Dijkstra algorithm)", "프림알고리즘(Prim's algorithm)", "깊이우선탐색(Depth-first search)", "너비우선탐색(Breadth-first search)", "이진탐색트리(BinarySearchTree)", "삽입정렬(InsertSort)", "선택정렬(SelectionSort)", "쉘정렬(ShellSort)", "버블정렬(BubbleSort)", "힙정렬(HeapSort)", "퀵정렬(QuickSort)", "카운팅정렬(CountingSort)", "기수정렬(RadixSort)", "버킷정렬(BucketSort)", "머지정렬(MergeSort)" });
 
-            foreach(string str in items)
+            foreach (string str in items)
             {
                 lb_menu.Items.Add(str);
             }
@@ -122,49 +122,49 @@ namespace Algorithm_Dictionary
                 dfs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "너비우선탐색(Breadth-first search)")
+            if (tb_Search.Text.ToString() == "너비우선탐색(Breadth-first search)")
             {
                 bfs = new BreadthFirstSearch();
                 bfs.FormClosed += Bfs_FormClosed;
                 bfs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "버블정렬(BubbleSort)")
+            if (tb_Search.Text.ToString() == "버블정렬(BubbleSort)")
             {
                 bs = new BubbleSort();
                 bs.FormClosed += Bs_FormClosed;
                 bs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "퀵정렬(QuickSort)")
+            if (tb_Search.Text.ToString() == "퀵정렬(QuickSort)")
             {
                 qs = new QuickSort();
                 qs.FormClosed += Qs_FormClosed;
                 qs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "힙정렬(HeapSort)")
+            if (tb_Search.Text.ToString() == "힙정렬(HeapSort)")
             {
                 hs = new HeapSort();
                 hs.FormClosed += Hs_FormClosed;
                 hs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "기수정렬(RadixSort)")
+            if (tb_Search.Text.ToString() == "기수정렬(RadixSort)")
             {
                 rs = new RadixSort();
                 rs.FormClosed += Rs_FormClosed;
                 rs.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "버킷정렬(BucketSort)")
+            if (tb_Search.Text.ToString() == "버킷정렬(BucketSort)")
             {
                 bucketsort = new BucketSort();
                 bucketsort.FormClosed += Bucketsort_FormClosed;
                 bucketsort.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "다익스트라알고리즘(Dijkstra algorithm)")
+            if (tb_Search.Text.ToString() == "다익스트라알고리즘(Dijkstra algorithm)")
             {
                 dijkstra = new Dijkstra();
                 dijkstra.FormClosed += Dijkstra_FormClosed;
@@ -185,7 +185,7 @@ namespace Algorithm_Dictionary
                 mergesort.Show();
                 this.Close();
             }
-            if(tb_Search.Text.ToString() == "카운팅정렬(CountingSort)")
+            if (tb_Search.Text.ToString() == "카운팅정렬(CountingSort)")
             {
                 cs = new CountingSort();
                 cs.FormClosed += Cs_FormClosed;
@@ -313,9 +313,10 @@ namespace Algorithm_Dictionary
             try
             {
                 tb_Search.Text = lb_menu.SelectedItem.ToString();
-            } catch(Exception error)
+            }
+            catch (Exception error)
             { }
-}
+        }
 
         private void lb_Enter(object sender, KeyPressEventArgs e)  //엔터키 눌렀을 때 적용
         {
@@ -344,78 +345,146 @@ namespace Algorithm_Dictionary
                     }
                 }
 
-            if(tb_Search.Text.ToString() == "스")
-            {
-                tb_Search.Text = "스택(Stack)";
-            }
-            if (tb_Search.Text.ToString() == "연")
-            {
-                tb_Search.Text = "연결리스트(LinkedList)";
-            }
-            if (tb_Search.Text.ToString() == "큐")
-            {
-                tb_Search.Text = "큐(Queue)";
-            }
-            if (tb_Search.Text.ToString() == "다")
-            {
-                tb_Search.Text = "다익스트라알고리즘(Dijkstra algorithm)";
-            }
-            if (tb_Search.Text.ToString() == "프")
-            {
-                tb_Search.Text = "프림알고리즘(Prim's algorithm)";
-            }
-            if (tb_Search.Text.ToString() == "깊이")
-            {
-                tb_Search.Text = "깊이우선탐색(Depth-first search)";
-            }
-            if (tb_Search.Text.ToString() == "너")
-            {
-                tb_Search.Text = "너비우선탐색(Breadth-first search)";
-            }
-            if (tb_Search.Text.ToString() == "이")
-            {
-                tb_Search.Text = "이진탐색트리(BinarySearchTree)";
-            }
-            if (tb_Search.Text.ToString() == "삽")
-            {
-                tb_Search.Text = "삽입정렬(InsertSort)";
-            }
-            if (tb_Search.Text.ToString() == "선")
-            {
-                tb_Search.Text = "선택정렬(SelectionSort)";
-            }
-            if (tb_Search.Text.ToString() == "쉘")
-            {
-                tb_Search.Text = "쉘정렬(ShellSort)";
-            }
-            if (tb_Search.Text.ToString() == "버블")
-            {
-                tb_Search.Text = "버블정렬(BubbleSort)";
-            }
-            if (tb_Search.Text.ToString() == "힙")
-            {
-                tb_Search.Text = "힙정렬(HeapSort)";
-            }
-            if (tb_Search.Text.ToString() == "퀵")
-            {
-                tb_Search.Text = "퀵정렬(QuickSort)";
-            }
-            if (tb_Search.Text.ToString() == "카")
-            {
-                tb_Search.Text = "카운팅정렬(CountingSort)";
-            }
-            if (tb_Search.Text.ToString() == "기수")
-            {
-                tb_Search.Text = "기수정렬(RadixSort)";
-            }
-            if (tb_Search.Text.ToString() == "버킷")
-            {
-                tb_Search.Text = "버킷정렬(BucketSort)";
-            }
-            if (tb_Search.Text.ToString() == "머")
-            {
-                tb_Search.Text = "머지정렬(MergeSort)";
-            }
+                if (tb_Search.Text.ToString() == "스")
+                {
+                    tb_Search.Text = "스택(Stack)";
+                }
+                if (tb_Search.Text.ToString() == "스택")
+                {
+                    tb_Search.Text = "스택(Stack)";
+                }
+                if (tb_Search.Text.ToString() == "연")
+                {
+                    tb_Search.Text = "연결리스트(LinkedList)";
+                }
+                if (tb_Search.Text.ToString() == "연결리스트")
+                {
+                    tb_Search.Text = "연결리스트(LinkedList)";
+                }
+                if (tb_Search.Text.ToString() == "큐")
+                {
+                    tb_Search.Text = "큐(Queue)";
+                }
+                if (tb_Search.Text.ToString() == "다")
+                {
+                    tb_Search.Text = "다익스트라알고리즘(Dijkstra algorithm)";
+                }
+                if (tb_Search.Text.ToString() == "다익스트라알고리즘")
+                {
+                    tb_Search.Text = "다익스트라알고리즘(Dijkstra algorithm)";
+                }
+                if (tb_Search.Text.ToString() == "프")
+                {
+                    tb_Search.Text = "프림알고리즘(Prim's algorithm)";
+                }
+                if (tb_Search.Text.ToString() == "프림알고리즘")
+                {
+                    tb_Search.Text = "프림알고리즘(Prim's algorithm)";
+                }
+                if (tb_Search.Text.ToString() == "깊이")
+                {
+                    tb_Search.Text = "깊이우선탐색(Depth-first search)";
+                }
+                if (tb_Search.Text.ToString() == "깊이우선탐색")
+                {
+                    tb_Search.Text = "깊이우선탐색(Depth-first search)";
+                }
+                if (tb_Search.Text.ToString() == "너")
+                {
+                    tb_Search.Text = "너비우선탐색(Breadth-first search)";
+                }
+                if (tb_Search.Text.ToString() == "너비우선탐색")
+                {
+                    tb_Search.Text = "너비우선탐색(Breadth-first search)";
+                }
+                if (tb_Search.Text.ToString() == "이")
+                {
+                    tb_Search.Text = "이진탐색트리(BinarySearchTree)";
+                }
+                if (tb_Search.Text.ToString() == "이진탐색트리")
+                {
+                    tb_Search.Text = "이진탐색트리(BinarySearchTree)";
+                }
+                if (tb_Search.Text.ToString() == "삽")
+                {
+                    tb_Search.Text = "삽입정렬(InsertSort)";
+                }
+                if (tb_Search.Text.ToString() == "삽입정렬")
+                {
+                    tb_Search.Text = "삽입정렬(InsertSort)";
+                }
+                if (tb_Search.Text.ToString() == "선")
+                {
+                    tb_Search.Text = "선택정렬(SelectionSort)";
+                }
+                if (tb_Search.Text.ToString() == "선택정렬")
+                {
+                    tb_Search.Text = "선택정렬(SelectionSort)";
+                }
+                if (tb_Search.Text.ToString() == "쉘")
+                {
+                    tb_Search.Text = "쉘정렬(ShellSort)";
+                }
+                if (tb_Search.Text.ToString() == "쉘정렬")
+                {
+                    tb_Search.Text = "쉘정렬(ShellSort)";
+                }
+                if (tb_Search.Text.ToString() == "버블")
+                {
+                    tb_Search.Text = "버블정렬(BubbleSort)";
+                }
+                if (tb_Search.Text.ToString() == "버블정렬")
+                {
+                    tb_Search.Text = "버블정렬(BubbleSort)";
+                }
+                if (tb_Search.Text.ToString() == "힙")
+                {
+                    tb_Search.Text = "힙정렬(HeapSort)";
+                }
+                if (tb_Search.Text.ToString() == "힙정렬")
+                {
+                    tb_Search.Text = "힙정렬(HeapSort)";
+                }
+                if (tb_Search.Text.ToString() == "퀵")
+                {
+                    tb_Search.Text = "퀵정렬(QuickSort)";
+                }
+                if (tb_Search.Text.ToString() == "퀵정렬")
+                {
+                    tb_Search.Text = "퀵정렬(QuickSort)";
+                }
+                if (tb_Search.Text.ToString() == "카")
+                {
+                    tb_Search.Text = "카운팅정렬(CountingSort)";
+                }
+                if (tb_Search.Text.ToString() == "카운팅정렬")
+                {
+                    tb_Search.Text = "카운팅정렬(CountingSort)";
+                }
+                if (tb_Search.Text.ToString() == "기수")
+                {
+                    tb_Search.Text = "기수정렬(RadixSort)";
+                }
+                if (tb_Search.Text.ToString() == "기수정렬")
+                {
+                    tb_Search.Text = "기수정렬(RadixSort)";
+                }
+                if (tb_Search.Text.ToString() == "버킷")
+                {
+                    tb_Search.Text = "버킷정렬(BucketSort)";
+                }
+                if (tb_Search.Text.ToString() == "버킷정렬")
+                {
+                    tb_Search.Text = "버킷정렬(BucketSort)";
+                }
+                if (tb_Search.Text.ToString() == "머")
+                {
+                    tb_Search.Text = "머지정렬(MergeSort)";
+                }
+                if (tb_Search.Text.ToString() == "머지정렬")
+                {
+                    tb_Search.Text = "머지정렬(MergeSort)";
+                }
             }
             catch (Exception error)
             {
