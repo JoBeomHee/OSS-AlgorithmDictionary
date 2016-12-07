@@ -183,6 +183,36 @@ namespace Algorithm_Dictionary.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap 다익스트라_구현 {
+            get {
+                object obj = ResourceManager.GetObject("다익스트라 구현", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 다익스트라_알고리즘_그래프 {
+            get {
+                object obj = ResourceManager.GetObject("다익스트라 알고리즘 그래프", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 다익스트라_알고리즘_그래프_방문후_ {
+            get {
+                object obj = ResourceManager.GetObject("다익스트라 알고리즘 그래프(방문후)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap 돌아가기 {
             get {
                 object obj = ResourceManager.GetObject("돌아가기", resourceCulture);
@@ -356,6 +386,36 @@ namespace Algorithm_Dictionary.Properties {
         internal static System.Drawing.Bitmap 트리_아이콘 {
             get {
                 object obj = ResourceManager.GetObject("트리 아이콘", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 프림알고리즘_구현 {
+            get {
+                object obj = ResourceManager.GetObject("프림알고리즘 구현", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 프림알고리즘_그래프 {
+            get {
+                object obj = ResourceManager.GetObject("프림알고리즘 그래프", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap 프림알고리즘_그래프_방문후_ {
+            get {
+                object obj = ResourceManager.GetObject("프림알고리즘 그래프(방문후)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

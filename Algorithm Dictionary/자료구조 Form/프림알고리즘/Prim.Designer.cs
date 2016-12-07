@@ -1,4 +1,4 @@
-﻿namespace Algorithm_Dictionary.자료구조_Form.프림알고리
+﻿namespace Algorithm_Dictionary.자료구조_Form.프림알고리즘
 {
     partial class Prim
     {
@@ -89,6 +89,7 @@
             this.btn_Search.TabIndex = 48;
             this.btn_Search.Text = "탐색 함수 ";
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // tb_Search
             // 
@@ -136,6 +137,7 @@
             this.btn_Graph.TabIndex = 44;
             this.btn_Graph.Text = "2차원배열 그래프";
             this.btn_Graph.UseVisualStyleBackColor = true;
+            this.btn_Graph.Click += new System.EventHandler(this.btn_Graph_Click);
             // 
             // tb_Graph
             // 

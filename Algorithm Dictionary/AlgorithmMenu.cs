@@ -13,7 +13,7 @@ using Algorithm_Dictionary.자료구조_Form.쉘정렬;
 using Algorithm_Dictionary.자료구조_Form.이진탐색트리;
 using Algorithm_Dictionary.자료구조_Form.퀵정렬;
 using Algorithm_Dictionary.자료구조_Form.큐;
-using Algorithm_Dictionary.자료구조_Form.프림알고리;
+using Algorithm_Dictionary.자료구조_Form.프림알고리즘;
 using Algorithm_Dictionary.자료구조_Form.히프정렬;
 using System;
 using System.Collections;

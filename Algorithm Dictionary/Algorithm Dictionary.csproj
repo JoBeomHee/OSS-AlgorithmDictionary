@@ -160,6 +160,18 @@
     <Compile Include="자료구조 Form\다익스트라\Dijkstra.Designer.cs">
       <DependentUpon>Dijkstra.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\다익스트라\Graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\다익스트라\Graph.Designer.cs">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\다익스트라\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\다익스트라\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\링크드리스트\LinkedList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -358,11 +370,23 @@
     <Compile Include="자료구조 Form\큐\QueueInit.Designer.cs">
       <DependentUpon>QueueInit.cs</DependentUpon>
     </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Graph.Designer.cs">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </Compile>
     <Compile Include="자료구조 Form\프림알고리즘\Prim.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="자료구조 Form\프림알고리즘\Prim.Designer.cs">
       <DependentUpon>Prim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="자료구조 Form\프림알고리즘\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
     </Compile>
     <Compile Include="자료구조 Form\히프정렬\HeapSort.cs">
       <SubType>Form</SubType>
@@ -433,6 +457,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\다익스트라\Dijkstra.resx">
       <DependentUpon>Dijkstra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\다익스트라\Graph.resx">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\다익스트라\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\링크드리스트\LinkedList.resx">
       <DependentUpon>LinkedList.cs</DependentUpon>
@@ -533,8 +563,14 @@
     <EmbeddedResource Include="자료구조 Form\큐\QueueInit.resx">
       <DependentUpon>QueueInit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\프림알고리즘\Graph.resx">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\프림알고리즘\Prim.resx">
       <DependentUpon>Prim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="자료구조 Form\프림알고리즘\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="자료구조 Form\히프정렬\HeapSort.resx">
       <DependentUpon>HeapSort.cs</DependentUpon>
@@ -567,6 +603,9 @@
     <None Include="Resources\트리 아이콘.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\프림알고리즘 구현.PNG" />
+    <None Include="Resources\프림알고리즘 그래프%28방문후%29.PNG" />
+    <None Include="Resources\프림알고리즘 그래프.PNG" />
     <None Include="Resources\1.PNG" />
     <None Include="Resources\검색이미지.PNG" />
     <None Include="Resources\돌아가기.PNG" />
@@ -579,6 +618,9 @@
     <None Include="Resources\너비우선탐색%28결과%29.PNG" />
     <None Include="Resources\병합정렬.PNG" />
     <None Include="Resources\계수정렬.png" />
+    <None Include="Resources\다익스트라 알고리즘 그래프.PNG" />
+    <None Include="Resources\다익스트라 알고리즘 그래프%28방문후%29.PNG" />
+    <None Include="Resources\다익스트라 구현.PNG" />
     <Content Include="Resources\삽입정렬.PNG" />
     <Content Include="Resources\선택정렬.PNG" />
     <None Include="Resources\스택%28삽입%29.png" />
